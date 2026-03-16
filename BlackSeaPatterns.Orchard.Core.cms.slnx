@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../BlackSeaPatternsTheme/BlackSeaPatternsTheme.csproj" />
+  <Project Path="BlackSeaPatterns.Orchard.Core.cms.csproj" />
+</Solution>
