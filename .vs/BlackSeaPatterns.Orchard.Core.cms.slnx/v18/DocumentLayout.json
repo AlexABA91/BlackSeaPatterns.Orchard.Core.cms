@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Work\\BlackSeaPatternsFest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22E89928-FFD7-26F1-8755-F98307CD4832}|BlackSeaPatterns.Orchard.Core.cms\\BlackSeaPatterns.Orchard.Core.cms.csproj|d:\\work\\blackseapatternsfest\\blackseapatterns.orchard.core.cms\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{22E89928-FFD7-26F1-8755-F98307CD4832}|BlackSeaPatterns.Orchard.Core.cms\\BlackSeaPatterns.Orchard.Core.cms.csproj|solutionrelative:blackseapatterns.orchard.core.cms\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{22E89928-FFD7-26F1-8755-F98307CD4832}|BlackSeaPatterns.Orchard.Core.cms\\BlackSeaPatterns.Orchard.Core.cms.csproj|d:\\work\\blackseapatternsfest\\blackseapatterns.orchard.core.cms\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{22E89928-FFD7-26F1-8755-F98307CD4832}|BlackSeaPatterns.Orchard.Core.cms\\BlackSeaPatterns.Orchard.Core.cms.csproj|solutionrelative:blackseapatterns.orchard.core.cms\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22E89928-FFD7-26F1-8755-F98307CD4832}|BlackSeaPatterns.Orchard.Core.cms\\BlackSeaPatterns.Orchard.Core.cms.csproj|d:\\work\\blackseapatternsfest\\blackseapatterns.orchard.core.cms\\blackseapatterns.orchard.core.cms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "D:\\Work\\BlackSeaPatternsFest\\BlackSeaPatterns.Orchard.Core.cms\\.gitignore",
-              "RelativeDocumentMoniker": "BlackSeaPatterns.Orchard.Core.cms\\.gitignore",
-              "ToolTip": "D:\\Work\\BlackSeaPatternsFest\\BlackSeaPatterns.Orchard.Core.cms\\.gitignore",
-              "RelativeToolTip": "BlackSeaPatterns.Orchard.Core.cms\\.gitignore",
-              "ViewState": "AgIAAFwBAAAAAAAAAAAAAGoBAAAbAAAAAAAAAA==",
+              "Title": ".gitattributes",
+              "DocumentMoniker": "D:\\Work\\BlackSeaPatternsFest\\BlackSeaPatterns.Orchard.Core.cms\\.gitattributes",
+              "RelativeDocumentMoniker": "BlackSeaPatterns.Orchard.Core.cms\\.gitattributes",
+              "ToolTip": "D:\\Work\\BlackSeaPatternsFest\\BlackSeaPatterns.Orchard.Core.cms\\.gitattributes",
+              "RelativeToolTip": "BlackSeaPatterns.Orchard.Core.cms\\.gitattributes",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-04-17T08:24:13.694Z",
+              "WhenOpened": "2026-04-17T08:34:33.37Z",
               "EditorCaption": ""
             },
             {

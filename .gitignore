@@ -1,0 +1,99 @@
+############################
+# 🔹 OS
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# 🔹 Visual Studio
+############################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+############################
+# 🔹 Build results
+############################
+bin/
+obj/
+out/
+
+############################
+# 🔹 Rider / JetBrains (если вдруг)
+############################
+.idea/
+*.sln.iml
+
+############################
+# 🔹 Logs
+############################
+*.log
+
+############################
+# 🔹 NuGet
+############################
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+# но НЕ игнорим packages.lock.json
+!packages.lock.json
+
+############################
+# 🔹 Node (актуально для OrchardCore тем)
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+############################
+# 🔹 OrchardCore / ASP.NET Core
+############################
+App_Data/
+wwwroot/media/
+wwwroot/cache/
+wwwroot/temp/
+
+# Если используешь SQLite (локально)
+*.db
+*.sqlite
+*.sqlite3
+
+############################
+# 🔹 Secrets / config
+############################
+appsettings.Development.json
+appsettings.*.Local.json
+
+# но НЕ игнорим основной конфиг
+!appsettings.json
+
+############################
+# 🔹 Publish
+############################
+publish/
+*.publishproj
+
+############################
+# 🔹 Azure
+############################
+*.azurePubxml
+*.pubxml
+*.publishsettings
+
+############################
+# 🔹 Resharper
+############################
+_ReSharper*/
+*.DotSettings.user
+
+############################
+# 🔹 Temporary files
+############################
+*.tmp
+*.temp
+/BlackSeaPatternsTheme/09.04.26 — копия.zip
+/BlackSeaPatternsTheme/09.04.26.bacpac

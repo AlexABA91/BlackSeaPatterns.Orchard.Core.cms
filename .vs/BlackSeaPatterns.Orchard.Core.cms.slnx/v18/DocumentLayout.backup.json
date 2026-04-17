@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "BlackSeaPatterns.Orchard.Core.cms\\.gitignore",
               "ToolTip": "D:\\Work\\BlackSeaPatternsFest\\BlackSeaPatterns.Orchard.Core.cms\\.gitignore",
               "RelativeToolTip": "BlackSeaPatterns.Orchard.Core.cms\\.gitignore",
-              "ViewState": "AgIAAGUBAAAAAAAAAAAAAHcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-04-17T08:24:13.694Z",
               "EditorCaption": ""
@@ -40,15 +40,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BlackSeaPatterns.Orchard.Core.cms",
+              "Title": "BlackSeaPatterns.Orchard.Core.cms.csproj",
               "DocumentMoniker": "D:\\Work\\BlackSeaPatternsFest\\BlackSeaPatterns.Orchard.Core.cms\\BlackSeaPatterns.Orchard.Core.cms.csproj",
               "RelativeDocumentMoniker": "BlackSeaPatterns.Orchard.Core.cms\\BlackSeaPatterns.Orchard.Core.cms.csproj",
               "ToolTip": "D:\\Work\\BlackSeaPatternsFest\\BlackSeaPatterns.Orchard.Core.cms\\BlackSeaPatterns.Orchard.Core.cms.csproj",
               "RelativeToolTip": "BlackSeaPatterns.Orchard.Core.cms\\BlackSeaPatterns.Orchard.Core.cms.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-17T08:20:53.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T08:20:53.586Z"
             }
           ]
         }
