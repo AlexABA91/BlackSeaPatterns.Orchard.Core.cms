@@ -1,0 +1,13 @@
+D:\Work\BlackSeaPatternsFest\BlackSeaPatternsTheme\bin\Debug\net10.0\BlackSeaPatternsTheme.deps.json
+D:\Work\BlackSeaPatternsFest\BlackSeaPatternsTheme\bin\Debug\net10.0\BlackSeaPatternsTheme.dll
+D:\Work\BlackSeaPatternsFest\BlackSeaPatternsTheme\bin\Debug\net10.0\BlackSeaPatternsTheme.pdb
+D:\Work\BlackSeaPatternsFest\BlackSeaPatternsTheme\obj\Debug\net10.0\BlackSeaPatternsTheme.csproj.AssemblyReference.cache
+D:\Work\BlackSeaPatternsFest\BlackSeaPatternsTheme\obj\Debug\net10.0\BlackSeaPatternsTheme.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\BlackSeaPatternsFest\BlackSeaPatternsTheme\obj\Debug\net10.0\BlackSeaPatternsTheme.AssemblyInfoInputs.cache
+D:\Work\BlackSeaPatternsFest\BlackSeaPatternsTheme\obj\Debug\net10.0\BlackSeaPatternsTheme.AssemblyInfo.cs
+D:\Work\BlackSeaPatternsFest\BlackSeaPatternsTheme\obj\Debug\net10.0\BlackSeaPatternsTheme.csproj.CoreCompileInputs.cache
+D:\Work\BlackSeaPatternsFest\BlackSeaPatternsTheme\obj\Debug\net10.0\BlackSeaPatternsTheme.dll
+D:\Work\BlackSeaPatternsFest\BlackSeaPatternsTheme\obj\Debug\net10.0\refint\BlackSeaPatternsTheme.dll
+D:\Work\BlackSeaPatternsFest\BlackSeaPatternsTheme\obj\Debug\net10.0\BlackSeaPatternsTheme.pdb
+D:\Work\BlackSeaPatternsFest\BlackSeaPatternsTheme\obj\Debug\net10.0\ref\BlackSeaPatternsTheme.dll
+D:\Work\BlackSeaPatternsFest\BlackSeaPatternsTheme\obj\Debug\net10.0\BlackSeaPatternsTheme.sourcelink.json

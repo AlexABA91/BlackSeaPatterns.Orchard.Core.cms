@@ -1,0 +1,20 @@
+<section id="nomination" class="nomination-section section">
+
+	<h2>{{Model.ContentItem.Content.TitlePart.Title}}</h2>
+	<div class='nomination-container'>
+		<div class='nomination-items'>
+			<div class='nomination-item'>
+				<p class='nomination-item-title'>{{Model.ContentItem.Content.NominationSection.Nominationdirectiontitle.Text}}</p>
+			</div>
+			<div class='nomination-item'>
+				<p class='nomination-item-title'>{{Model.ContentItem.Content.NominationSection.Nominationdirectiontitleright.Text}}</p>
+				<p class='nomination-item-description'>{{Model.ContentItem.Content.NominationSection.Nominationdirectiondisc.Text}})</p>
+			</div>
+		</div>
+		<div class='nomination-group-container'>
+		{% for item in Model.ContentItem.Content.BagPart.ContentItems %} 
+			<p class='nomination-group-item'>{{item.TitlePart.Title}}</p>
+		{% endfor %}
+		</div>
+		</div>
+</section>

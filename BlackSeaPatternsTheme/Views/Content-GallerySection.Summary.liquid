@@ -1,0 +1,20 @@
+<section id="gallery" class="slider-section section">
+	<div class="swiper-gallery">
+		<div class="swiper-wrapper gallery-wrapper" id="gallery-wrapper">
+				{% for item in Model.ContentItem.Content.GallerySection.PhotoForSlider.Paths %} 
+					<div class="swiper-slide">
+						<img src="{{item | asset_url}}"
+						{{Model.ContentItem.Content.GallerySection.PhotoForSlider.MediaTexts[forloop0]}} class="gallery-image" />
+					</div>
+				{% endfor %}
+		</div>
+		<div class="swiper-button-prev">
+			<img src="{{Model.ContentItem.Content.GallerySection.PrevBtn.Paths | asset_url }}"
+			{{Model.ContentItem.Content.GallerySection.PrevBtn.MediaTexts}} />
+		</div>
+		<div class="swiper-button-next">
+			<img src="{{Model.ContentItem.Content.GallerySection.NextBtn.Paths | asset_url }}" 
+			{{Model.ContentItem.Content.GallerySection.NextBtn.MediaTexts}} />
+		</div>	
+	</div>
+</section>

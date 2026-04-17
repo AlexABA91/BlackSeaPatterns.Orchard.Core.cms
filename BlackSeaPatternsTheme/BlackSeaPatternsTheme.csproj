@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- NuGet properties-->
+		<TargetFramework>net10.0</TargetFramework>
+    <Title>The BlackSeaPatterns theme</Title>
+    <Description>$(OCCMSDescription)
+
+    Orchard Core CMS theme adapted for BlackSeaPatterns websites.</Description>
+    <PackageTags>$(PackageTags) OrchardCoreCMS Theme</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Assets\img\organizers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="2.2.1" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="2.2.1" />
+  </ItemGroup>
+
+</Project>

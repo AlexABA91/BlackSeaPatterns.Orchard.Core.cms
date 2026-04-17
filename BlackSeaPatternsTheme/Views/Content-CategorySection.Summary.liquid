@@ -1,0 +1,21 @@
+<section id="category" class="category-section section">
+
+	<h2>{{Model.ContentItem.Content.TitlePart.Title}}</h2>
+	<div class='category-direction-container'>
+		<div class='category-direction'>
+			<p class='category-direction-title'>{{Model.ContentItem.Content.categorySection.CategoryDirectiontitle.Text}}</p>
+			<p class='category-direction-description'>{{Model.ContentItem.Content.categorySection.CategoryDirectionDescription.Text}}</p>
+		</div>
+		<div class='category-direction'>
+			<p class='category-direction-title'>{{Model.ContentItem.Content.categorySection.CategoryDirectiontitleRight.Text}}</p>
+			<p class='category-direction-description'>{{Model.ContentItem.Content.categorySection.CategoryDirectionDescriptionRight.Text}}</p>
+		</div>
+	</div>
+	<ul class='category-list-items'>
+	{% for item in Model.ContentItem.Content.BagPart.ContentItems %} 
+		<li>
+			{{item.List.ListItem.Text}}
+		</li>
+	{% endfor %}	
+	</ul>
+</section>

@@ -1,0 +1,3 @@
+{% for item in Model.ContentItems %} 
+	{{ item | shape_build_display : "Summary" | shape_render }}
+{% endfor %}

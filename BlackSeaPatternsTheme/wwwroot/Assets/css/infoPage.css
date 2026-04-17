@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Abyssinica+SIL&family=Great+Vibes&display=swap');
+
+:root {
+	--h2-font-family: 'Great Vibes', serif;
+	--secondary-font-family: 'Abyssinica SIL', serif;
+	--primary-font-family: 'ADLaM Display', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: var(--secondary-font-family);
+	color: #ffffff;
+	background: linear-gradient(
+		180deg,
+		rgba(66.42, 43.42, 155.7, 1) 0%,
+		rgba(91.04, 63.08, 170.41, 1) 33.654%,
+		rgba(103.72, 75.53, 182.67, 1) 73.077%,
+		rgba(129, 86, 206, 1) 100%
+	);
+	overflow: auto;
+}
+.burger-menu {
+	display: none;
+}
+.info-page {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 40px 20px 80px;
+	box-sizing: border-box;
+	text-align: center;
+	overflow-y: auto;
+}
+
+.info-intro {
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 60px;
+}
+
+.info-section {
+	margin-bottom: 70px;
+}
+
+.info-title,
+.info-important-title {
+	font-family: var(--h2-font-family);
+	font-size: clamp(2.5rem, 5vw, 4rem);
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.info-important-title {
+	font-family: var(--primary-font-family);
+	font-size: clamp(1.5rem, 2.5vw, 2rem);
+	justify-self: self-start;
+	padding-left: 2rem;
+}
+.info-lead {
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 40px;
+}
+
+.info-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+.info-list li {
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 18px;
+}
+
+.info-list-title {
+	font-family: var(--primary-font-family);
+	letter-spacing: 0.1em;
+}
+
+.info-actions {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.registartion-button {
+	background: #34437f;
+	color: #ffffff;
+	border: none;
+	padding: 18px 60px;
+	border-radius: 25px;
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-family: var(--primary-font-family);
+}
+
+.info-button {
+	display: none;
+}
+
+.registartion-button:hover {
+	background: #4252a0;
+}
+
+.modal-overlay {
+	position: fixed;
+	inset: 0;
+	background: rgba(28, 22, 34, 0.86);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease;
+	z-index: 10;
+}
+
+.modal-overlay.active {
+	opacity: 1;
+	visibility: visible;
+}
+
+.modal {
+	background: linear-gradient(180deg, #422b9b 0%, #814ac0 100%);
+	border: 14px solid #652c86;
+	border-radius: 100px;
+	max-width: 1000px;
+	width: 100%;
+	padding: 60px 80px 80px;
+	position: relative;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.modal-text {
+	font-family: 'ADLaM Display', sans-serif;
+	font-size: 24px;
+	line-height: 1.6;
+	margin: 0 0 40px;
+}
+
+.modal-ok {
+	background: #34437f;
+	color: #ffffff;
+	border: none;
+	padding: 18px 80px;
+	border-radius: 28px;
+	font-size: 24px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-family: 'ADLaM Display', sans-serif;
+}
+
+.modal-ok:hover {
+	background: #4252a0;
+}
+
+.modal-close {
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	width: 60px;
+	height: 60px;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+.modal-close span {
+	position: absolute;
+	left: 5px;
+	right: 5px;
+	top: 50%;
+	height: 4px;
+	background: #d9d9d9;
+}
+
+.modal-close span:first-child {
+	transform: translateY(-50%) rotate(45deg);
+}
+
+.modal-close span:last-child {
+	transform: translateY(-50%) rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+	.modal {
+		border-radius: 60px;
+		padding: 40px 30px 50px;
+	}
+
+	.modal-text {
+		font-size: 20px;
+	}
+
+	.modal-close {
+		top: 20px;
+		right: 20px;
+		width: 40px;
+		height: 40px;
+	}
+
+	.modal-ok {
+		width: 100%;
+		padding: 16px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.info-title,
+	.info-important-title {
+		font-size: clamp(1rem, 5vw, 5rem);
+	}
+	.registartion-button {
+		padding: 15px 40px;
+		font-size: 18px;
+	}
+}

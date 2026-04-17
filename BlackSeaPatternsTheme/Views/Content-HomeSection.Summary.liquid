@@ -1,0 +1,27 @@
+<section id="home" class="start-screen section">
+			<!--TODO: add lazy loading for video, add background image before video, compress video 	     file-->
+			<video autoplay muted loop class="start-screen-background-video">
+				<source src="{{ Model.ContentItem.Content.HomeSection.BackgroundVideo.Paths | asset_url}}" type="video/mp4" />
+			</video>
+
+			<div class="background-overlay"></div>
+			
+			<main class="main-content">
+				<div class="event-text">
+				{% for item in Model.ContentItem.Content.BagPart.ContentItems %} 
+						
+				
+					<h2 class="event-name">{{item.TitlePart.Title}}</h2>
+					<p class="event-subtitle">{{item.HomeSectionText.DescriptionField1.Text}}</p>
+					<div class="event-title-container">
+						<img src="{{"~/BlackSeaPatternsTheme/Assets/img/tild.png" | href }}" alt="Tild" class="tild-left" />
+						<h1 class="event-title">{{item.HomeSectionText.DescriptionField2.Text}}</h1>
+						<img src="{{ "~/BlackSeaPatternsTheme/Assets/img/tild.png" | href }}" alt="Tild" class="tild-right" />
+					</div>
+					<p class="event-date">{{item.HomeSectionText.FestDate.Text}}</p>
+					<p class="event-location">{{item.HomeSectionText.CityField.Text}}</p>
+				{% endfor %}
+				</div>
+			</main>
+			
+		</section>

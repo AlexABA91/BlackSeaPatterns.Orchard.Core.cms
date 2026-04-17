@@ -1,0 +1,46 @@
+/* Shared loader styles for all pages */
+.site-loader {
+	position: fixed;
+	inset: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 18px;
+	background: linear-gradient(180deg, #211944 0%, #3b2f7a 55%, #7c49bc 100%);
+	z-index: 2000;
+	opacity: 1;
+	visibility: visible;
+	transition:
+		opacity 0.35s ease,
+		visibility 0.35s ease;
+}
+
+.site-loader.is-hidden {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+.site-loader__video {
+	width: clamp(90px, 14vw, 180px);
+	height: clamp(90px, 14vw, 180px);
+	object-fit: cover;
+	border-radius: 14px;
+	box-shadow: 0 12px 34px rgba(0, 0, 0, 0.35);
+}
+
+.site-loader__text {
+	margin: 0;
+	font-family: 'ADLaM Display', sans-serif;
+	font-size: clamp(16px, 2vw, 24px);
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.site-loader {
+		transition: none;
+	}
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="{{ Culture.Name }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ "PageTitle" | shape_new | shape_stringify }}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '~/BlackSeaPatternsTheme/favicon.ico' | href }}">
+
+   {% render_section "StyleLink" %}
+    
+    {% resources type: "HeadScript" %}
+    {% resources type: "HeadLink" %}
+    {% resources type: "Stylesheet" %}
+
+</head>
+<body id="page-top" dir="{{ Culture.Dir }}">
+   
+	{% render_section "Loading" %}
+
+	{% render_section "BgVideo" %}
+	
+	{% render_section "Menu" %}
+
+	{% render_section "Header" %}
+	
+	<div class="sections-container">	
+		{% render_body %}
+	</div>
+
+	<div id="fullscreen-overlay" class="fullscreen-overlay	">
+		<img id="fullscreen-image" src="" alt="Fullscreen Image" />
+	</div>
+	
+    <svg style="display:none;">
+       <symbol id="flag-en" viewBox="0 0 64 48">
+    <!-- Полосы -->
+    <rect width="64" height="48" fill="#B22234"/>
+    
+    <!-- Белые полосы -->
+    <g fill="#FFFFFF">
+        <rect y="4" width="64" height="4"/>
+        <rect y="12" width="64" height="4"/>
+        <rect y="20" width="64" height="4"/>
+        <rect y="28" width="64" height="4"/>
+        <rect y="36" width="64" height="4"/>
+        <rect y="44" width="64" height="4"/>
+    </g>
+
+    <!-- Синий кантон -->
+    <rect width="28" height="20" fill="#3C3B6E"/>
+
+    <!-- Звёзды (упрощённо точками, чтобы не грузить DOM) -->
+    <g fill="#FFFFFF">
+        <circle cx="3" cy="3" r="1"/>
+        <circle cx="7" cy="3" r="1"/>
+        <circle cx="11" cy="3" r="1"/>
+        <circle cx="15" cy="3" r="1"/>
+        <circle cx="19" cy="3" r="1"/>
+        <circle cx="23" cy="3" r="1"/>
+
+        <circle cx="5" cy="7" r="1"/>
+        <circle cx="9" cy="7" r="1"/>
+        <circle cx="13" cy="7" r="1"/>
+        <circle cx="17" cy="7" r="1"/>
+        <circle cx="21" cy="7" r="1"/>
+
+        <circle cx="3" cy="11" r="1"/>
+        <circle cx="7" cy="11" r="1"/>
+        <circle cx="11" cy="11" r="1"/>
+        <circle cx="15" cy="11" r="1"/>
+        <circle cx="19" cy="11" r="1"/>
+        <circle cx="23" cy="11" r="1"/>
+
+        <circle cx="5" cy="15" r="1"/>
+        <circle cx="9" cy="15" r="1"/>
+        <circle cx="13" cy="15" r="1"/>
+        <circle cx="17" cy="15" r="1"/>
+        <circle cx="21" cy="15" r="1"/>
+    </g>
+</symbol>
+
+        <symbol id="flag-ua" viewBox="0 0 64 48">
+            <rect width="64" height="24" fill="#0057B7"/>
+            <rect y="24" width="64" height="24" fill="#FFD700"/>
+        </symbol>
+</svg>
+	{% render_section "Screpts" %}
+	{% resources type: "FootScript" %}
+</body>
+</html>

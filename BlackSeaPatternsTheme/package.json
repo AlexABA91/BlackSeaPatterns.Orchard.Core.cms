@@ -1,0 +1,12 @@
+{
+  "name": "@orchardcore/theagencytheme",
+  "version": "1.0.0",
+  "dependencies": {
+    "@popperjs/core": "2.11.8",
+    "bootstrap": "5.2.3",
+    "swiper": "12.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^10.2.0"
+  }
+}

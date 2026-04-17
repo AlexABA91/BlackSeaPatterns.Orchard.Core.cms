@@ -1,0 +1,1977 @@
+{
+  "name": "BlackSeaPatterns",
+  "displayName": "BlackSeaPatterns Display Name",
+  "description": "Site for Black Sea Patterns Fest",
+  "author": "AlexABA",
+  "website": "https://BlackSeaPatterns.net",
+  "version": "1.0.1",
+  "issetuprecipe": true,
+  "categories": [],
+  "tags": [],
+  "steps": [
+    {
+      "name": "Feature",
+      "enable": [
+        "Application.Default",
+        "BlackSeaPatterns.Orchard.Core.cms",
+        "OrchardCore.Settings",
+        "OrchardCore.Admin",
+        "OrchardCore.Liquid",
+        "OrchardCore.Contents",
+        "OrchardCore.ContentTypes",
+        "OrchardCore.Shortcodes",
+        "OrchardCore.Html",
+        "OrchardCore.Recipes.Core",
+        "OrchardCore.Title",
+        "OrchardCore.Templates",
+        "OrchardCore.Alias",
+        "OrchardCore.Autoroute",
+        "OrchardCore.Scripting",
+        "OrchardCore.Recipes",
+        "OrchardCore.ContentFields",
+        "OrchardCore.Roles.Core",
+        "OrchardCore.Users",
+        "OrchardCore.ContentPreview",
+        "OrchardCore.Deployment",
+        "OrchardCore.CustomSettings",
+        "OrchardCore.Deployment.Remote",
+        "OrchardCore.Diagnostics",
+        "OrchardCore.DynamicCache",
+        "OrchardCore.Widgets",
+        "OrchardCore.Resources",
+        "OrchardCore.Features",
+        "OrchardCore.Flows",
+        "OrchardCore.HomeRoute",
+        "OrchardCore.Rules",
+        "OrchardCore.Layers",
+        "OrchardCore.Lists",
+        "OrchardCore.Markdown",
+        "OrchardCore.Media",
+        "OrchardCore.Menu",
+        "OrchardCore.Navigation",
+        "OrchardCore.Placements",
+        "OrchardCore.Queries.Core",
+        "OrchardCore.Queries",
+        "OrchardCore.Roles",
+        "OrchardCore.Security",
+        "OrchardCore.Shortcodes.Templates",
+        "OrchardCore.Themes",
+        "BlackSeaPatternsTheme",
+        "TheAdmin"
+      ],
+      "disable": [
+        "OrchardCore.AdminDashboard",
+        "OrchardCore.AdminMenu",
+        "OrchardCore.AdminTemplates",
+        "OrchardCore.Apis.GraphQL",
+        "OrchardCore.ArchiveLater",
+        "OrchardCore.AuditTrail",
+        "OrchardCore.Setup",
+        "OrchardCore.AutoSetup",
+        "OrchardCore.BackgroundTasks",
+        "OrchardCore.ContentFields.Indexing.SQL",
+        "OrchardCore.ContentFields.Indexing.SQL.UserPicker",
+        "OrchardCore.Localization",
+        "OrchardCore.Users.Localization",
+        "OrchardCore.ContentLocalization",
+        "OrchardCore.ContentLocalization.ContentCulturePicker",
+        "OrchardCore.Sitemaps",
+        "OrchardCore.ContentLocalization.Sitemaps",
+        "OrchardCore.Contents.Deployment.AddToDeploymentPlan",
+        "OrchardCore.Contents.Deployment.Download",
+        "OrchardCore.Contents.Deployment.ExportContentToDeploymentTarget",
+        "OrchardCore.Contents.FileContentDefinition",
+        "OrchardCore.Cors",
+        "OrchardCore.DataProtection.Azure",
+        "OrchardCore.Email",
+        "OrchardCore.Email.Azure",
+        "OrchardCore.Email.Smtp",
+        "OrchardCore.Facebook",
+        "OrchardCore.Users.ExternalAuthentication",
+        "OrchardCore.Facebook.Login",
+        "OrchardCore.Facebook.Pixel",
+        "OrchardCore.Facebook.Widgets",
+        "OrchardCore.Feeds",
+        "OrchardCore.Forms",
+        "OrchardCore.GitHub.Authentication",
+        "OrchardCore.Google.Analytics",
+        "OrchardCore.Google.GoogleAuthentication",
+        "OrchardCore.Google.TagManager",
+        "OrchardCore.HealthChecks",
+        "OrchardCore.Https",
+        "OrchardCore.Indexing",
+        "OrchardCore.Localization.AdminCulturePicker",
+        "OrchardCore.Localization.ContentLanguageHeader",
+        "OrchardCore.Media.Cache",
+        "OrchardCore.Media.AmazonS3",
+        "OrchardCore.Media.AmazonS3.ImageSharpImageCache",
+        "OrchardCore.Media.Azure.ImageSharpImageCache",
+        "OrchardCore.Media.Azure.Storage",
+        "OrchardCore.Media.Indexing",
+        "OrchardCore.Media.Indexing.OpenXML",
+        "OrchardCore.Media.Indexing.Pdf",
+        "OrchardCore.Media.Indexing.Text",
+        "OrchardCore.Media.Security",
+        "OrchardCore.Media.Slugify",
+        "OrchardCore.Microsoft.Authentication.AzureAD",
+        "OrchardCore.Microsoft.Authentication.MicrosoftAccount",
+        "OrchardCore.MiniProfiler",
+        "OrchardCore.Notifications",
+        "OrchardCore.Notifications.Email",
+        "OrchardCore.Sms",
+        "OrchardCore.Notifications.Sms",
+        "OrchardCore.OpenId",
+        "OrchardCore.OpenId.Client",
+        "OrchardCore.OpenId.Management",
+        "OrchardCore.OpenId.Server",
+        "OrchardCore.OpenId.Validation",
+        "OrchardCore.Placements.FileStorage",
+        "OrchardCore.PublishLater",
+        "OrchardCore.Queries.Sql",
+        "OrchardCore.ReCaptcha",
+        "OrchardCore.ReCaptcha.Users",
+        "OrchardCore.Redis",
+        "OrchardCore.Redis.Bus",
+        "OrchardCore.Redis.Cache",
+        "OrchardCore.Redis.DataProtection",
+        "OrchardCore.Redis.Lock",
+        "OrchardCore.XmlRpc",
+        "OrchardCore.RemotePublishing",
+        "OrchardCore.ResponseCompression",
+        "OrchardCore.ReverseProxy",
+        "OrchardCore.Search",
+        "OrchardCore.Search.AzureAI",
+        "OrchardCore.Search.Elasticsearch",
+        "OrchardCore.Search.Elasticsearch.ContentPicker",
+        "OrchardCore.Search.Elasticsearch.Worker",
+        "OrchardCore.Search.Lucene",
+        "OrchardCore.Search.Lucene.ContentPicker",
+        "OrchardCore.Search.Lucene.Worker",
+        "OrchardCore.Seo",
+        "OrchardCore.Sitemaps.Cleanup",
+        "OrchardCore.Sitemaps.RazorPages",
+        "OrchardCore.Sms.Azure",
+        "OrchardCore.Spatial",
+        "OrchardCore.Taxonomies",
+        "OrchardCore.Taxonomies.ContentsAdminList",
+        "OrchardCore.Tenants",
+        "OrchardCore.Tenants.Distributed",
+        "OrchardCore.Tenants.FeatureProfiles",
+        "OrchardCore.Tenants.FileProvider",
+        "OrchardCore.Twitter",
+        "OrchardCore.Twitter.Signin",
+        "OrchardCore.UrlRewriting",
+        "OrchardCore.Users.2FA",
+        "OrchardCore.Users.2FA.AuthenticatorApp",
+        "OrchardCore.Users.2FA.Email",
+        "OrchardCore.Users.2FA.Sms",
+        "OrchardCore.Users.AuditTrail",
+        "OrchardCore.Users.Authentication.CacheTicketStore",
+        "OrchardCore.Users.ChangeEmail",
+        "OrchardCore.Users.CustomUserSettings",
+        "OrchardCore.Users.Registration",
+        "OrchardCore.Users.ResetPassword",
+        "OrchardCore.Users.TimeZone",
+        "OrchardCore.Workflows",
+        "OrchardCore.Workflows.Http",
+        "OrchardCore.Workflows.Session",
+        "OrchardCore.Workflows.Timers"
+      ]
+    },
+    {
+      "name": "Settings",
+      "AdminSettings": {
+        "DisplayThemeToggler": true,
+        "DisplayMenuFilter": false,
+        "DisplayNewMenu": false,
+        "DisplayTitlesInTopbar": false
+      }
+    },
+    {
+      "name": "Content",
+      "data": [
+        {
+          "ContentItemId": "4spqs62gq4v82wtyrnmwd7xr5j",
+          "ContentItemVersionId": "408gz5sg9a71g0g7mxc7bbv4dz",
+          "ContentType": "LandingPage",
+          "DisplayText": "BlackSeaPatternsFest",
+          "Latest": true,
+          "Published": true,
+          "ModifiedUtc": "2026-03-14T09:16:48.1839283Z",
+          "PublishedUtc": "2026-03-14T09:16:48.1996175Z",
+          "CreatedUtc": "2026-03-14T09:16:48.1838247Z",
+          "Owner": "4mtb7n1a9q698w1th4023hy4cr",
+          "Author": "Admin",
+          "LandingPage": {},
+          "AutoroutePart": {
+            "Path": "home-page",
+            "SetHomepage": false,
+            "Disabled": false,
+            "RouteContainedItems": false,
+            "Absolute": false
+          },
+          "TitlePart": {
+            "Title": "BlackSeaPatternsFest"
+          },
+          "Services": {
+            "ContentItems": [
+              {
+                "ContentItemId": "4qqzrr0w9vqmj5svdfd66bvrcd",
+                "ContentItemVersionId": "4n9tn6x4vt2w065mnm4nm1vsc8",
+                "ContentType": "Service",
+                "DisplayText": "E-Commerce",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Service": {
+                  "IconClass": {
+                    "Text": "fa-shopping-cart"
+                  }
+                },
+                "HtmlBodyPart": {
+                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                },
+                "TitlePart": {
+                  "Title": "E-Commerce"
+                }
+              },
+              {
+                "ContentItemId": "4taqjhvxp5p7z70533app7t5wr",
+                "ContentItemVersionId": "48me79kvjm1n6ssz497eksxtdr",
+                "ContentType": "Service",
+                "DisplayText": "Responsive Design",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Service": {
+                  "IconClass": {
+                    "Text": "fa-laptop"
+                  }
+                },
+                "HtmlBodyPart": {
+                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                },
+                "TitlePart": {
+                  "Title": "Responsive Design"
+                }
+              },
+              {
+                "ContentItemId": "48vm835sjkaygzqk09170wv345",
+                "ContentItemVersionId": "453f07zfgk2t0y1kc6f59f36dc",
+                "ContentType": "Service",
+                "DisplayText": "Web Security",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Service": {
+                  "IconClass": {
+                    "Text": "fa-lock"
+                  }
+                },
+                "HtmlBodyPart": {
+                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                },
+                "TitlePart": {
+                  "Title": "Web Security"
+                }
+              }
+            ]
+          },
+          "Portfolio": {
+            "ContentItems": [
+              {
+                "ContentItemId": "4xpe4hbmwv9nks2531rf9etq4p",
+                "ContentItemVersionId": "4tcemf3pyf3zm32e4v81gtrjnp",
+                "ContentType": "Project",
+                "DisplayText": "Threads",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Project": {
+                  "Image": {
+                    "Paths": [
+                      "/portfolio/1.jpg"
+                    ]
+                  },
+                  "Category": {
+                    "Text": "Illustrations"
+                  }
+                },
+                "HtmlBodyPart": {
+                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                },
+                "TitlePart": {
+                  "Title": "Threads"
+                }
+              },
+              {
+                "ContentItemId": "4chwfag7aw6vz4svsq8v6mzbcs",
+                "ContentItemVersionId": "4a6hq01qmvyj6rd47avebbbcx6",
+                "ContentType": "Project",
+                "DisplayText": "Explore",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Project": {
+                  "Image": {
+                    "Paths": [
+                      "/portfolio/2.jpg"
+                    ]
+                  },
+                  "Category": {
+                    "Text": "Graphic Design"
+                  }
+                },
+                "HtmlBodyPart": {
+                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                },
+                "TitlePart": {
+                  "Title": "Explore"
+                }
+              },
+              {
+                "ContentItemId": "47pgx23de1rjc58tb71se74s5r",
+                "ContentItemVersionId": "4ap93m7h508y13g6eeegq07fwq",
+                "ContentType": "Project",
+                "DisplayText": "Finish",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Project": {
+                  "Image": {
+                    "Paths": [
+                      "/portfolio/3.jpg"
+                    ]
+                  },
+                  "Category": {
+                    "Text": "Identity"
+                  }
+                },
+                "HtmlBodyPart": {
+                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                },
+                "TitlePart": {
+                  "Title": "Finish"
+                }
+              },
+              {
+                "ContentItemId": "4krf1ypbzkr2rs92nye7pt1jx7",
+                "ContentItemVersionId": "4jgpq9hfqe0ep05g7c4n3sgbdg",
+                "ContentType": "Project",
+                "DisplayText": "Lines",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Project": {
+                  "Image": {
+                    "Paths": [
+                      "/portfolio/4.jpg"
+                    ]
+                  },
+                  "Category": {
+                    "Text": "Branding"
+                  }
+                },
+                "HtmlBodyPart": {
+                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                },
+                "TitlePart": {
+                  "Title": "Lines"
+                }
+              },
+              {
+                "ContentItemId": "4w22h70kz32edrgvf246g19pwz",
+                "ContentItemVersionId": "4k7r3deyhqn12y4t7a0prc9zm7",
+                "ContentType": "Project",
+                "DisplayText": "Southwest",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Project": {
+                  "Image": {
+                    "Paths": [
+                      "/portfolio/5.jpg"
+                    ]
+                  },
+                  "Category": {
+                    "Text": "Web Design"
+                  }
+                },
+                "HtmlBodyPart": {
+                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                },
+                "TitlePart": {
+                  "Title": "Southwest"
+                }
+              },
+              {
+                "ContentItemId": "47x0bpegd8f5ct40deq6jfy2ws",
+                "ContentItemVersionId": "43ddwtnpmx6ckw8tzvjyn3k9dt",
+                "ContentType": "Project",
+                "DisplayText": "Window",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Project": {
+                  "Image": {
+                    "Paths": [
+                      "/portfolio/6.jpg"
+                    ]
+                  },
+                  "Category": {
+                    "Text": "Photography"
+                  }
+                },
+                "HtmlBodyPart": {
+                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                },
+                "TitlePart": {
+                  "Title": "Window"
+                }
+              }
+            ]
+          },
+          "About": {
+            "ContentItems": [
+              {
+                "ContentItemId": "4jgaxq7dkrvnz2wn5f4301mrwa",
+                "ContentItemVersionId": "4r8jhsvjcg2bn710kpvnf4t6cs",
+                "ContentType": "Milestone",
+                "DisplayText": "Our Humble Beginnings",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Milestone": {
+                  "Date": {
+                    "Text": "2009-2011"
+                  },
+                  "Image": {
+                    "Paths": [
+                      "/about/1.jpg"
+                    ]
+                  }
+                },
+                "HtmlBodyPart": {
+                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+                },
+                "TitlePart": {
+                  "Title": "Our Humble Beginnings"
+                }
+              },
+              {
+                "ContentItemId": "44s1g87xe12j62rhfc1gged55j",
+                "ContentItemVersionId": "4eb9cp0xqxmmyr2843cr7301d0",
+                "ContentType": "Milestone",
+                "DisplayText": "An BlackSeaPatterns is Born",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Milestone": {
+                  "Date": {
+                    "Text": "March 2011"
+                  },
+                  "Image": {
+                    "Paths": [
+                      "/about/2.jpg"
+                    ]
+                  }
+                },
+                "HtmlBodyPart": {
+                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!\r\n"
+                },
+                "TitlePart": {
+                  "Title": "An BlackSeaPatterns is Born"
+                }
+              },
+              {
+                "ContentItemId": "41evawh417f8c76qb1qfecze5v",
+                "ContentItemVersionId": "4wgytm8jxgvd7xgfv1rc0nhz42",
+                "ContentType": "Milestone",
+                "DisplayText": "Transition to Full Service",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Milestone": {
+                  "Date": {
+                    "Text": "December 2015"
+                  },
+                  "Image": {
+                    "Paths": [
+                      "/about/3.jpg"
+                    ]
+                  }
+                },
+                "HtmlBodyPart": {
+                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+                },
+                "TitlePart": {
+                  "Title": "Transition to Full Service"
+                }
+              },
+              {
+                "ContentItemId": "4kebq5shpvg31zdahpwavr6pcg",
+                "ContentItemVersionId": "4eev0218vz2vz1pqyjjwa8gsw2",
+                "ContentType": "Milestone",
+                "DisplayText": "Phase Two Expansion",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Milestone": {
+                  "Date": {
+                    "Text": "July 2020"
+                  },
+                  "Image": {
+                    "Paths": [
+                      "/about/4.jpg"
+                    ]
+                  }
+                },
+                "HtmlBodyPart": {
+                  "Html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!\r\n"
+                },
+                "TitlePart": {
+                  "Title": "Phase Two Expansion"
+                }
+              }
+            ]
+          },
+          "Team": {
+            "ContentItems": [
+              {
+                "ContentItemId": "4m5b68m9qrbej3zt4zdk576wnx",
+                "ContentItemVersionId": "4fh3hxefyr8016cyh6tpgar453",
+                "ContentType": "TeamMember",
+                "DisplayText": "Parveen Anand",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "TeamMember": {
+                  "Occupation": {
+                    "Text": "Lead Designer"
+                  },
+                  "Picture": {
+                    "Paths": [
+                      "/team/1.jpg"
+                    ]
+                  },
+                  "Twitter": {
+                    "Text": "@"
+                  },
+                  "Facebook": {
+                    "Text": "@"
+                  },
+                  "LinkedIn": {
+                    "Text": "@"
+                  }
+                },
+                "TitlePart": {
+                  "Title": "Parveen Anand"
+                }
+              },
+              {
+                "ContentItemId": "4pa87tbr8xr0m4cpqegxxe0xcq",
+                "ContentItemVersionId": "4xdtyhvbf4q522had5pk44885t",
+                "ContentType": "TeamMember",
+                "DisplayText": "Diana Petersen",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "TeamMember": {
+                  "Occupation": {
+                    "Text": "Lead Marketer"
+                  },
+                  "Picture": {
+                    "Paths": [
+                      "/team/2.jpg"
+                    ]
+                  },
+                  "Twitter": {
+                    "Text": "@"
+                  },
+                  "Facebook": {
+                    "Text": "@"
+                  },
+                  "LinkedIn": {
+                    "Text": "@"
+                  }
+                },
+                "TitlePart": {
+                  "Title": "Diana Petersen"
+                }
+              },
+              {
+                "ContentItemId": "4ajkewfn83yb05254dpkmd4vwe",
+                "ContentItemVersionId": "4km9e8tggm5cvzvr9jk0gg66np",
+                "ContentType": "TeamMember",
+                "DisplayText": "Larry Parker",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "TeamMember": {
+                  "Occupation": {
+                    "Text": "Lead Developer"
+                  },
+                  "Picture": {
+                    "Paths": [
+                      "/team/3.jpg"
+                    ]
+                  },
+                  "Twitter": {
+                    "Text": "@"
+                  },
+                  "Facebook": {
+                    "Text": "@"
+                  },
+                  "LinkedIn": {
+                    "Text": "@"
+                  }
+                },
+                "TitlePart": {
+                  "Title": "Larry Parker"
+                }
+              }
+            ]
+          },
+          "Clients": {
+            "ContentItems": [
+              {
+                "ContentItemId": "4baf8r9b8sspyrdswfat7xe1x0",
+                "ContentItemVersionId": "4pztm54em0tymvv7qzf2jhkqxd",
+                "ContentType": "Client",
+                "DisplayText": "Microsoft",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Client": {
+                  "Logo": {
+                    "Paths": [
+                      "/logos/microsoft.svg"
+                    ]
+                  },
+                  "Url": {
+                    "Text": "#"
+                  }
+                },
+                "TitlePart": {
+                  "Title": "Microsoft"
+                }
+              },
+              {
+                "ContentItemId": "4zrrvzjfj3w26sn90dwaaxz7dt",
+                "ContentItemVersionId": "48k1pqdat1vaj38dyd02cha7w3",
+                "ContentType": "Client",
+                "DisplayText": "Google",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Client": {
+                  "Logo": {
+                    "Paths": [
+                      "/logos/google.svg"
+                    ]
+                  },
+                  "Url": {
+                    "Text": "#"
+                  }
+                },
+                "TitlePart": {
+                  "Title": "Google"
+                }
+              },
+              {
+                "ContentItemId": "4p094j7eehd9060ps6s54tw549",
+                "ContentItemVersionId": "4k8hhnjga068htty09gr0aqtw3",
+                "ContentType": "Client",
+                "DisplayText": "Facebook",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Client": {
+                  "Logo": {
+                    "Paths": [
+                      "/logos/facebook.svg"
+                    ]
+                  },
+                  "Url": {
+                    "Text": "#"
+                  }
+                },
+                "TitlePart": {
+                  "Title": "Facebook"
+                }
+              },
+              {
+                "ContentItemId": "45gf7b139q0nfrmce03jwy7tdr",
+                "ContentItemVersionId": "4s4rszvbazq6ax31dzy5rvqs43",
+                "ContentType": "Client",
+                "DisplayText": "IBM",
+                "Latest": false,
+                "Published": false,
+                "Owner": null,
+                "Author": "Admin",
+                "Client": {
+                  "Logo": {
+                    "Paths": [
+                      "/logos/ibm.svg"
+                    ]
+                  },
+                  "Url": {
+                    "Text": "#"
+                  }
+                },
+                "TitlePart": {
+                  "Title": "IBM"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "ContentItemId": "47t1hj58a62vw6vkaz4mqwbjnf",
+          "ContentItemVersionId": "417n9s78824nh584k6x9g1vxmj",
+          "ContentType": "RawHtml",
+          "DisplayText": "Footer",
+          "Latest": true,
+          "Published": true,
+          "ModifiedUtc": "2026-03-14T15:34:18.8234392Z",
+          "PublishedUtc": "2026-03-14T15:34:18.8250992Z",
+          "CreatedUtc": "2026-03-14T09:16:48.1068139Z",
+          "Owner": "4mtb7n1a9q698w1th4023hy4cr",
+          "Author": "Admin",
+          "LayerMetadata": {
+            "Layer": "Always",
+            "Zone": "Footer",
+            "RenderTitle": false,
+            "Position": 10
+          },
+          "RawHtml": {
+            "Content": {
+              "Html": "\u003Cfooter id=\u0022contacts\u0022 class=\u0022footer-section section\u0022\u003E\r\n\t\u003Ch2 class=\u0022sponsors-title\u0022\u003EOur Sponsors\u003C/h2\u003E\r\n\t\u003Cdiv class=\u0022footer-sponsors swiper footer-sponsors-swiper\u0022\u003E\r\n\t\t\u003Cdiv class=\u0022swiper-wrapper\u0022 id=\u0022sponsorsSwiperWrapper\u0022\u003E\u003C/div\u003E\r\n\t\u003C/div\u003E\r\n\t\u003Cdiv class=\u0022footer-contacts\u0022\u003E\r\n\t\t\u003Ch2 class=\u0022footer-title\u0022\u003EContacts\u003C/h2\u003E\r\n\t\t\u003Cdiv class=\u0022footer-mail\u0022\u003E\r\n\t\t\t[image]MailSVG.svg?v=tC7ZXrBRSbe_Qu-4SqQZLhRFssxnKIRUAYdOr10DB_k[/image]\r\n\t\t\t\u003Ca href=\u0022mailto:blacksea.patterns@gmail.com\u0022\u003Eblackseepatterns@gmail.com\u003C/a\u003E\r\n\t\t\u003C/div\u003E\r\n\t\t\u003Cdiv class=\u0022footer-phone\u0022\u003E\r\n\t\t\t[image]Vector.svg?v=I9WnUfHEP39jC35mC-lAYxxfif5gEKxKrG33ITOCL64[/image]\r\n\t\t\t\u003Ca href=\u0022tel:\u002B380964034862\u0022\u003E\u002B380964034862\u003C/a\u003E\r\n\t\t\u003C/div\u003E\r\n\t\t\u003Cdiv class=\u0022footer-social\u0022\u003E\r\n\t\t\t\u003Ca href=\u0022https://www.instagram.com/chornomorski_vizerunky_fest/\u0022\u003E\r\n\t\t\t[image]Instagram.svg?v=lARGriwOi2fMJv5rcUaVhY4Ov9sqhUSrpIRsBzHw3Is[/image]\r\n\t\t\t\u003C!-- \u003Ca href=\u0022#\u0022\u003E\u003Cimg src=\u0022img/Telegram App.svg\u0022 alt=\u0022Telegram\u0022 /\u003E\u003C/a\u003E --\u003E\r\n\t\t\t\u003Ca href=\u0022https://www.facebook.com/people/%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%BC%D0%BE%D1%80%D1%81%D1%8C%D0%BA%D1%96-%D0%92%D1%96%D0%B7%D0%B5%D1%80%D1%83%D0%BD%D0%BA%D0%B8/61569483072807/\u0022\u003E\r\n\t\t\t[image]Facebook.svg?v=InbKCLENjrsk13NEwNb-ULlrnlDFiysvPgpkCnroiJs [/image]\u003C/a\u003E\r\n\t\t\u003C/div\u003E\r\n\t\u003C/div\u003E\r\n\u003C/footer\u003E"
+            }
+          }
+        },
+        {
+          "ContentItemId": "4t8cfekh2t7g6z8t8rtx0zhzxh",
+          "ContentItemVersionId": "48x96qdf8bmccxmc9hx0hvay5c",
+          "ContentType": "RawHtml",
+          "DisplayText": "Menu",
+          "Latest": true,
+          "Published": true,
+          "ModifiedUtc": "2026-03-15T15:40:01.9469238Z",
+          "PublishedUtc": "2026-03-15T15:40:01.9694663Z",
+          "CreatedUtc": "2026-03-15T15:08:14.683036Z",
+          "Owner": "4mtb7n1a9q698w1th4023hy4cr",
+          "Author": "Admin",
+          "RawHtml": {
+            "Content": {
+              "Html": "\u003Cnav class=\u0022navigation-bar\u0022\u003E\r\n\t\u003Cdiv class=\u0022nav-header\u0022\u003E\r\n\t\t\u003Cdiv class=\u0022close-btn\u0022\u003E\r\n\t\t\t\u003Cdiv class=\u0022close-line close-line-one\u0022\u003E\u003C/div\u003E\r\n\t\t\t\u003Cdiv class=\u0022close-line close-line-two\u0022\u003E\u003C/div\u003E\r\n\t\t\u003C/div\u003E\r\n\t\t\u003Ca href=\u0022#\u0022 class=\u0022nav-logo\u0022\u003E[image]background.webp?v=pA9E_tBbE1j41ml3OkjqiIR9XJ-Dr3-8AuDD5BBG7xg[/image]\u003C/a\u003E\r\n\t\u003C/div\u003E\r\n\t\u003Cdiv class=\u0022nav-main\u0022\u003E\r\n\t\t{% shape \u0022menu\u0022, alias: \u0022alias:main-menu\u0022, cache_id: \u0022main-menu\u0022, cache_fixed_duration: \u002200:05:00\u0022, cache_tag: \u0022alias:main-menu\u0022, cache_context: \u0022user.roles\u0022 %}\r\n\t\u003C/div\u003E\r\n\t\u003Cdiv class=\u0022nav-footer\u0022\u003E\r\n\t\t\u003Cdiv class=\u0027mail\u0027\u003E\r\n\t\t\t[image]MailSVG.svg?v=tC7ZXrBRSbe_Qu-4SqQZLhRFssxnKIRUAYdOr10DB_k[/image]\r\n\t\t\t\u003Ca href=\u0027mailto:blacksea.patterns@gmail.com\u0027\u003Eblacksea.patterns@gmail.com\u003C/a\u003E\r\n\t\t\u003C/div\u003E\r\n\t\t\u003Cdiv class=\u0027phone\u0027\u003E\r\n\t\t\t[image]Vector.svg?v=I9WnUfHEP39jC35mC-lAYxxfif5gEKxKrG33ITOCL64[/image]\r\n\t\t\t\u003Ca href=\u0027tel:\u002B380964034862\u0027\u003E\u002B380964034862\u003C/a\u003E\r\n\t\t\u003C/div\u003E\r\n\t\t\u003Cdiv class=\u0022social-media\u0022\u003E\r\n\t\t\t\u003Ca href=\u0022https://www.instagram.com/chornomorski_vizerunky_fest/\u0022\u003E\r\n\t\t\t\t[image]Instagram.svg?v=lARGriwOi2fMJv5rcUaVhY4Ov9sqhUSrpIRsBzHw3Is[/image]\r\n\t\t\t\u003C/a\u003E\r\n\t\t\t\u003C!-- \u003Ca href=\u0022#\u0022\u003E\u003Cimg src=\u0022img/Telegram App.svg\u0022 alt=\u0022Telegram\u0022 /\u003E\u003C/a\u003E --\u003E\r\n\t\t\t\u003Ca href=\u0022https://www.facebook.com/people/%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%BC%D0%BE%D1%80%D1%81%D1%8C%D0%BA%D1%96-%D0%92%D1%96%D0%B7%D0%B5%D1%80%D1%83%D0%BD%D0%BA%D0%B8/61569483072807/\u0022\u003E\r\n\t\t\t\t[image]Facebook.svg?v=InbKCLENjrsk13NEwNb-ULlrnlDFiysvPgpkCnroiJs[/image]\r\n\t\t\t\u003C/a\u003E\r\n\t\t\u003C/div\u003E\r\n\t\u003C/div\u003E\r\n\u003C/nav\u003E"
+            }
+          },
+          "LayerMetadata": {
+            "RenderTitle": false,
+            "Position": 1,
+            "Zone": "Menu",
+            "Layer": "Always"
+          }
+        },
+        {
+          "ContentItemId": "4habs5tjxyxfh3gjszhgpef7mr",
+          "ContentItemVersionId": "4khx8q4pw95c03vs3zg1y1kqd0",
+          "ContentType": "Menu",
+          "DisplayText": "Main Menu",
+          "Latest": true,
+          "Published": true,
+          "ModifiedUtc": "2026-03-16T12:40:59.3417317Z",
+          "PublishedUtc": "2026-03-16T12:40:59.3443995Z",
+          "CreatedUtc": "2026-03-14T09:16:48.165017Z",
+          "Owner": "4mtb7n1a9q698w1th4023hy4cr",
+          "Author": "Admin",
+          "MenuPart": {},
+          "TitlePart": {
+            "Title": "Main Menu"
+          },
+          "MenuItemsListPart": {
+            "MenuItems": [
+              {
+                "ContentItemId": "434e16hhyrrtcvgcyy1dmkt95d",
+                "ContentItemVersionId": null,
+                "ContentType": "LinkMenuItem",
+                "DisplayText": "HOME",
+                "Latest": false,
+                "Published": false,
+                "ModifiedUtc": "2026-03-15T16:13:07.9504301Z",
+                "PublishedUtc": null,
+                "CreatedUtc": null,
+                "Owner": null,
+                "Author": "Admin",
+                "LinkMenuItemPart": {
+                  "Url": "~/#HOME",
+                  "Target": null
+                },
+                "LinkMenuItem": {}
+              },
+              {
+                "ContentItemId": "41xsp4k1360k5v1djhj4fc7fcs",
+                "ContentItemVersionId": null,
+                "ContentType": "LinkMenuItem",
+                "DisplayText": "GALLERY",
+                "Latest": false,
+                "Published": false,
+                "ModifiedUtc": "2026-03-15T16:13:17.6468194Z",
+                "PublishedUtc": null,
+                "CreatedUtc": null,
+                "Owner": null,
+                "Author": "Admin",
+                "LinkMenuItemPart": {
+                  "Url": "~/#GALLERY",
+                  "Target": null
+                },
+                "LinkMenuItem": {}
+              },
+              {
+                "ContentItemId": "41vcgzrgrptmhr8ym7c2qgdqcb",
+                "ContentItemVersionId": null,
+                "ContentType": "LinkMenuItem",
+                "DisplayText": "CATEGORY",
+                "Latest": false,
+                "Published": false,
+                "ModifiedUtc": "2026-03-15T16:13:24.9152152Z",
+                "PublishedUtc": null,
+                "CreatedUtc": null,
+                "Owner": null,
+                "Author": "Admin",
+                "LinkMenuItemPart": {
+                  "Url": "~/#CATEGORY",
+                  "Target": null
+                },
+                "LinkMenuItem": {}
+              },
+              {
+                "ContentItemId": "444bzct03h4htsf0c7rab5zbn5",
+                "ContentItemVersionId": null,
+                "ContentType": "LinkMenuItem",
+                "DisplayText": "NOMINATION",
+                "Latest": false,
+                "Published": false,
+                "ModifiedUtc": "2026-03-15T16:13:30.8048711Z",
+                "PublishedUtc": null,
+                "CreatedUtc": null,
+                "Owner": null,
+                "Author": "Admin",
+                "LinkMenuItemPart": {
+                  "Url": "~/#NOMINATION",
+                  "Target": null
+                },
+                "LinkMenuItem": {}
+              },
+              {
+                "ContentItemId": "4enpagnkfhf1k7b8mmhffmxfxg",
+                "ContentItemVersionId": null,
+                "ContentType": "LinkMenuItem",
+                "DisplayText": "ORGANIZERS",
+                "Latest": false,
+                "Published": false,
+                "ModifiedUtc": "2026-03-15T16:13:36.7743349Z",
+                "PublishedUtc": null,
+                "CreatedUtc": null,
+                "Owner": null,
+                "Author": "Admin",
+                "LinkMenuItemPart": {
+                  "Url": "~/#ORGANIZERS",
+                  "Target": null
+                },
+                "LinkMenuItem": {}
+              },
+              {
+                "ContentItemId": "47ywrg5w17jzgvv76d874fq9n9",
+                "ContentItemVersionId": null,
+                "ContentType": "LinkMenuItem",
+                "DisplayText": "CONTACTS",
+                "Latest": false,
+                "Published": false,
+                "ModifiedUtc": "2026-03-15T16:13:44.7858729Z",
+                "PublishedUtc": null,
+                "CreatedUtc": null,
+                "Owner": null,
+                "Author": "Admin",
+                "LinkMenuItemPart": {
+                  "Url": "~/#CONTACTS",
+                  "Target": null
+                },
+                "LinkMenuItem": {}
+              }
+            ]
+          },
+          "AliasPart": {
+            "Alias": "main-menu"
+          }
+        },
+        {
+          "ContentItemId": "4x0fp7dcpx87mr87nqf8zg7fd5",
+          "ContentItemVersionId": "4bpaqsfvwn58z1c4qe83nnqaxq",
+          "ContentType": "MainPage",
+          "DisplayText": "BlackSeaPatterns",
+          "Latest": true,
+          "Published": true,
+          "ModifiedUtc": "2026-03-16T12:59:21.594988Z",
+          "PublishedUtc": "2026-03-16T12:59:21.6176165Z",
+          "CreatedUtc": "2026-03-16T12:59:21.594988Z",
+          "Owner": "4mtb7n1a9q698w1th4023hy4cr",
+          "Author": "Admin",
+          "MainPage": {},
+          "AutoroutePart": {
+            "SetHomepage": false,
+            "Disabled": false,
+            "RouteContainedItems": false,
+            "Absolute": false,
+            "Path": "blackseapatterns"
+          },
+          "TitlePart": {
+            "Title": "BlackSeaPatterns"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Layers",
+      "Layers": [
+        {
+          "Name": "Always",
+          "Description": "The widgets in this layer are displayed on any page of this site.",
+          "LayerRule": {
+            "Conditions": [
+              {
+                "$type": "OrchardCore.Rules.Models.BooleanCondition, OrchardCore.Rules",
+                "Value": true,
+                "Name": "BooleanCondition",
+                "ConditionId": "49pxmg5a9vqgz0cpdf3nweycmp"
+              }
+            ],
+            "ConditionId": "4vmv81k42nk6b7g01c752dt1xj"
+          }
+        },
+        {
+          "Name": "Homepage",
+          "Description": "The widgets in this layer are only displayed on the homepage.",
+          "LayerRule": {
+            "Conditions": [
+              {
+                "$type": "OrchardCore.Rules.Models.HomepageCondition, OrchardCore.Rules",
+                "Value": true,
+                "Name": "HomepageCondition",
+                "ConditionId": "4w7wed29sf7s30ph5xbxb1mzm7"
+              }
+            ],
+            "ConditionId": "4f7ktgp32y3kvs603aa23adtda"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "LayerSettings": {
+        "Zones": [
+          "Menu",
+          "Footer"
+        ]
+      }
+    },
+    {
+      "name": "MediaProfiles",
+      "MediaProfiles": {
+        "medium": {
+          "Hint": "A medium image (600px x 480px)",
+          "Width": 600,
+          "Height": 480,
+          "Mode": "Undefined",
+          "Format": "Undefined",
+          "Quality": 100
+        },
+        "small": {
+          "Hint": "A small image (240px x 240px)",
+          "Width": 240,
+          "Height": 240,
+          "Mode": "Undefined",
+          "Format": "Undefined",
+          "Quality": 100
+        },
+        "extrasmall": {
+          "Hint": "A extra small image (160px x 160px)",
+          "Width": 160,
+          "Height": 160,
+          "Mode": "Undefined",
+          "Format": "Undefined",
+          "Quality": 100
+        }
+      }
+    },
+    {
+      "name": "Queries",
+      "Queries": []
+    },
+    {
+      "name": "Roles",
+      "Roles": [
+        {
+          "Name": "Moderator",
+          "Description": "Grants users the ability to moderate content.",
+          "Permissions": [
+            "AccessAdminPanel",
+            "ManageOwnUserInformation"
+          ]
+        },
+        {
+          "Name": "Editor",
+          "Description": "Grants users the ability to edit existing content.",
+          "Permissions": [
+            "ManageShortcodeTemplates",
+            "AccessAdminPanel",
+            "PublishContent",
+            "EditContent",
+            "DeleteContent",
+            "PreviewContent",
+            "CloneContent",
+            "ListContent",
+            "ManageTemplates",
+            "ManageOwnUserInformation",
+            "ManageMediaContent",
+            "ManageOwnMediaContent",
+            "ManagePlacements",
+            "ManageQueries"
+          ]
+        },
+        {
+          "Name": "Author",
+          "Description": "Grants users the ability to create content.",
+          "Permissions": [
+            "AccessAdminPanel",
+            "PublishOwnContent",
+            "EditOwnContent",
+            "DeleteOwnContent",
+            "PreviewOwnContent",
+            "CloneOwnContent",
+            "ManageOwnUserInformation",
+            "ManageOwnMediaContent"
+          ]
+        },
+        {
+          "Name": "Contributor",
+          "Description": "Grants users the ability to contribute content.",
+          "Permissions": [
+            "AccessAdminPanel",
+            "EditOwnContent",
+            "PreviewOwnContent",
+            "CloneOwnContent",
+            "ManageOwnUserInformation",
+            "ManageOwnMediaContent"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Templates",
+      "Templates": {
+        "Content__LandingPage": {
+          "Content": "{% zone \u0022Header\u0022 %}\r\n\u003C!-- Header --\u003E\r\n\u003Cheader class=\u0022masthead\u0022\u003E\r\n    \u003Cdiv class=\u0022container\u0022\u003E\r\n        \u003Cdiv class=\u0022masthead-subheading\u0022\u003EWelcome To Our Studio!\u003C/div\u003E\r\n        \u003Cdiv class=\u0022masthead-heading text-uppercase\u0022\u003E{{ Model.ContentItem | display_text }}\u003C/div\u003E\r\n        \u003Ca class=\u0022btn btn-primary btn-xl text-uppercase\u0022 href=\u0022#services\u0022\u003ETell Me More\u003C/a\u003E\r\n    \u003C/div\u003E\r\n\u003C/header\u003E\r\n{% endzone %}\r\n\r\n{% if Model.ContentItem.Content.Services.ContentItems.size \u003E 0 %}\r\n\u003C!-- Services --\u003E\r\n\u003Csection class=\u0022page-section\u0022 id=\u0022services\u0022\u003E\r\n    \u003Cdiv class=\u0022container\u0022\u003E\r\n        \u003Cdiv class=\u0022text-center\u0022\u003E\r\n            \u003Ch2 class=\u0022section-heading text-uppercase\u0022\u003EServices\u003C/h2\u003E\r\n            \u003Ch3 class=\u0022section-subheading text-muted\u0022\u003ELorem ipsum dolor sit amet consectetur.\u003C/h3\u003E\r\n        \u003C/div\u003E\r\n        \u003Cdiv class=\u0022row text-center\u0022\u003E\r\n            {% for service in Model.ContentItem.Content.Services.ContentItems %}\r\n            \u003Cdiv class=\u0022col-md-4\u0022\u003E\r\n                \u003Cspan class=\u0022fa-stack fa-4x\u0022\u003E\r\n                    \u003Ci class=\u0022fas fa-circle fa-stack-2x text-primary\u0022\u003E\u003C/i\u003E\r\n                    \u003Ci class=\u0022fas {{ service.Service.IconClass.Text }} fa-stack-1x fa-inverse\u0022\u003E\u003C/i\u003E\r\n                \u003C/span\u003E\r\n                \u003Ch4 class=\u0022service-heading\u0022\u003E{{ service.DisplayText }}\u003C/h4\u003E\r\n                \u003Cp class=\u0022text-muted\u0022\u003E{{ service.HtmlBodyPart.Html | raw }}\u003C/p\u003E\r\n            \u003C/div\u003E\r\n            {% endfor %}\r\n        \u003C/div\u003E\r\n    \u003C/div\u003E\r\n\u003C/section\u003E\r\n{% endif %}\r\n\r\n{% if Model.ContentItem.Content.Portfolio.ContentItems.size \u003E 0 %}\r\n\u003C!-- Portfolio Grid --\u003E\r\n\u003Csection class=\u0022page-section bg-light\u0022 id=\u0022portfolio\u0022\u003E\r\n    \u003Cdiv class=\u0022container\u0022\u003E\r\n        \u003Cdiv class=\u0022text-center\u0022\u003E\r\n            \u003Ch2 class=\u0022section-heading text-uppercase\u0022\u003EPortfolio\u003C/h2\u003E\r\n            \u003Ch3 class=\u0022section-subheading text-muted\u0022\u003ELorem ipsum dolor sit amet consectetur.\u003C/h3\u003E\r\n        \u003C/div\u003E\r\n        \u003Cdiv class=\u0022row\u0022\u003E\r\n            {% for project in Model.ContentItem.Content.Portfolio.ContentItems %}\r\n            \u003Cdiv class=\u0022col-lg-4 col-sm-6 mb-4\u0022\u003E\r\n                \u003Cdiv class=\u0022portfolio-item\u0022\u003E\r\n                    \u003Ca class=\u0022portfolio-link\u0022 data-bs-toggle=\u0022modal\u0022 href=\u0022#portfolioModal{{ forloop.index }}\u0022\u003E\r\n                        \u003Cdiv class=\u0022portfolio-hover\u0022\u003E\r\n                            \u003Cdiv class=\u0022portfolio-hover-content\u0022\u003E\u003Ci class=\u0022fas fa-plus fa-3x\u0022\u003E\u003C/i\u003E\u003C/div\u003E\r\n                        \u003C/div\u003E\r\n                        \u003Cimg class=\u0022img-fluid\u0022 src=\u0022{{ project.Project.Image.Paths.first | asset_url | resize_url: profile: \u0027medium\u0027, mode: \u0027stretch\u0027 }}\u0022 alt=\u0022{{ project.DisplayText }}\u0022 /\u003E\r\n                    \u003C/a\u003E\r\n                    \u003Cdiv class=\u0022portfolio-caption\u0022\u003E\r\n                        \u003Cdiv class=\u0022portfolio-caption-heading\u0022\u003E{{ project.DisplayText }}\u003C/div\u003E\r\n                        \u003Cdiv class=\u0022portfolio-caption-subheading text-muted\u0022\u003E{{ project.Project.Category.Text }}\u003C/div\u003E\r\n                    \u003C/div\u003E\r\n                \u003C/div\u003E\r\n            \u003C/div\u003E\r\n            {% endfor %}\r\n        \u003C/div\u003E\r\n    \u003C/div\u003E\r\n\u003C/section\u003E\r\n{% endif %}\r\n\r\n{% if Model.ContentItem.Content.About.ContentItems.size \u003E 0 %}\r\n\u003C!-- About --\u003E\r\n\u003Csection class=\u0022page-section\u0022 id=\u0022about\u0022\u003E\r\n    \u003Cdiv class=\u0022container\u0022\u003E\r\n        \u003Cdiv class=\u0022text-center\u0022\u003E\r\n            \u003Ch2 class=\u0022section-heading text-uppercase\u0022\u003EAbout\u003C/h2\u003E\r\n            \u003Ch3 class=\u0022section-subheading text-muted\u0022\u003ELorem ipsum dolor sit amet consectetur.\u003C/h3\u003E\r\n        \u003C/div\u003E\r\n        \u003Cul class=\u0022timeline\u0022\u003E\r\n            {% for milestone in Model.ContentItem.Content.About.ContentItems %}\r\n            \u003Cli class=\u0022{% cycle \u0027\u0027, \u0027timeline-inverted\u0027 %}\u0022\u003E\r\n                \u003Cdiv class=\u0022timeline-image\u0022\u003E\r\n                    \u003Cimg class=\u0022rounded-circle img-fluid\u0022 src=\u0022{{ milestone.Milestone.Image.Paths.first | asset_url | resize_url: profile: \u0027extrasmall\u0027, mode: \u0027stretch\u0027 }}\u0022 alt=\u0022\u0022\u003E\r\n                \u003C/div\u003E\r\n                \u003Cdiv class=\u0022timeline-panel\u0022\u003E\r\n                    \u003Cdiv class=\u0022timeline-heading\u0022\u003E\r\n                        \u003Ch4\u003E{{ milestone.Milestone.Date.Text }}\u003C/h4\u003E\r\n                        \u003Ch4 class=\u0022subheading\u0022\u003E{{ milestone.DisplayText }}\u003C/h4\u003E\r\n                    \u003C/div\u003E\r\n                    \u003Cdiv class=\u0022timeline-body\u0022\u003E\r\n                        \u003Cp class=\u0022text-muted\u0022\u003E{{ milestone.HtmlBodyPart.Html | raw }}\u003C/p\u003E\r\n                    \u003C/div\u003E\r\n                \u003C/div\u003E\r\n            \u003C/li\u003E\r\n            {% endfor %}\r\n            \u003Cli class=\u0022timeline-inverted\u0022\u003E\r\n                \u003Cdiv class=\u0022timeline-image\u0022\u003E\r\n                    \u003Ch4\u003E\r\n                        Be Part\r\n                        \u003Cbr\u003EOf Our\r\n                        \u003Cbr\u003EStory!\r\n                    \u003C/h4\u003E\r\n                \u003C/div\u003E\r\n            \u003C/li\u003E\r\n        \u003C/ul\u003E\r\n    \u003C/div\u003E\r\n\u003C/section\u003E\r\n{% endif %}\r\n\r\n{% if Model.ContentItem.Content.Team.ContentItems.size \u003E 0 %}\r\n\u003C!-- Team --\u003E\r\n\u003Csection class=\u0022page-section bg-light\u0022 id=\u0022team\u0022\u003E\r\n    \u003Cdiv class=\u0022container\u0022\u003E\r\n        \u003Cdiv class=\u0022text-center\u0022\u003E\r\n            \u003Ch2 class=\u0022section-heading text-uppercase\u0022\u003EOur Amazing Team\u003C/h2\u003E\r\n            \u003Ch3 class=\u0022section-subheading text-muted\u0022\u003ELorem ipsum dolor sit amet consectetur.\u003C/h3\u003E\r\n        \u003C/div\u003E\r\n        \u003Cdiv class=\u0022row\u0022\u003E\r\n            {% for member in Model.ContentItem.Content.Team.ContentItems %}\r\n            \u003Cdiv class=\u0022col-lg-4\u0022\u003E\r\n                \u003Cdiv class=\u0022team-member\u0022\u003E\r\n                    \u003Cimg class=\u0022mx-auto rounded-circle\u0022 src=\u0022{{ member.TeamMember.Picture.Paths.first | asset_url | resize_url: profile: \u0027small\u0027, mode: \u0027stretch\u0027 }}\u0022 alt=\u0022\u0022\u003E\r\n                    \u003Ch4\u003E{{ member.DisplayText }}\u003C/h4\u003E\r\n                    \u003Cp class=\u0022text-muted\u0022\u003E{{ member.TeamMember.Occupation.Text }}\u003C/p\u003E\r\n                    {% if member.TeamMember.Twitter.Text.size \u003E 0 %}\r\n                    \u003Ca class=\u0022btn btn-dark btn-social mx-2\u0022 href=\u0022https://www.twitter.com/{{ member.TeamMember.Twitter.Text }}\u0022 aria-label=\u0022{{ member.DisplayText }} X (Twitter) Profile\u0022\u003E\r\n                        \u003Ci class=\u0022fab fa-x-twitter\u0022\u003E\u003C/i\u003E\r\n                    \u003C/a\u003E\r\n                    {% endif %}\r\n                    {% if member.TeamMember.Facebook.Text.size \u003E 0 %}\r\n                    \u003Ca class=\u0022btn btn-dark btn-social mx-2\u0022 href=\u0022https://www.facebook.com/{{ member.TeamMember.Facebook.Text }}\u0022 aria-label=\u0022{{ member.DisplayText }} Facebook Profile\u0022\u003E\r\n                        \u003Ci class=\u0022fab fa-facebook\u0022\u003E\u003C/i\u003E\r\n                    \u003C/a\u003E\r\n                    {% endif %}\r\n                    {% if member.TeamMember.LinkedIn.Text.size \u003E 0 %}\r\n                    \u003Ca class=\u0022btn btn-dark btn-social mx-2\u0022 href=\u0022https://www.linkedin.com/in/{{ member.TeamMember.LinkedIn.Text }}\u0022 aria-label=\u0022{{ member.DisplayText }} LinkedIn Profile\u0022\u003E\r\n                        \u003Ci class=\u0022fab fa-linkedin\u0022\u003E\u003C/i\u003E\r\n                    \u003C/a\u003E\r\n                    {% endif %}\r\n                \u003C/div\u003E\r\n            \u003C/div\u003E\r\n            {% endfor %}\r\n        \u003C/div\u003E\r\n        \u003Cdiv class=\u0022row\u0022\u003E\r\n            \u003Cdiv class=\u0022col-lg-8 mx-auto text-center\u0022\u003E\r\n                \u003Cp class=\u0022large text-muted\u0022\u003ELorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.\u003C/p\u003E\r\n            \u003C/div\u003E\r\n        \u003C/div\u003E\r\n    \u003C/div\u003E\r\n\u003C/section\u003E\r\n{% endif %}\r\n\r\n{% if Model.ContentItem.Content.Clients.ContentItems.size \u003E 0 %}\r\n\u003C!-- Clients --\u003E\r\n\u003Cdiv class=\u0022py-5\u0022\u003E\r\n    \u003Cdiv class=\u0022container\u0022\u003E\r\n        \u003Cdiv class=\u0022row align-items-center\u0022\u003E\r\n            {% for client in Model.ContentItem.Content.Clients.ContentItems %}\r\n            \u003Cdiv class=\u0022col-md-3 col-sm-6 my-3\u0022\u003E\r\n                \u003Ca href=\u0022{{ client.Client.Url.Text }}\u0022 aria-label=\u0022{{ client.DisplayText }}\u0022\u003E\r\n                    \u003Cimg class=\u0022img-fluid img-brand d-block mx-auto\u0022 src=\u0022{{ client.Client.Logo.Paths.first | asset_url }}\u0022 alt=\u0022\u0022\u003E\r\n                \u003C/a\u003E\r\n            \u003C/div\u003E\r\n            {% endfor %}\r\n        \u003C/div\u003E\r\n    \u003C/div\u003E\r\n\u003C/div\u003E\r\n{% endif %}\r\n\r\n\u003C!-- Contact --\u003E\r\n\u003Csection class=\u0022page-section\u0022 id=\u0022contact\u0022\u003E\r\n    \u003Cdiv class=\u0022container\u0022\u003E\r\n        \u003Cdiv class=\u0022text-center\u0022\u003E\r\n            \u003Ch2 class=\u0022section-heading text-uppercase\u0022\u003EContact Us\u003C/h2\u003E\r\n            \u003Ch3 class=\u0022section-subheading text-muted\u0022\u003ELorem ipsum dolor sit amet consectetur.\u003C/h3\u003E\r\n        \u003C/div\u003E\r\n        \u003Cform id=\u0022contactForm\u0022 name=\u0022sentMessage\u0022 novalidate=\u0022novalidate\u0022\u003E\r\n            \u003Cdiv class=\u0022row align-items-stretch mb-5\u0022\u003E\r\n                \u003Cdiv class=\u0022col-md-6\u0022\u003E\r\n                    \u003Cdiv class=\u0022form-group\u0022\u003E\r\n                        \u003Cinput class=\u0022form-control\u0022 id=\u0022name\u0022 type=\u0022text\u0022 placeholder=\u0022Your Name *\u0022 required=\u0022required\u0022 data-validation-required-message=\u0022Please enter your name.\u0022 /\u003E\r\n                        \u003Cp class=\u0022help-block text-danger\u0022\u003E\u003C/p\u003E\r\n                    \u003C/div\u003E\r\n                    \u003Cdiv class=\u0022form-group\u0022\u003E\r\n                        \u003Cinput class=\u0022form-control\u0022 id=\u0022email\u0022 type=\u0022email\u0022 placeholder=\u0022Your Email *\u0022 required=\u0022required\u0022 data-validation-required-message=\u0022Please enter your email address.\u0022 /\u003E\r\n                        \u003Cp class=\u0022help-block text-danger\u0022\u003E\u003C/p\u003E\r\n                    \u003C/div\u003E\r\n                    \u003Cdiv class=\u0022form-group mb-md-0\u0022\u003E\r\n                        \u003Cinput class=\u0022form-control\u0022 id=\u0022phone\u0022 type=\u0022tel\u0022 placeholder=\u0022Your Phone *\u0022 required=\u0022required\u0022 data-validation-required-message=\u0022Please enter your phone number.\u0022 /\u003E\r\n                        \u003Cp class=\u0022help-block text-danger\u0022\u003E\u003C/p\u003E\r\n                    \u003C/div\u003E\r\n                \u003C/div\u003E\r\n                \u003Cdiv class=\u0022col-md-6\u0022\u003E\r\n                    \u003Cdiv class=\u0022form-group form-group-textarea mb-md-0\u0022\u003E\r\n                        \u003Ctextarea class=\u0022form-control\u0022 id=\u0022message\u0022 placeholder=\u0022Your Message *\u0022 required=\u0022required\u0022 data-validation-required-message=\u0022Please enter a message.\u0022\u003E\u003C/textarea\u003E\r\n                        \u003Cp class=\u0022help-block text-danger\u0022\u003E\u003C/p\u003E\r\n                    \u003C/div\u003E\r\n                \u003C/div\u003E\r\n            \u003C/div\u003E\r\n            \u003Cdiv class=\u0022text-center\u0022\u003E\r\n                \u003Cdiv id=\u0022success\u0022\u003E\u003C/div\u003E\r\n                \u003Cbutton class=\u0022btn btn-primary btn-xl text-uppercase\u0022 id=\u0022sendMessageButton\u0022 type=\u0022submit\u0022\u003ESend Message\u003C/button\u003E\r\n            \u003C/div\u003E\r\n        \u003C/form\u003E\r\n    \u003C/div\u003E\r\n\u003C/section\u003E\r\n\r\n\u003C!-- Modals --\u003E\r\n{% for project in Model.ContentItem.Content.Portfolio.ContentItems %}\r\n\u003Cdiv class=\u0022portfolio-modal modal fade\u0022 id=\u0022portfolioModal{{ forloop.index }}\u0022 tabindex=\u0022-1\u0022 role=\u0022dialog\u0022\u003E\r\n    \u003Cdiv class=\u0022modal-dialog\u0022\u003E\r\n        \u003Cdiv class=\u0022modal-content\u0022\u003E\r\n            \u003Cdiv class=\u0022close-modal\u0022 data-bs-dismiss=\u0022modal\u0022\u003E\u003Cimg src=\u0022/TheAgencyTheme/assets/img/close-icon.svg\u0022 alt=\u0022Close modal\u0022 /\u003E\u003C/div\u003E\r\n            \u003Cdiv class=\u0022container\u0022\u003E\r\n                \u003Cdiv class=\u0022row justify-content-center\u0022\u003E\r\n                    \u003Cdiv class=\u0022col-lg-8\u0022\u003E\r\n                        \u003Cdiv class=\u0022modal-body\u0022\u003E\r\n                            \u003C!-- Project Details Go Here --\u003E\r\n                            \u003Ch2 class=\u0022text-uppercase\u0022\u003E{{ project.DisplayText }}\u003C/h2\u003E\r\n                            \u003Cp class=\u0022item-intro text-muted\u0022\u003E{{ project.Project.Category.Text }}\u003C/p\u003E\r\n                            \u003Cimg class=\u0022img-fluid d-block mx-auto\u0022 src=\u0022{{ project.Project.Image.Paths.first | asset_url | resize_url: profile: \u0027medium\u0027, mode: \u0027max\u0027 }}\u0022 alt=\u0022{{ project.DisplayText }}\u0022\u003E\r\n                            \u003Cp\u003E{{ project.HtmlBodyPart.Html | raw }}\u003C/p\u003E\r\n                            {% comment %}\r\n                            \u003Cul class=\u0022list-inline\u0022\u003E\r\n                                \u003Cli\u003EDate: January 2017\u003C/li\u003E\r\n                                \u003Cli\u003EClient: Threads\u003C/li\u003E\r\n                                \u003Cli\u003ECategory: Illustration\u003C/li\u003E\r\n                            \u003C/ul\u003E\r\n                            {% endcomment %}\r\n                            \u003Cbutton class=\u0022btn btn-primary\u0022 data-bs-dismiss=\u0022modal\u0022 type=\u0022button\u0022\u003E\r\n                                \u003Ci class=\u0022fa fa-times me-1\u0022\u003E\u003C/i\u003E\r\n                                Close Project\r\n                            \u003C/button\u003E\r\n                        \u003C/div\u003E\r\n                    \u003C/div\u003E\r\n                \u003C/div\u003E\r\n            \u003C/div\u003E\r\n        \u003C/div\u003E\r\n    \u003C/div\u003E\r\n\u003C/div\u003E\r\n{% endfor %}",
+          "Description": "A template for the Landing Page content type"
+        }
+      }
+    },
+    {
+      "name": "ContentDefinition",
+      "ContentTypes": [
+        {
+          "Name": "Menu",
+          "DisplayName": "Menu",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Listable": true,
+              "Draftable": true,
+              "Versionable": true
+            }
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "TitlePart",
+              "Name": "TitlePart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            },
+            {
+              "PartName": "AliasPart",
+              "Name": "AliasPart",
+              "Settings": {
+                "AliasPartSettings": {
+                  "Pattern": "{{ ContentItem | display_text | slugify }}"
+                },
+                "ContentTypePartSettings": {
+                  "Position": "1"
+                }
+              }
+            },
+            {
+              "PartName": "MenuPart",
+              "Name": "MenuPart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "2"
+                }
+              }
+            },
+            {
+              "PartName": "MenuItemsListPart",
+              "Name": "MenuItemsListPart",
+              "Settings": {}
+            }
+          ]
+        },
+        {
+          "Name": "LinkMenuItem",
+          "DisplayName": "Link Menu Item",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Stereotype": "MenuItem"
+            }
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "LinkMenuItemPart",
+              "Name": "LinkMenuItemPart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            },
+            {
+              "PartName": "LinkMenuItem",
+              "Name": "LinkMenuItem",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "ContentMenuItem",
+          "DisplayName": "Content Menu Item",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Stereotype": "MenuItem"
+            },
+            "FullTextAspectSettings": {}
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "ContentMenuItemPart",
+              "Name": "ContentMenuItemPart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            },
+            {
+              "PartName": "ContentMenuItem",
+              "Name": "ContentMenuItem",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "HtmlMenuItem",
+          "DisplayName": "Html Menu Item",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Stereotype": "MenuItem"
+            },
+            "FullTextAspectSettings": {}
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "HtmlMenuItemPart",
+              "Name": "HtmlMenuItemPart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            },
+            {
+              "PartName": "HtmlMenuItem",
+              "Name": "HtmlMenuItem",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Page",
+          "DisplayName": "Page",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Creatable": true,
+              "Draftable": true,
+              "Versionable": true,
+              "Listable": true,
+              "Securable": true
+            }
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "Page",
+              "Name": "Page",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "3"
+                }
+              }
+            },
+            {
+              "PartName": "AutoroutePart",
+              "Name": "AutoroutePart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "1"
+                },
+                "AutoroutePartSettings": {
+                  "AllowCustomPath": true,
+                  "Pattern": "{{ Model.ContentItem | display_text | slugify }}",
+                  "ShowHomepageOption": true
+                }
+              }
+            },
+            {
+              "PartName": "FlowPart",
+              "Name": "FlowPart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "2"
+                }
+              }
+            },
+            {
+              "PartName": "TitlePart",
+              "Name": "TitlePart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "RawHtml",
+          "DisplayName": "Html",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Draftable": true,
+              "Versionable": true,
+              "Securable": true,
+              "Stereotype": "Widget"
+            }
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "RawHtml",
+              "Name": "RawHtml",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Blockquote",
+          "DisplayName": "Blockquote",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Draftable": true,
+              "Versionable": true,
+              "Securable": true,
+              "Stereotype": "Widget"
+            }
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "Blockquote",
+              "Name": "Blockquote",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Container",
+          "DisplayName": "Container",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Draftable": true,
+              "Versionable": true,
+              "Securable": true,
+              "Stereotype": "Widget"
+            }
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "Container",
+              "Name": "Container",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            },
+            {
+              "PartName": "FlowPart",
+              "Name": "FlowPart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Image",
+          "DisplayName": "Image",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Draftable": true,
+              "Versionable": true,
+              "Securable": true,
+              "Stereotype": "Widget"
+            }
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "Image",
+              "Name": "Image",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            },
+            {
+              "PartName": "TitlePart",
+              "Name": "TitlePart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Paragraph",
+          "DisplayName": "Paragraph",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Draftable": true,
+              "Versionable": true,
+              "Securable": true,
+              "Stereotype": "Widget"
+            }
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "Paragraph",
+              "Name": "Paragraph",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "MainPage",
+          "DisplayName": "Main Page",
+          "Settings": {
+            "ContentTypeSettings": {
+              "Creatable": true,
+              "Listable": true,
+              "Draftable": true,
+              "Versionable": true,
+              "Securable": true
+            },
+            "FullTextAspectSettings": {
+              "IncludeFullTextTemplate": false,
+              "IncludeBodyAspect": true,
+              "IncludeDisplayText": true
+            }
+          },
+          "ContentTypePartDefinitionRecords": [
+            {
+              "PartName": "MainPage",
+              "Name": "MainPage",
+              "Settings": {}
+            },
+            {
+              "PartName": "AutoroutePart",
+              "Name": "AutoroutePart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "1"
+                },
+                "AutoroutePartSettings": {
+                  "AllowCustomPath": false,
+                  "Pattern": "{{ ContentItem.DisplayText | slugify }}",
+                  "ShowHomepageOption": true,
+                  "AllowUpdatePath": false,
+                  "AllowDisabled": false,
+                  "AllowRouteContainedItems": false,
+                  "ManageContainedItemRoutes": false,
+                  "AllowAbsolutePath": false
+                }
+              }
+            },
+            {
+              "PartName": "TitlePart",
+              "Name": "TitlePart",
+              "Settings": {
+                "ContentTypePartSettings": {
+                  "Position": "0"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "ContentParts": [
+        {
+          "Name": "LiquidPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Reusable": false,
+              "Description": "Provides a Liquid formatted body for your content item."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "CommonPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Reusable": false,
+              "Description": "Provides an editor for the common properties of a content item."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "HtmlBodyPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Reusable": false,
+              "Description": "Provides an HTML Body for your content item."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "TitlePart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Reusable": false,
+              "Description": "Provides a Title for your content item.",
+              "DefaultPosition": "0"
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "AliasPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Reusable": false,
+              "Description": "Provides a way to define custom aliases for content items."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "AutoroutePart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Reusable": false,
+              "Description": "Provides a custom url for your content item."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "PreviewPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Reusable": false,
+              "Description": "Provides a way to define the url that is used to render your content item for preview. You only need to use this for the content preview feature when running the frontend decoupled from the admin."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "WidgetsListPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Reusable": false,
+              "Description": "Provides a way to add widgets to Layout zones for your content item."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "FlowPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Reusable": false,
+              "Description": "Provides a customizable body for your content item where you can build a content structure with widgets."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "BagPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Reusable": true,
+              "Description": "Provides a collection behavior for your content item where you can place other content items."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "ListPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Reusable": false,
+              "Description": "Add a list behavior."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "MarkdownBodyPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Reusable": false,
+              "Description": "Provides a Markdown formatted body for your content item."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "MenuPart",
+          "Settings": {},
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "MenuItemPart",
+          "Settings": {},
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "LinkMenuItemPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Description": "Provides a menu link behavior for your content item."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "ContentMenuItemPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "DisplayName": "Content Menu Item",
+              "Description": "Provides a menu link behavior with the Content Picker for your content item."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": [
+            {
+              "FieldName": "ContentPickerField",
+              "Name": "SelectedContentItem",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "Selected Content Item",
+                  "Position": "0"
+                },
+                "ContentPickerFieldSettings": {
+                  "Required": true,
+                  "DisplayAllContentTypes": true,
+                  "DisplayedContentTypes": []
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "HtmlMenuItemPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "DisplayName": "Html Menu Item",
+              "Description": "Provides a menu link behavior with a field to display html for the link text."
+            }
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "RawHtml",
+          "Settings": {},
+          "ContentPartFieldDefinitionRecords": [
+            {
+              "FieldName": "HtmlField",
+              "Name": "Content",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "Content",
+                  "Editor": "Multiline",
+                  "Position": "0"
+                },
+                "HtmlFieldSettings": {
+                  "SanitizeHtml": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Blockquote",
+          "Settings": {},
+          "ContentPartFieldDefinitionRecords": [
+            {
+              "FieldName": "TextField",
+              "Name": "Quote",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "Quote",
+                  "Position": "0",
+                  "Editor": "TextArea"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Image",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true
+            }
+          },
+          "ContentPartFieldDefinitionRecords": [
+            {
+              "FieldName": "MediaField",
+              "Name": "Media",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "Image",
+                  "Position": "0"
+                },
+                "MediaFieldSettings": {
+                  "Required": true,
+                  "Multiple": false
+                }
+              }
+            },
+            {
+              "FieldName": "TextField",
+              "Name": "Caption",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "Caption",
+                  "Position": "1"
+                },
+                "TextFieldSettings": {
+                  "Hint": "A description of the image used as title or alternate text"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Paragraph",
+          "Settings": {},
+          "ContentPartFieldDefinitionRecords": [
+            {
+              "FieldName": "HtmlField",
+              "Name": "Content",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "Content",
+                  "Position": "0",
+                  "Editor": "Wysiwyg"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "deployment",
+      "Plans": [
+        {
+          "Name": "Main Recipe",
+          "Steps": [
+            {
+              "Type": "AllFeaturesDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.Features.Deployment.AllFeaturesDeploymentStep, OrchardCore.Features",
+                "IgnoreDisabledFeatures": false,
+                "Id": "5a6fdd73fc9a4dc3879a683ebf3841b6",
+                "Name": "AllFeatures"
+              }
+            },
+            {
+              "Type": "AdminSettings_SiteSettingsPropertyDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.Settings.Deployment.SiteSettingsPropertyDeploymentStep\u00601[[OrchardCore.Admin.Models.AdminSettings, OrchardCore.Admin.Abstractions]], OrchardCore.Settings.Core",
+                "Id": "5193ff37e90949e6954427ba70608e43",
+                "Name": "AdminSettings_SiteSettingsPropertyDeploymentStep"
+              }
+            },
+            {
+              "Type": "AllContentDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.Contents.Deployment.AllContentDeploymentStep, OrchardCore.Contents",
+                "ExportAsSetupRecipe": false,
+                "Id": "b2894e03d27f41ed9d67b8b590adc087",
+                "Name": "AllContent"
+              }
+            },
+            {
+              "Type": "AllLayersDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.Layers.Deployment.AllLayersDeploymentStep, OrchardCore.Layers",
+                "Id": "6218857108954eb792861e3f9b5fb897",
+                "Name": "AllLayers"
+              }
+            },
+            {
+              "Type": "AllMediaProfilesDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.Media.Deployment.AllMediaProfilesDeploymentStep, OrchardCore.Media",
+                "Id": "258d118054f4478e906c68187849c8e8",
+                "Name": "AllMediaProfiles"
+              }
+            },
+            {
+              "Type": "AllQueriesDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.Queries.Deployment.AllQueriesDeploymentStep, OrchardCore.Queries",
+                "Id": "5377a803c657449d9df01ee3c90b8361",
+                "Name": "AllQueries"
+              }
+            },
+            {
+              "Type": "AllRolesDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.Roles.Deployment.AllRolesDeploymentStep, OrchardCore.Roles",
+                "Id": "f6fe18cd28b24fa4b750e99b4ee003ba",
+                "Name": "AllRoles"
+              }
+            },
+            {
+              "Type": "AllTemplatesDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.Templates.Deployment.AllTemplatesDeploymentStep, OrchardCore.Templates",
+                "ExportAsFiles": false,
+                "Id": "7a3b620613d44f2ab4db955c997e79af",
+                "Name": "AllTemplates"
+              }
+            },
+            {
+              "Type": "ContentDefinitionDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.ContentTypes.Deployment.ContentDefinitionDeploymentStep, OrchardCore.ContentTypes",
+                "IncludeAll": true,
+                "ContentTypes": [],
+                "ContentParts": [],
+                "Id": "7eafeafc71b345ef861dae304ce053d0",
+                "Name": "ContentDefinition"
+              }
+            },
+            {
+              "Type": "DeploymentPlanDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.Deployment.Deployment.DeploymentPlanDeploymentStep, OrchardCore.Deployment",
+                "IncludeAll": true,
+                "DeploymentPlanNames": [],
+                "Id": "1be50db0471841a5a6e624b2d9d1cde8",
+                "Name": "DeploymentPlan"
+              }
+            },
+            {
+              "Type": "MediaDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.Media.Deployment.MediaDeploymentStep, OrchardCore.Media",
+                "IncludeAll": true,
+                "FilePaths": [],
+                "DirectoryPaths": [],
+                "Id": "397ac9f8e51f46ec884a6c6a04d2b819",
+                "Name": "Media"
+              }
+            },
+            {
+              "Type": "PlacementsDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.Placements.Deployment.PlacementsDeploymentStep, OrchardCore.Placements",
+                "Id": "18e3b15e27f6477bbd192b32bb4ec0ed",
+                "Name": "Placements"
+              }
+            },
+            {
+              "Type": "RecipeFileDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.Deployment.Steps.RecipeFileDeploymentStep, OrchardCore.Deployment",
+                "RecipeName": "BlackSeaPatterns.Recipe",
+                "DisplayName": "BlackSeaPatterns Display Name",
+                "Description": "Site for Black Sea Patterns Fest",
+                "Author": "AlexABA",
+                "Version": "1.0.1",
+                "IsSetupRecipe": true,
+                "Id": "2c4f7d13926e486c86f6506929937796",
+                "Name": "RecipeFileDeploymentStep"
+              }
+            },
+            {
+              "Type": "ThemesDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.Themes.Deployment.ThemesDeploymentStep, OrchardCore.Themes",
+                "Id": "c82dee95276e4489882d7603fa895783",
+                "Name": "Themes"
+              }
+            },
+            {
+              "Type": "SiteSettingsDeploymentStep",
+              "Step": {
+                "$type": "OrchardCore.Settings.Deployment.SiteSettingsDeploymentStep, OrchardCore.Settings",
+                "Settings": [
+                  "MaxPagedCount",
+                  "MaxPageSize",
+                  "PageSize",
+                  "TimeZoneId",
+                  "ResourceDebugMode",
+                  "SiteName",
+                  "SiteSalt",
+                  "PageTitleFormat",
+                  "SuperUser",
+                  "AppendVersion"
+
+                ],
+                "Id": "e9d7848c8a90460a8b9da397219bc7fb",
+                "Name": "SiteSettings"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "media",
+      "Files": [
+        {
+          "SourcePath": "background.webp",
+          "TargetPath": "background.webp"
+        },
+        {
+          "SourcePath": "Facebook.svg",
+          "TargetPath": "Facebook.svg"
+        },
+        {
+          "SourcePath": "Instagram.svg",
+          "TargetPath": "Instagram.svg"
+        },
+        {
+          "SourcePath": "MailSVG.svg",
+          "TargetPath": "MailSVG.svg"
+        },
+        {
+          "SourcePath": "Vector.svg",
+          "TargetPath": "Vector.svg"
+        }
+      ]
+    },
+    {
+      "name": "Placements",
+      "Placements": {}
+    },
+    {
+      "name": "Themes",
+      "Site": "BlackSeaPatternsTheme",
+      "Admin": "TheAdmin"
+    },
+    {
+      "name": "Settings",
+      "MaxPagedCount": 0,
+      "MaxPageSize": 100,
+      "PageSize": 10,
+      "TimeZoneId": "Europe/Kyiv",
+      "ResourceDebugMode": "FromConfiguration",
+      "SiteName": "BlackSeaPatternsFest",
+      "SiteSalt": "bb9b5b337f3b4721a4c6ad2f601034ee",
+      "PageTitleFormat": "{% page_title Site.SiteName, position: \u0022after\u0022, separator: \u0022 - \u0022 %}",
+      "SuperUser": "4mtb7n1a9q698w1th4023hy4cr",
+     
+      "AppendVersion": true,
+
+    }
+  ]
+}
