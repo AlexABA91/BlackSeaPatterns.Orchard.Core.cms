@@ -1,100 +1,114 @@
 document.addEventListener('DOMContentLoaded', function () {
-
-	// Плавный скролл по секциям
+	// Основные элементы
 	const sectionsContainer = document.querySelector('.sections-container')
 	const navContainer = document.querySelector('.navigation-bar')
 	const burgerButton = document.querySelector('.burger-menu')
 	const closeButton = document.querySelector('.close-btn')
-	if (sectionsContainer) {
-		const sections = document.querySelectorAll('.section')
+	const sections = document.querySelectorAll('.section')
+	const anchorLinks = document.querySelectorAll('.nav-anchor')
+
+	if (sections.length > 0) {
 		let currentIndex = 0
 		let isScrolling = false
-		let touchStartY = 0 // Начальная позиция касания по Y
-		const anchorLinks = document.querySelectorAll('.nav-anchor')
 
-		// Функция для прокрутки к определенной секции
-		const scrollToSection = index => {
-			console.log('Scrolling to section index:', index)
+		// Функция для плавного перехода к секции
+		const scrollToSection = (index) => {
 			if (index >= 0 && index < sections.length) {
-
-				document.querySelector(anchorLinks[index].dataset.bsTarget).scrollIntoView({
-						behavior: 'smooth',
-						block: 'start'
-					});
-					currentIndex = index
+				isScrolling = true
+				sections[index].scrollIntoView({
+					behavior: 'smooth',
+					block: 'start'
+				})
+				
+				// Блокируем повторный перехват на время анимации
+				setTimeout(() => {
+					isScrolling = false
+				}, 700) 
 			}
 		}
 
-		// Функция для выполнения скролла и установки задержки
-		const performScroll = newIndex => {
-			if (isScrolling) return
-			isScrolling = true
-
-			scrollToSection(newIndex)
-
-			// Блокировка прокрутки на время анимации
-			setTimeout(() => {
-				isScrolling = false
-			}, 600) // Должно совпадать с длительностью CSS transition
-		}
-
-		// Обработчик события прокрутки колесом мыши
-		const handleWheel = event => {
+		// Обработка колесика мыши (только для десктопа)
+		const handleWheel = (e) => {
 			if (isScrolling) {
-				event.preventDefault()
+				e.preventDefault()
 				return
 			}
 
-			event.preventDefault()
+			if (document.querySelector('.fullscreen-overlay.active')) return
 
-			if (event.deltaY > 0) {
-				// Прокрутка вниз
-				if (currentIndex < sections.length - 1) {
-					performScroll(currentIndex + 1)
-				}
-			} else {
-				// Прокрутка вверх
-				if (currentIndex > 0) {
-					performScroll(currentIndex - 1)
-				}
-			}
-		}
-
-		// Обработчик начала касания
-		const handleTouchStart = event => {
-			if (isScrolling) return
-			touchStartY = event.touches[0].clientY
-		}
-
-		// Обработчик движения пальца
-		const handleTouchMove = event => {
-			if (isScrolling) {
-				event.preventDefault()
-				return
-			}
-
-			const touchCurrentY = event.touches[0].clientY
-			const deltaY = touchStartY - touchCurrentY
-
-			// Определяем свайп и его направление
-			if (Math.abs(deltaY) > 50) {
-				// Порог для срабатывания свайпа
-				event.preventDefault()
-				if (deltaY > 0) {
-					// Свайп вверх (прокрутка вниз)
+			const delta = e.deltaY
+			
+			if (Math.abs(delta) > 10) { 
+				e.preventDefault()
+				if (delta > 0) {
 					if (currentIndex < sections.length - 1) {
-						performScroll(currentIndex + 1)
+						scrollToSection(currentIndex + 1)
 					}
 				} else {
-					// Свайп вниз (прокрутка вверх)
 					if (currentIndex > 0) {
-						performScroll(currentIndex - 1)
+						scrollToSection(currentIndex - 1)
 					}
 				}
-				// Сбрасываем начальную позицию, чтобы избежать многократных срабатываний
-				touchStartY = touchCurrentY
 			}
 		}
+
+		window.addEventListener('wheel', (e) => {
+			if (window.innerWidth > 1024) { 
+				handleWheel(e)
+			}
+		}, { passive: false })
+
+
+		// Используем IntersectionObserver для отслеживания активной секции
+		const observerOptions = {
+			root: null,
+			threshold: 0.5 
+		}
+
+		const observer = new IntersectionObserver((entries) => {
+			entries.forEach(entry => {
+				if (entry.isIntersecting) {
+					const index = Array.from(sections).indexOf(entry.target)
+					if (index !== -1) {
+						currentIndex = index
+						updateActiveMenuItem(index)
+					}
+				}
+			})
+		}, observerOptions)
+
+		sections.forEach(section => observer.observe(section))
+
+		function updateActiveMenuItem(activeIndex) {
+			anchorLinks.forEach((link, idx) => {
+				if (idx === activeIndex) {
+					link.classList.add('active')
+				} else {
+					link.classList.remove('active')
+				}
+			})
+		}
+
+		// Обработчики кликов по меню
+		anchorLinks.forEach((link, index) => {
+			link.addEventListener('click', (e) => {
+				const href = link.getAttribute('href')
+				if (href.includes('#')) {
+					const targetId = link.dataset.bsTarget
+					if (document.querySelector(targetId)) {
+						e.preventDefault()
+						scrollToSection(index)
+
+						if (window.innerWidth <= 768) {
+							navContainer.classList.remove('open')
+							burgerButton.style.display = 'flex'
+						}
+					}
+				}
+			})
+		})
+
+		// Логика бургер-меню
 		burgerButton.addEventListener('click', () => {
 			navContainer.classList.add('open')
 			burgerButton.style.display = 'none'
@@ -104,35 +118,5 @@ document.addEventListener('DOMContentLoaded', function () {
 			navContainer.classList.remove('open')
 			burgerButton.style.display = 'flex'
 		})
-
-		// Обработчики для якорных ссылок в навигационной панели
-		
-		anchorLinks.forEach((link, index) => {
-
-			link.dataset.index = index; 
-
-			link.addEventListener('click', () => {
-
-				currentIndex = parseInt(link.dataset.index)
-				// Проверяем, является ли устройство мобильным
-				if (window.innerWidth <= 768) {
-					// Закрываем навигационную панель
-					navContainer.classList.remove('open')
-					burgerButton.style.display = 'flex'
-				}
-			})
-		})
-
-		// Привязка событий
-		sectionsContainer.addEventListener('wheel', handleWheel, { passive: false })
-		sectionsContainer.addEventListener('touchstart', handleTouchStart, {
-			passive: false,
-		})
-		sectionsContainer.addEventListener('touchmove', handleTouchMove, {
-			passive: false,
-		})
-
-		// Инициализация первой секции
-		scrollToSection(0)
 	}
 })
