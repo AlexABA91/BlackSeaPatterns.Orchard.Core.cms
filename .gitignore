@@ -56,7 +56,8 @@ App_Data/
 wwwroot/media/
 wwwroot/cache/
 wwwroot/temp/
-
+wwwroot/Default/
+wwwroot/sites/
 # Если используешь SQLite (локально)
 *.db
 *.sqlite
