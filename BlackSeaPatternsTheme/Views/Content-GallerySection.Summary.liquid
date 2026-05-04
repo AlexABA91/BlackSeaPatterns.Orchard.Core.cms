@@ -1,5 +1,31 @@
 <section id="gallery" class="slider-section section">
-	<div class="swiper-gallery">
+    <h2 class="gallery-title">Галерея</h2>
+
+    <div class="gallery-filters-container">
+        <!-- Десктопная и мобильная навигация -->
+        <div class="gallery-year-tabs-wrapper">
+            
+            
+            <div class="gallery-year-tabs" id="yearTabs">
+                {% assign startYear = 2025 %}
+                {% for i in (0..1) %}
+                    {% assign currentYear = startYear | plus: i %}
+                    <button class="gallery-year-tab {% if forloop.first %}active{% endif %}" data-year="{{ currentYear }}">
+                        {{ currentYear }}
+                    </button>
+                {% endfor %}
+             </div>
+            <!-- Кнопка выпадающего списка для мобилок (будет видна только на узких экранах) -->
+            <button class="gallery-mobile-tabs-dropdown-btn" id="mobileTabsBtn" aria-label="Toggle year selection">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+
+            <!-- Выпадающее меню для мобилок -->
+            <div class="gallery-mobile-dropdown" id="mobileDropdown"></div>
+        </div>
+    </div>
+
+	<!--<div class="swiper-gallery">
 		<div class="swiper-wrapper gallery-wrapper" id="gallery-wrapper">
 				{% for item in Model.ContentItem.Content.GallerySection.PhotoForSlider.Paths %} 
 					<div class="swiper-slide">
@@ -16,5 +42,6 @@
 			<img src="{{Model.ContentItem.Content.GallerySection.NextBtn.Paths | asset_url }}" 
 			{{Model.ContentItem.Content.GallerySection.NextBtn.MediaTexts}} />
 		</div>	
-	</div>
+	</div> -->
 </section>
+{% script src:"~/BlackSeaPatternsTheme/Assets/js/galleryTabsScript.js", at:"Foot" %}

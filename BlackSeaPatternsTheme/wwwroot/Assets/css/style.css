@@ -4,6 +4,7 @@
 	--h2-font-family: 'Great Vibes', serif;
 	--secondary-font-family: 'Abyssinica SIL', serif;
 	--primary-font-family: 'ADLaM Display','Pacifico', sans-serif;
+	--color-secondery: #FFD700;
 }
 
 /* ===================== KEYFRAMES ===================== */
@@ -99,7 +100,7 @@ h2 {
 /* ===================== CLASSES (A–Z) ===================== */
 
 .background-overlay {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -430,7 +431,94 @@ h2 {
 	max-height: 90%;
 	object-fit: contain;
 }
+.gallery-filters-container {
+	justify-self : start;
+	width: 90vw;
+	margin-left : 15vw;
+	position: relative;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
 
+.gallery-year-tabs-wrapper {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	position: relative;
+	align-items: center;
+}
+
+.gallery-year-tabs {
+	display: flex;
+	overflow-x: auto;
+	scroll-behavior: smooth;
+	gap: 12px;
+	
+	padding: 10px 5px;
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE/Edge */
+}
+
+	.gallery-year-tabs::-webkit-scrollbar {
+		display: none; /* Chrome/Safari */
+	}
+
+.gallery-year-tab {
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+	padding: 10px 28px;
+	font-weight: 500;
+	color: #fff;
+	cursor: pointer;
+	white-space: nowrap;
+	width: 35vw;
+	font-family: var(--secondary-font-family);
+	font-size: 1.1rem;
+	letter-spacing: 0.05em;
+}
+
+	.gallery-year-tab:hover {
+		background: rgba(255, 255, 255, 0.2);
+		border-color: var(--color-secondery);
+	}
+
+	.gallery-year-tab.active {
+		background: var(--color-secondery);
+		border-color: var(--color-secondery);
+		color: #000;
+	}
+.gallery-tabs-nav {
+	display : flex; 
+	flex-direction : row;
+	gap : 15px
+}
+
+.gallery-title {
+	margin-bottom : 1vh;
+}
+.gallery-mobile-tabs-dropdown-btn {
+	display: none;
+	width: 44px;
+	height: 44px;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid var(--color-secondery);
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	flex-shrink: 0;
+}
+
+	.gallery-mobile-tabs-dropdown-btn.open {
+		transform: rotate(180deg);
+		background: var(--color-secondery);
+		color: #000;
+	}
 .info-button {
 	position: relative;
 	padding: 0.5vw 1vw;
@@ -592,7 +680,7 @@ h2 {
 				width: clamp(150px, 12vw, 220px);
 				text-align: center;
 				font-family: var(--primary-font-family);
-				color: #FFD700;
+				color: var(--color-secondery);
 				text-shadow: 10px 8px 4px rgb(0 0 0 / 73%);
 				font-size: clamp(0.7rem, 1vw, 1.5rem);
 				letter-spacing: 0.2rem;
@@ -768,10 +856,10 @@ h2 {
 					transform: scale(1.1);
 				}
 
-			.nav-main a.active {
-				color: #FFD700;
-				transform: scale(1.05);
-			}
+				.nav-main a.active {
+					color: var(--color-secondery);
+					transform: scale(1.05);
+				}
 
 		.navigation-bar {
 			position: fixed;
@@ -881,8 +969,11 @@ h2 {
 		}
 
 		.section {
-			height: 100vh;
+			position :relative;
+			z-index : 2;
 			display: flex;
+			width : 100vw;
+			height: 100vh;
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
@@ -890,13 +981,6 @@ h2 {
 			scroll-snap-stop: always;
 			padding-top: clamp(50px, 4vh, 75px);
 			box-sizing: border-box;
-		}
-
-		.slider-section {
-			padding: 0;
-			display: flex;
-			align-items: center;
-			justify-content: center;
 		}
 
 		.social-media {
@@ -1060,6 +1144,88 @@ h2 {
 			.footer-sponsors {
 				width: 100vw;
 			}
+			.gallery-filters-container {
+				margin-left : 1vw;
+			}
+			.gallery-tabs-nav-btn {
+				display: none !important;
+			}
+
+			.gallery-year-tabs-wrapper {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				gap: 12px;
+				width: 100%;
+				position: relative;
+			}
+
+			.gallery-year-tabs {
+				display: flex;
+				flex-wrap: nowrap;
+				overflow: hidden;
+				gap: 12px;
+				justify-content: center;
+				margin: 0;
+				padding: 0;
+			}
+
+			.gallery-year-tab {
+				flex: 0 0 auto;
+				padding: 10px 20px;
+				font-size: 0.9rem;
+				display: none;
+				background: rgba(255, 255, 255, 0.1);
+				border: 1px solid rgba(255, 255, 255, 0.2);
+				border-radius: 8px;
+			}
+
+				.gallery-year-tab.mobile-visible {
+					display: block !important;
+				}
+
+			.gallery-mobile-tabs-dropdown-btn {
+				display: flex;
+				order: 2; /* Всегда справа */
+			}
+
+			/* Новый стиль для выпадающего меню */
+			.gallery-mobile-dropdown {
+				position: absolute;
+				top: calc(100% + 15px);
+				right: 0;
+				width: 200px;
+				background: #293077;
+				border: 1px solid var(--color-secondery);
+				border-radius: 15px;
+				box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+				padding: 10px;
+				display: none;
+				flex-direction: column;
+				gap: 8px;
+				z-index: 100;
+				max-height: 300px;
+				overflow-y: auto;
+			}
+
+				.gallery-mobile-dropdown.active {
+					display: flex;
+				}
+
+				.gallery-mobile-dropdown .gallery-year-tab {
+					display: block !important;
+					width: 100%;
+					text-align: center;
+					background: rgba(255, 255, 255, 0.05);
+					padding: 12px;
+					margin: 0;
+				}
+
+				.gallery-mobile-dropdown .gallery-year-tab.active {
+					background: var(--color-secondery);
+					color: #000;
+				}
 
 			.jury-track,
 			.organizers-track,
@@ -1147,3 +1313,6 @@ h2 {
 					height: 16px;
 				}
 		}
+
+
+	

@@ -12,18 +12,9 @@ document.addEventListener('DOMContentLoaded', function () {
 	const fullscreenOverlay = document.getElementById('fullscreen-overlay')
 	const fullscreenImage = document.getElementById('fullscreen-image')
 
-	const sponsorLogos = [
-		'wwwroot/Sponsor2.png',
-		'wwwroot/Слой 0.png',
-		'wwwroot/Слой 1.png',
-		'wwwroot/Слой 3.png',
-		'wwwroot/Слой 4.png',
-		'wwwroot/spnsor1.png',
-	]
-
-	const sponsorLoopSlides = Array.from({ length: 5 }, () => sponsorLogos).flat()
-
 	let swiper = null
+
+   
 
 	if (swiperGall) {
 		swiper = new Swiper('.swiper-gallery', {
