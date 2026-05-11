@@ -36,9 +36,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
 
+            // Переключение видимости сеток галереи
+            const grids = document.querySelectorAll('.gallery-grid');
+            grids.forEach(grid => {
+                if (grid.dataset.year === year) {
+                    grid.classList.add('active');
+                } else {
+                    grid.classList.remove('active');
+                }
+            });
+
             updateMobileTabsVisibility();
             
-            // TODO: Логика фильтрации галереи
             console.log(`Switching gallery to year: ${year}`);
         };
 
