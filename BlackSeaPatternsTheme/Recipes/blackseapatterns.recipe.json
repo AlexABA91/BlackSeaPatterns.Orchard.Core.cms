@@ -4583,7 +4583,7 @@
           "Author": "Admin",
           "RawHtml": {
             "Content": {
-              "Html": "{% style src:\u0022~/BlackSeaPatternsTheme/Assets/css/style.css\u0022 %}\r\n{% if Request.Path == \u0022/importantinformation\u0022 and Request.Path == \u0022/importantinformation-1\u0022 %}\r\n  {% style src:\u0022~/BlackSeaPatternsTheme/Assets/css/infoPage.css\u0022 %}\r\n{% endif %}\r\n{% style src:\u0022~/BlackSeaPatternsTheme/Assets/css/loader.css\u0022 %}\r\n{% style src:\u0022~/BlackSeaPatternsTheme/Assets/swiper/swiper.min.css\u0022 %}\r\n{% style src:\u0022~/BlackSeaPatternsTheme/Assets/swiper/modules/navigation.min.css\u0022 %}\r\n{% style src:\u0022~/BlackSeaPatternsTheme/Assets/swiper/modules/effect-fade.min.css\u0022 %}\r\n{% style src:\u0022~/BlackSeaPatternsTheme/Assets/swiper/modules/effect-creative.min.css\u0022 %"
+              "Html": "{% style src:\u0022~/BlackSeaPatternsTheme/Assets/css/style.css\u0022 %}\r\n{% if Request.Path == \u0022/importantinformation\u0022 and Request.Path == \u0022/importantinformation-1\u0022 %}\r\n  {% style src:\u0022~/BlackSeaPatternsTheme/Assets/css/infoPage.css\u0022 %}\r\n{% endif %}\r\n{% style src:\u0022~/BlackSeaPatternsTheme/Assets/css/loader.css\u0022 %}"
             }
           },
           "LayerMetadata": {

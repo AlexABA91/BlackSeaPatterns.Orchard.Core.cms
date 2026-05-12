@@ -1,7 +1,7 @@
 <section id="organizers" class="organizers-section section">
 			<h2 class="jury-title">{{Model.ContentItem.Content.JuryandOrganizersSection.TittleOne.Text}}</h2>
-			<div class="jury-photos swiper jury-swiper">
-				<div class="jury-track" id="jurySwiperWrapper">
+			<div class="jury-photos">
+				<div class="jury-track" id="juryTrackWrapper">
 						{% for item in Model.ContentItem.Content.Jury.ContentItems %} 
 							<div class="jury-track-item">
 								<div class="jury-track-image-background" 
@@ -16,8 +16,8 @@
 			</div>
 			<p class="jury-disclaimer">{{Model.ContentItem.Content.TitlePart.Title}}</p>
 			<h2 class="organizers-title">{{Model.ContentItem.Content.JuryandOrganizersSection.TitleTwo.Text}}</h2>
-			<div class="organizers-photos swiper organizers-swiper">
-				<div class="organizers-track" id="organizersSwiperWrapper">
+			<div class="organizers-photos">
+				<div class="organizers-track" id="organizersTrackWrapper">
 						{% for item in Model.ContentItem.Content.Organizers.ContentItems %} 
 						<div class="organizers-track-item">
 							<div class="organizers-track-image-background" 
