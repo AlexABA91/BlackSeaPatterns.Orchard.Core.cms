@@ -9,12 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	const isMobile = window.matchMedia('(max-width: 768px)').matches
 	const swiperGall = document.querySelector('.swiper-gallery')
-	const fullscreenOverlay = document.getElementById('fullscreen-overlay')
-	const fullscreenImage = document.getElementById('fullscreen-image')
 
 	let swiper = null
-
-   
 
 	if (swiperGall) {
 		swiper = new Swiper('.swiper-gallery', {
@@ -46,38 +42,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		})
 	}
 
-	const openFullscreenByIndex = index => {
-		if (!fullscreenOverlay || !fullscreenImage) return
-
-		let img = document.querySelector(`.swiper-gallery .swiper-slide[data-swiper-slide-index="${index}"] img`)
-		if (!img && swiperGall) {
-			const slides = swiperGall.querySelectorAll('.swiper-slide img')
-			img = slides[index]
-		}
-		if (!img) return
-
-		fullscreenImage.src = img.src
-		fullscreenOverlay.classList.add('active')
-	}
-
-	if (swiperGall && swiper) {
-		swiperGall.addEventListener('dblclick', event => {
-			const slide = event.target.closest('.swiper-slide')
-			if (!slide) return
-
-			// find image inside clicked slide and open it
-			const img = slide.querySelector('img')
-			if (!img) return
-			fullscreenImage.src = img.src
-			fullscreenOverlay.classList.add('active')
-		})
-	}
-
-	if (fullscreenOverlay) {
-		fullscreenOverlay.addEventListener('click', () => {
-			fullscreenOverlay.classList.remove('active')
-		})
-	}
     //duplication on sponsor jury and organizers tracks
 	const duplicateTrack = (htmlClass) => {
 		const track = document.querySelector(htmlClass)

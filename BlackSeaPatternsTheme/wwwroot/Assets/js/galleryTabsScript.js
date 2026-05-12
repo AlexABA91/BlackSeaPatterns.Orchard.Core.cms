@@ -108,4 +108,104 @@ document.addEventListener('DOMContentLoaded', () => {
 
         window.addEventListener('resize', updateMobileTabsVisibility);
     }
+
+    // --- 4. Логика Lightbox (Полноэкранный просмотр) ---
+    const overlay = document.getElementById('fullscreen-overlay');
+    const fullImg = document.getElementById('fullscreen-image');
+    const closeBtn = document.getElementById('fullscreen-close');
+    const prevBtn = document.getElementById('fullscreen-prev');
+    const nextBtn = document.getElementById('fullscreen-next');
+    
+    let currentImages = [];
+    let currentIndex = 0;
+
+    const openLightbox = (index, images) => {
+        currentImages = images;
+        currentIndex = index;
+        updateLightboxImage();
+        overlay.classList.add('active');
+        document.documentElement.classList.add('no-scroll');
+
+        // Запрос настоящего полноэкранного режима для оверлея
+        if (overlay.requestFullscreen) {
+            overlay.requestFullscreen().catch(err => {
+                console.log(`Error attempting to enable full-screen mode: ${err.message}`);
+            });
+        } else if (overlay.webkitRequestFullscreen) { /* Safari */
+            overlay.webkitRequestFullscreen();
+        } else if (overlay.msRequestFullscreen) { /* IE11 */
+            overlay.msRequestFullscreen();
+        }
+    };
+
+    const updateLightboxImage = () => {
+        if (currentImages[currentIndex]) {
+            fullImg.style.opacity = '0';
+            setTimeout(() => {
+                fullImg.src = currentImages[currentIndex];
+                fullImg.style.opacity = '1';
+            }, 150);
+        }
+    };
+
+    const closeLightbox = () => {
+        overlay.classList.remove('active');
+        document.documentElement.classList.remove('no-scroll');
+
+        // Выход из полноэкранного режима
+        if (document.fullscreenElement) {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.webkitExitFullscreen) {
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) {
+                document.msExitFullscreen();
+            }
+        }
+    };
+
+    const showNext = (e) => {
+        if (e) e.stopPropagation();
+        currentIndex = (currentIndex + 1) % currentImages.length;
+        updateLightboxImage();
+    };
+
+    const showPrev = (e) => {
+        if (e) e.stopPropagation();
+        currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
+        updateLightboxImage();
+    };
+
+    // Делегирование клика на изображения в галерее
+    document.addEventListener('click', (e) => {
+        if (e.target.classList.contains('gallery-image')) {
+            const grid = e.target.closest('.gallery-grid');
+            if (!grid) return;
+
+            const images = Array.from(grid.querySelectorAll('.gallery-image')).map(img => img.src);
+            const index = images.indexOf(e.target.src);
+            
+            openLightbox(index, images);
+        }
+    });
+
+    if (closeBtn) closeBtn.addEventListener('click', closeLightbox);
+    if (nextBtn) nextBtn.addEventListener('click', showNext);
+    if (prevBtn) prevBtn.addEventListener('click', showPrev);
+
+    // Закрытие по клику на фон
+    if (overlay) {
+        overlay.addEventListener('click', (e) => {
+            if (e.target === overlay) closeLightbox();
+        });
+    }
+
+    // Управление с клавиатуры
+    document.addEventListener('keydown', (e) => {
+        if (!overlay || !overlay.classList.contains('active')) return;
+
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowRight') showNext();
+        if (e.key === 'ArrowLeft') showPrev();
+    });
 });

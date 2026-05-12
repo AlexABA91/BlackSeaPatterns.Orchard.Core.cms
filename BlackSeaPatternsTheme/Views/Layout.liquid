@@ -27,8 +27,24 @@
 		{% render_body %}
 	</div>
 
-	<div id="fullscreen-overlay" class="fullscreen-overlay	">
+	<div id="orientation-warning" class="orientation-warning">
+        <div class="warning-content">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondery)" stroke-width="2"><path d="M12 21a9 9 0 0 0 9-9 9 9 0 0 0-9-9 9 9 0 0 0-9 9 9 9 0 0 0 9 9z"></path><path d="M12 8v4"></path><path d="M12 16h.01"></path></svg>
+            <p>Пожалуйста, переверните устройство в портретный режим</p>
+        </div>
+    </div>
+
+	<div id="fullscreen-overlay" class="fullscreen-overlay">
+        <button id="fullscreen-close" class="fullscreen-btn close-btn-x" aria-label="Close">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+        <button id="fullscreen-prev" class="fullscreen-btn prev-btn-nav" aria-label="Previous">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
 		<img id="fullscreen-image" src="" alt="Fullscreen Image" />
+        <button id="fullscreen-next" class="fullscreen-btn next-btn-nav" aria-label="Next">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
 	</div>
 	
     <svg style="display:none;">
