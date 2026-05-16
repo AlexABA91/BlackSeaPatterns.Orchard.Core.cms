@@ -112,6 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 4. Логика Lightbox (Полноэкранный просмотр) ---
     const overlay = document.getElementById('fullscreen-overlay');
     const fullImg = document.getElementById('fullscreen-image');
+    const toggleBtn = document.getElementById('fullscreen-toggle');
     const closeBtn = document.getElementById('fullscreen-close');
     const prevBtn = document.getElementById('fullscreen-prev');
     const nextBtn = document.getElementById('fullscreen-next');
@@ -125,16 +126,32 @@ document.addEventListener('DOMContentLoaded', () => {
         updateLightboxImage();
         overlay.classList.add('active');
         document.documentElement.classList.add('no-scroll');
+        
+        // По умолчанию открываем как "затененный оверлей" (не настоящий Fullscreen)
+        // Настоящий Fullscreen теперь включается только кнопкой
+    };
 
-        // Запрос настоящего полноэкранного режима для оверлея
-        if (overlay.requestFullscreen) {
-            overlay.requestFullscreen().catch(err => {
-                console.log(`Error attempting to enable full-screen mode: ${err.message}`);
-            });
-        } else if (overlay.webkitRequestFullscreen) { /* Safari */
-            overlay.webkitRequestFullscreen();
-        } else if (overlay.msRequestFullscreen) { /* IE11 */
-            overlay.msRequestFullscreen();
+    const toggleFullscreen = (e) => {
+        if (e) e.stopPropagation();
+        
+        if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+            // Вход в полноэкранный режим
+            const enterFS = overlay.requestFullscreen || overlay.webkitRequestFullscreen || overlay.msRequestFullscreen;
+            if (enterFS) {
+                const promise = enterFS.call(overlay);
+                if (promise && promise.then) {
+                    promise.then(() => {
+                        // На мобилках пытаемся развернуть в ландшафт
+                        if (window.matchMedia('(max-width: 1024px)').matches && screen.orientation && screen.orientation.lock) {
+                            screen.orientation.lock('landscape').catch(() => {});
+                        }
+                    }).catch(() => {});
+                }
+            }
+        } else {
+            // Выход из полноэкранного режима
+            const exitFS = document.exitFullscreen || document.webkitExitFullscreen || document.msExitFullscreen;
+            if (exitFS) exitFS.call(document);
         }
     };
 
@@ -152,15 +169,15 @@ document.addEventListener('DOMContentLoaded', () => {
         overlay.classList.remove('active');
         document.documentElement.classList.remove('no-scroll');
 
-        // Выход из полноэкранного режима
-        if (document.fullscreenElement) {
-            if (document.exitFullscreen) {
-                document.exitFullscreen();
-            } else if (document.webkitExitFullscreen) {
-                document.webkitExitFullscreen();
-            } else if (document.msExitFullscreen) {
-                document.msExitFullscreen();
-            }
+        // Выход из полноэкранного режима при закрытии
+        if (document.fullscreenElement || document.webkitFullscreenElement) {
+            const exitFS = document.exitFullscreen || document.webkitExitFullscreen || document.msExitFullscreen;
+            if (exitFS) exitFS.call(document);
+        }
+        
+        // Разблокировка ориентации
+        if (screen.orientation && screen.orientation.unlock) {
+            screen.orientation.unlock();
         }
     };
 
@@ -189,16 +206,58 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Делегирование двойного клика
+    document.addEventListener('dblclick', (e) => {
+        // Если двойной клик по картинке в галерее - открываем как оверлей
+        if (e.target.classList.contains('gallery-image')) {
+             // Клик уже сработал и открыл, но на всякий случай
+             if (!overlay.classList.contains('active')) {
+                const grid = e.target.closest('.gallery-grid');
+                if (grid) {
+                    const images = Array.from(grid.querySelectorAll('.gallery-image')).map(img => img.src);
+                    const index = images.indexOf(e.target.src);
+                    openLightbox(index, images);
+                }
+             }
+             // Гарантируем отсутствие FS при dblclick
+             if (document.fullscreenElement || document.webkitFullscreenElement) {
+                 const exitFS = document.exitFullscreen || document.webkitExitFullscreen || document.msExitFullscreen;
+                 if (exitFS) exitFS.call(document);
+             }
+        }
+
+        // Если двойной клик внутри открытого оверлея - выходим из FS в режим оверлея
+        if (overlay.classList.contains('active') && (e.target === fullImg || e.target === overlay)) {
+            if (document.fullscreenElement || document.webkitFullscreenElement) {
+                const exitFS = document.exitFullscreen || document.webkitExitFullscreen || document.msExitFullscreen;
+                if (exitFS) exitFS.call(document);
+            }
+        }
+    });
+
+    if (toggleBtn) toggleBtn.addEventListener('click', toggleFullscreen);
     if (closeBtn) closeBtn.addEventListener('click', closeLightbox);
     if (nextBtn) nextBtn.addEventListener('click', showNext);
     if (prevBtn) prevBtn.addEventListener('click', showPrev);
 
-    // Закрытие по клику на фон
+    // Закрытие по клику на фон (только если не FS)
     if (overlay) {
         overlay.addEventListener('click', (e) => {
             if (e.target === overlay) closeLightbox();
         });
     }
+
+    // Обработка выхода из FS (например по Esc) для разблокировки ориентации
+    document.addEventListener('fullscreenchange', () => {
+        if (!document.fullscreenElement && screen.orientation && screen.orientation.unlock) {
+            screen.orientation.unlock();
+        }
+    });
+    document.addEventListener('webkitfullscreenchange', () => {
+        if (!document.webkitFullscreenElement && screen.orientation && screen.orientation.unlock) {
+            screen.orientation.unlock();
+        }
+    });
 
     // Управление с клавиатуры
     document.addEventListener('keydown', (e) => {
@@ -207,5 +266,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.key === 'Escape') closeLightbox();
         if (e.key === 'ArrowRight') showNext();
         if (e.key === 'ArrowLeft') showPrev();
+        if (e.key === 'f' || e.key === 'F') toggleFullscreen();
     });
 });
