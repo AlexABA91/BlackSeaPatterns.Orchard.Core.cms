@@ -57,6 +57,7 @@ wwwroot/media/
 wwwroot/cache/
 wwwroot/temp/
 wwwroot/Default/
+/BlackSeaPatterns.Orchard.Core.cms/wwwroot/Default/
 wwwroot/sites/
 # Если используешь SQLite (локально)
 *.db

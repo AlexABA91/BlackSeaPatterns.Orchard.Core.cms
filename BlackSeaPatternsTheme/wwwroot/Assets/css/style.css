@@ -961,6 +961,10 @@ html.no-scroll .orientation-warning {
 			container-type: inline-size;
 		}
 
+		.nav-footer .footer-title {
+			display : none;
+		}
+
 		.nav-header {
 			flex: 1;
 			position: relative;
@@ -970,10 +974,10 @@ html.no-scroll .orientation-warning {
 			padding-top: 1rem;
 		}
 
-			.nav-header .nav-logo {
-				width: clamp(150px, 20vw, 120px);
-				height: clamp(150px, 20vw, 120px);
-			}
+		.nav-header .nav-logo {
+			width: clamp(150px, 20vw, 120px);
+			height: clamp(150px, 20vw, 120px);
+		}
 
 		.nav-logo {
 			width: clamp(100px, 15vw, 150px);
