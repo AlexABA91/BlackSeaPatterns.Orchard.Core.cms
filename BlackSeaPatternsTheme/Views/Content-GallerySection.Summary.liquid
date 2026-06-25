@@ -4,13 +4,10 @@
     <div class="gallery-filters-container">
         <!-- Десктопная и мобильная навигация -->
         <div class="gallery-year-tabs-wrapper">
-            
-           
-            <div class="gallery-year-tabs" id="yearTabs">
-                
+   
+            <div class="gallery-year-tabs" id="yearTabs">  
                 {% for item in Model.ContentItem.Content.BagPart.ContentItems %}
-                   <button class="gallery-year-tab {% if forloop.first %} active {%  endif %}" data-year="{{ item.DisplayText }}"> 
-                    
+                   <button class="gallery-year-tab {% if forloop.first %} active {%  endif %}" data-year="{{ item.DisplayText }}">                   
                         {{ item.DisplayText  }}
                     </button>
                 {% endfor %}
@@ -24,12 +21,11 @@
             <div class="gallery-mobile-dropdown" id="mobileDropdown"></div>
         </div>
     </div>
-   
     <div class="gallery-grid-container" id="galleryGrid">
         {% for item in Model.ContentItem.Content.BagPart.ContentItems %}
              <div class="gallery-grid {% if forloop.first %}active{% endif %}"
          data-year="{{ item.DisplayText }}">
-                  {% for photoPath in item.GalleryYear.Photos.Paths %}
+                  {% for photoPath in item.GalleryYear.GalleryYearPart.Paths %}
                        <div class="gallery-item">
                             <img src="{{ photoPath | asset_url }}" class="gallery-image"
                                 alt="{{ item.DisplayText }}" />

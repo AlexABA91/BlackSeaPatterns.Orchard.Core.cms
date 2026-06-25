@@ -4,7 +4,7 @@
   "description": "Site for Black Sea Patterns Fest",
   "author": "AlexABA",
   "website": "",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "issetuprecipe": true,
   "categories": [],
   "tags": [],
@@ -1162,194 +1162,38 @@
           }
         },
         {
-          "ContentItemId": "4habs5tjxyxfh3gjszhgpef7mr",
-          "ContentItemVersionId": "42bc4pkgbzthe0v1qh7b29hwmc",
-          "ContentType": "Menu",
-          "DisplayText": "Main Menu",
-          "Latest": true,
-          "Published": true,
-          "ModifiedUtc": "2026-04-11T13:16:26.1139045Z",
-          "PublishedUtc": "2026-04-11T13:16:26.1264291Z",
-          "CreatedUtc": "2026-03-14T09:16:48.165017Z",
-          "Owner": "4mtb7n1a9q698w1th4023hy4cr",
-          "Author": "Admin",
-          "MenuPart": {},
-          "TitlePart": {
-            "Title": "Main Menu"
-          },
-          "MenuItemsListPart": {
-            "MenuItems": [
-              {
-                "ContentItemId": "434e16hhyrrtcvgcyy1dmkt95d",
-                "ContentItemVersionId": null,
-                "ContentType": "LinkMenuItem",
-                "DisplayText": "HOME",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2026-03-15T16:13:07.9504301Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "Admin",
-                "LinkMenuItemPart": {
-                  "Url": "~/blackseapatterns/#home",
-                  "Target": null
-                },
-                "LinkMenuItem": {}
-              },
-              {
-                "ContentItemId": "41xsp4k1360k5v1djhj4fc7fcs",
-                "ContentItemVersionId": null,
-                "ContentType": "LinkMenuItem",
-                "DisplayText": "GALLERY",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2026-03-15T16:13:17.6468194Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "Admin",
-                "LinkMenuItemPart": {
-                  "Url": "~/blackseapatterns/#gallery",
-                  "Target": null
-                },
-                "LinkMenuItem": {}
-              },
-              {
-                "ContentItemId": "41vcgzrgrptmhr8ym7c2qgdqcb",
-                "ContentItemVersionId": null,
-                "ContentType": "LinkMenuItem",
-                "DisplayText": "CATEGORY",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2026-03-15T16:13:24.9152152Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "Admin",
-                "LinkMenuItemPart": {
-                  "Url": "~/blackseapatterns/#category",
-                  "Target": null
-                },
-                "LinkMenuItem": {}
-              },
-              {
-                "ContentItemId": "444bzct03h4htsf0c7rab5zbn5",
-                "ContentItemVersionId": null,
-                "ContentType": "LinkMenuItem",
-                "DisplayText": "NOMINATION",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2026-03-15T16:13:30.8048711Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "Admin",
-                "LinkMenuItemPart": {
-                  "Url": "~/blackseapatterns/#nomination",
-                  "Target": null
-                },
-                "LinkMenuItem": {}
-              },
-              {
-                "ContentItemId": "4enpagnkfhf1k7b8mmhffmxfxg",
-                "ContentItemVersionId": null,
-                "ContentType": "LinkMenuItem",
-                "DisplayText": "ORGANIZERS",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2026-03-15T16:13:36.7743349Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "Admin",
-                "LinkMenuItemPart": {
-                  "Url": "~/blackseapatterns/#organizers",
-                  "Target": null
-                },
-                "LinkMenuItem": {}
-              },
-              {
-                "ContentItemId": "47ywrg5w17jzgvv76d874fq9n9",
-                "ContentItemVersionId": null,
-                "ContentType": "LinkMenuItem",
-                "DisplayText": "CONTACTS",
-                "Latest": false,
-                "Published": false,
-                "ModifiedUtc": "2026-03-15T16:13:44.7858729Z",
-                "PublishedUtc": null,
-                "CreatedUtc": null,
-                "Owner": null,
-                "Author": "Admin",
-                "LinkMenuItemPart": {
-                  "Url": "~/blackseapatterns/#contacts",
-                  "Target": null
-                },
-                "LinkMenuItem": {}
-              }
-            ]
-          },
-          "AliasPart": {
-            "Alias": "main-menu"
-          }
-        },
-        {
-          "ContentItemId": "4jg8qy07r1e5a3w4whsdry31w5",
-          "ContentItemVersionId": "4gzd15bbnz3y413p37j4ecr0n2",
+          "ContentItemId": "4jnx9mzj8m29nxj0a4n3x6t3x9",
+          "ContentItemVersionId": "4yxa9msf8fqffrbpje2bfg94my",
           "ContentType": "RawHtml",
-          "DisplayText": "Header",
+          "DisplayText": "Contacts",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2026-04-13T07:47:03.659674Z",
-          "PublishedUtc": "2026-04-13T07:47:03.6815906Z",
-          "CreatedUtc": "2026-04-10T16:58:42.9820402Z",
+          "ModifiedUtc": "2026-04-11T12:45:02.5789962Z",
+          "PublishedUtc": "2026-04-11T12:45:02.5807332Z",
+          "CreatedUtc": "2026-04-09T11:14:51.4351508Z",
           "Owner": "4hf43nqkdvrkt038yfab72gj45",
           "Author": "Admin",
           "RawHtml": {
             "Content": {
-              "Html": "\u003Cheader\u003E\r\n\u003Cdiv class=\u0022lang\u0022\u003E\r\n{% if Culture.Name == \u0022en\u0022 %}\r\n    \u003Ca href=\u0022{{ \u0022uk-UA\u0022 | switch_culture_url }}\u0022 class=\u0022lang-btn\u0022 aria-label=\u0022Switch to Ukrainian\u0022\u003E\r\n        \u003Cspan class=\u0022lang-icon-wrapper\u0022\u003E\r\n            \u003Csvg class=\u0022lang-icon\u0022\u003E\r\n                \u003Cuse href=\u0022#flag-ua\u0022\u003E\u003C/use\u003E\r\n            \u003C/svg\u003E\r\n        \u003C/span\u003E\r\n    \u003C/a\u003E\r\n{% else %}\r\n    \u003Ca href=\u0022{{ \u0022en\u0022 | switch_culture_url }}\u0022 class=\u0022lang-btn\u0022 aria-label=\u0022Switch to English\u0022\u003E\r\n        \u003Cspan class=\u0022lang-icon-wrapper\u0022\u003E\r\n            \u003Csvg class=\u0022lang-icon\u0022\u003E\r\n                \u003Cuse href=\u0022#flag-en\u0022\u003E\u003C/use\u003E\r\n            \u003C/svg\u003E\r\n        \u003C/span\u003E\r\n    \u003C/a\u003E\r\n{% endif %}\r\n\u003C/div\u003E\r\n\t\u003Cdiv class=\u0022top-bar\u0022\u003E\r\n               [locale en]\u003Ca href=\u0022importantinformation\u0022 class=\u0022info-button\u0022\u003EInformation for participants\u003C/a\u003E [/locale]\r\n               [locale uk-UA]\u003Ca href=\u0022importantinformation-1\u0022 class=\u0022info-button\u0022\u003E\u0406\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0456\u044F \u0434\u043B\u044F \u0443\u0447\u0430\u0441\u043D\u0438\u043A\u0456\u0432\u003C/a\u003E [/locale]\r\n\t\u003C/div\u003E\r\n\t\u003Cdiv class=\u0022burger-menu\u0022\u003E\r\n\t\t\u003Cdiv class=\u0022burger-line burger-line-one\u0022\u003E\u003C/div\u003E\r\n\t\t\u003Cdiv class=\u0022burger-line burger-line-two\u0022\u003E\u003C/div\u003E\r\n\t\t\u003Cdiv class=\u0022burger-line burger-line-three\u0022\u003E\u003C/div\u003E\r\n\t\u003C/div\u003E\r\n\u003C/header\u003E"
+              "Html": "[locale en] \u003Ch2 class=\u0022footer-title\u0022\u003EContacts\u003C/h2\u003E [/locale]\r\n[locale uk-UA] \u003Ch2 class=\u0022footer-title\u0022\u003E\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u0438\u003C/h2\u003E [/locale]\r\n\u003Cdiv class=\u0022footer-mail\u0022\u003E\r\n\t[image]MailSVG.svg?v=tC7ZXrBRSbe_Qu-4SqQZLhRFssxnKIRUAYdOr10DB_k[/image]\r\n\t\u003Ca href=\u0022mailto:blacksea.patterns@gmail.com\u0022\u003Eblackseepatterns@gmail.com\u003C/a\u003E\r\n\u003C/div\u003E\r\n\u003Cdiv class=\u0022footer-phone\u0022\u003E\r\n\t[image]Vector.svg?v=I9WnUfHEP39jC35mC-lAYxxfif5gEKxKrG33ITOCL64[/image]\r\n\t\u003Ca href=\u0022tel:\u002B380964034862\u0022\u003E\u002B380964034862\u003C/a\u003E\r\n\u003C/div\u003E\r\n\u003Cdiv class=\u0022footer-social\u0022\u003E\r\n\t\u003Ca href=\u0022https://www.instagram.com/chornomorski_vizerunky_fest/\u0022\u003E\r\n\t[image]Instagram.svg?v=lARGriwOi2fMJv5rcUaVhY4Ov9sqhUSrpIRsBzHw3Is[/image]\r\n\t\u003C!-- \u003Ca href=\u0022#\u0022\u003E\u003Cimg src=\u0022img/Telegram App.svg\u0022 alt=\u0022Telegram\u0022 /\u003E\u003C/a\u003E --\u003E\r\n\t\u003Ca href=\u0022https://www.facebook.com/people/%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%BC%D0%BE%D1%80%D1%81%D1%8C%D0%BA%D1%96-%D0%92%D1%96%D0%B7%D0%B5%D1%80%D1%83%D0%BD%D0%BA%D0%B8/61569483072807/\u0022\u003E\r\n\t[image]Facebook.svg?v=InbKCLENjrsk13NEwNb-ULlrnlDFiysvPgpkCnroiJs [/image]\u003C/a\u003E\r\n\u003C/div\u003E"
             }
           },
           "LayerMetadata": {
             "RenderTitle": false,
             "Position": 1,
-            "Zone": "Header",
-            "Layer": "Always"
-          }
-        },
-        {
-          "ContentItemId": "44qnwnnx7r7pn1ma8gfbefe15y",
-          "ContentItemVersionId": "4xqe27fmx08bjwpg6e9evktb53",
-          "ContentType": "RawHtml",
-          "DisplayText": "Screpts",
-          "Latest": true,
-          "Published": true,
-          "ModifiedUtc": "2026-04-13T07:56:26.4050953Z",
-          "PublishedUtc": "2026-04-13T07:56:26.4068123Z",
-          "CreatedUtc": "2026-04-10T19:48:40.5023704Z",
-          "Owner": "4hf43nqkdvrkt038yfab72gj45",
-          "Author": "Admin",
-          "RawHtml": {
-            "Content": {
-              "Html": "{% script src:\u0022~/BlackSeaPatternsTheme/Assets/js/loader.js\u0022, at:\u0022Foot\u0022 %}\r\n{% if Request.Path != \u0022/importantinformation-1\u0022 and Request.Path != \u0022/importantinformation\u0022  %}\r\n    {% script src:\u0022~/BlackSeaPatternsTheme/Assets/js/script.js\u0022, at:\u0022Foot\u0022 %}\r\n{% endif %}\r\n{% script src:\u0022~/BlackSeaPatternsTheme/Assets/js/slider.js\u0022, at:\u0022Foot\u0022, type:\u0022module\u0022 %}"
-            }
-          },
-          "LayerMetadata": {
-            "RenderTitle": false,
-            "Position": 1,
-            "Zone": "Screpts",
+            "Zone": "Contacts",
             "Layer": "Always"
           }
         },
         {
           "ContentItemId": "4eh2yrg4t1jcvwsrh1kaha66n8",
-          "ContentItemVersionId": "4qrksmgxzf6321qzacph87s75b",
+          "ContentItemVersionId": "454v70zw9y31v4gbcdc161bn4g",
           "ContentType": "MainPage",
           "DisplayText": "\u0427\u043E\u0440\u043D\u043E\u043C\u043E\u0440\u0441\u044C\u043A\u0456 \u0432\u0456\u0437\u0435\u0440\u0443\u043D\u043A\u0438",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2026-06-24T11:27:09.7307933Z",
-          "PublishedUtc": "2026-06-24T11:27:09.7757673Z",
+          "ModifiedUtc": "2026-04-11T13:06:29.7584838Z",
+          "PublishedUtc": "2026-04-11T13:06:29.9111507Z",
           "CreatedUtc": "2026-04-11T07:53:07.0805346Z",
           "Owner": "4hf43nqkdvrkt038yfab72gj45",
           "Author": "Admin",
@@ -1377,7 +1221,7 @@
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2026-06-24T11:27:09.7344201Z",
+                "ModifiedUtc": "2026-04-11T13:06:29.786859Z",
                 "PublishedUtc": null,
                 "CreatedUtc": null,
                 "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1399,7 +1243,7 @@
                       "DisplayText": "\u201C\u0427\u043E\u0440\u043D\u043E\u043C\u043E\u0440\u0441\u044C\u043A\u0456 \u0432\u0456\u0437\u0435\u0440\u0443\u043D\u043A\u0438\u201D",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7355133Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.7976183Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1412,7 +1256,7 @@
                           "Text": "\u0424\u0415\u0421\u0422\u0418\u0412\u0410\u041B\u042C \u00AB\u0410\u0420\u0422-\u0414\u0410\u041D\u0421\u00BB"
                         },
                         "FestDate": {
-                          "Text": "\u041D\u0435\u0437\u0430\u0431\u0430\u0440\u043E\u043C"
+                          "Text": "\u0417 25 \u043F\u043E 26 \u041A\u0432\u0456\u0442\u043D\u044F 2026 \u0440\u043E\u043A\u0443"
                         },
                         "CityField": {
                           "Text": "\u041E\u0434\u0435\u0441\u0430"
@@ -1426,88 +1270,589 @@
                 }
               },
               {
-                "ContentItemId": "4e47mmj6ftrxb4r7b4gvjwjwc9",
+                "ContentItemId": "460m4vdv1fm1cyfjerc8y8wxwy",
                 "ContentItemVersionId": null,
                 "ContentType": "GallerySection",
-                "DisplayText": "\u041D\u0430\u0448\u0456 \u0441\u043F\u043E\u0433\u0430\u0434\u0438 ",
+                "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2026-06-24T11:27:09.7388681Z",
+                "ModifiedUtc": "2026-04-11T13:06:29.8056026Z",
                 "PublishedUtc": null,
                 "CreatedUtc": null,
-                "Owner": "4r78hg6gsk6ghr5dc0eyk1rk5x",
+                "Owner": "4hf43nqkdvrkt038yfab72gj45",
                 "Author": "Admin",
-                "GallerySection": {},
+                "GallerySection": {
+                  "PrevBtn": {
+                    "Paths": [
+                      "prev_arrow.svg"
+                    ],
+                    "MediaTexts": [
+                      ""
+                    ]
+                  },
+                  "NextBtn": {
+                    "Paths": [
+                      "next_arrow.svg"
+                    ],
+                    "MediaTexts": [
+                      ""
+                    ]
+                  }
+                },
                 "BagPart": {
                   "ContentItems": [
                     {
-                      "ContentItemId": "4e2shxt83t7x2ywf1vptkjd9dq",
+                      "ContentItemId": "47sxdb1kqza88zvnhdks1ez4n4",
                       "ContentItemVersionId": null,
-                      "ContentType": "GalleryYear",
-                      "DisplayText": "2025",
+                      "ContentType": "Image",
+                      "DisplayText": null,
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7391468Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8072878Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
-                      "Owner": "4r78hg6gsk6ghr5dc0eyk1rk5x",
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
                       "Author": "Admin",
-                      "GalleryYear": {
-                        "GalleryYearPart": {
+                      "Image": {
+                        "Media": {
                           "Paths": [
-                            "gallery/2025/Gusak-Artem-36052_17_11zon.webp",
-                            "gallery/2025/Gusak Artem 01586_11zon.webp",
-                            "gallery/2025/Gusak Artem 01624_1_11zon.webp",
-                            "gallery/2025/Gusak Artem 07012_2_11zon.webp",
-                            "gallery/2025/Gusak Artem 07194_3_11zon.webp",
-                            "gallery/2025/Gusak Artem 07678_4_11zon.webp",
-                            "gallery/2025/Gusak Artem 12644_5_11zon.webp",
-                            "gallery/2025/Gusak Artem 14772_6_11zon.webp",
-                            "gallery/2025/Gusak Artem 15245_7_11zon.webp",
-                            "gallery/2025/Gusak Artem 17729_8_11zon.webp",
-                            "gallery/2025/Gusak Artem 18773_9_11zon.webp",
-                            "gallery/2025/Gusak Artem 26611_10_11zon.webp",
-                            "gallery/2025/Gusak Artem 32367_11_11zon.webp",
-                            "gallery/2025/Gusak-Artem-33234_12_11zon.webp",
-                            "gallery/2025/Gusak-Artem-34109_13_11zon.webp",
-                            "gallery/2025/Gusak-Artem-34976_14_11zon.webp",
-                            "gallery/2025/Gusak-Artem-35744_15_11zon.webp",
-                            "gallery/2025/Gusak-Artem-35921_16_11zon.webp",
-                            "gallery/2025/Gusak-Artem-44553_18_11zon.webp",
-                            "gallery/2025/Gusak-Artem-48247_19_11zon.webp"
+                            "Gusak Artem 01586_11zon.webp"
                           ],
                           "MediaTexts": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
                             ""
                           ]
+                        },
+                        "Caption": {
+                          "Text": "Img1"
                         }
                       },
                       "TitlePart": {
-                        "Title": "2025"
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4qf36qz2gberr4xay673s39jdj",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8089565Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 01624_1_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": "Img2"
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "49pp3h9hemhe065cpfzt0qj4dt",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8104965Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 07012_2_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4zf0p513jkh611crre9905em43",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8120496Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 07194_3_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "40tt9wyr744pkrkfaxnf9hnjnz",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8136558Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 07678_4_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4wfhpbcmkk31c3aqzf06krb5n3",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8152547Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 12644_5_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "418arfr15xa6b5112nvt8q754p",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8170678Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 14772_6_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "42v3g8kb0nc42wx69dhdvbvg5z",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8189635Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 15245_7_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4z5408vcjf8ytrhnmqykavqexq",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8206991Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 17729_8_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4btjg2twwwcq0tw00vffpgvtcs",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.822394Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 18773_9_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "43ahb5p659ktf2mbqbf4vhpncy",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8240882Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 26611_10_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4w62s31sf1xrx43y7qj80pfpmd",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8258436Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 32367_11_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4phtk7zq0pc9xvyg2gxhszcfme",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.827618Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak-Artem-33234_12_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4k9sb2xt6pfzd3hcj9b3zv0r45",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8293937Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak-Artem-34976_14_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4z01nb0z7gxv0s17bjtdajx54y",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8314746Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak-Artem-35744_15_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4afej02x852ngzbk75fssnfnxs",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8337929Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak-Artem-35921_16_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4339nmq4jrsjdr2ej9kemajxxj",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8360535Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak-Artem-36052_17_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "477pb9yf3dyf56hmagyh66s2xp",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.8388655Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak-Artem-44553_18_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4pvzq4mtgmgbx5q6wh0jyt0tmp",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:29.841776Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak-Artem-48247_19_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
                       }
                     }
                   ]
-                },
-                "TitlePart": {
-                  "Title": "\u041D\u0430\u0448\u0456 \u0441\u043F\u043E\u0433\u0430\u0434\u0438 "
                 }
               },
               {
@@ -1517,7 +1862,7 @@
                 "DisplayText": "\u041A\u0430\u0442\u0435\u0433\u043E\u0440\u0456\u0457",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2026-06-24T11:27:09.7414154Z",
+                "ModifiedUtc": "2026-04-11T13:06:29.8445151Z",
                 "PublishedUtc": null,
                 "CreatedUtc": null,
                 "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1545,7 +1890,7 @@
                       "DisplayText": null,
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7437504Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8476361Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1563,7 +1908,7 @@
                       "DisplayText": null,
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7443536Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.848823Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1581,7 +1926,7 @@
                       "DisplayText": null,
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7449654Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.850379Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1599,7 +1944,7 @@
                       "DisplayText": null,
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7455962Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8516992Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1623,7 +1968,7 @@
                 "DisplayText": "\u041D\u043E\u043C\u0456\u043D\u0430\u0446\u0456\u0457",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2026-06-24T11:27:09.7468338Z",
+                "ModifiedUtc": "2026-04-11T13:06:29.8533872Z",
                 "PublishedUtc": null,
                 "CreatedUtc": null,
                 "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1651,7 +1996,7 @@
                       "DisplayText": "\u0413\u0440\u0443\u043F\u0430 1 \u2014 \u043C\u043E\u043B\u043E\u0434\u0448\u0430 \u0433\u0440\u0443\u043F\u0430 (9\u201310 \u0440\u043E\u043A\u0456\u0432)",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7489473Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8562716Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1668,7 +2013,7 @@
                       "DisplayText": "\u0413\u0440\u0443\u043F\u0430 2 \u2014 \u0441\u0435\u0440\u0435\u0434\u043D\u044F \u0433\u0440\u0443\u043F\u0430 (11\u201313 \u0440\u043E\u043A\u0456\u0432)",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.749599Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8574268Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1685,7 +2030,7 @@
                       "DisplayText": "\u0413\u0440\u0443\u043F\u0430 3 \u2014 \u0441\u0442\u0430\u0440\u0448\u0430 \u0433\u0440\u0443\u043F\u0430 (14\u201316 \u0440\u043E\u043A\u0456\u0432)",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7502411Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8585211Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1702,7 +2047,7 @@
                       "DisplayText": "\u0413\u0440\u0443\u043F\u0430 4 \u2014 \u043C\u043E\u043B\u043E\u0434\u044C (17\u201323 \u0440\u043E\u043A\u0438)",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7508832Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8596067Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1719,7 +2064,7 @@
                       "DisplayText": "\u0413\u0440\u0443\u043F\u0430 5 \u2014 \u0420\u0456\u0437\u043D\u0456 \u0432\u0456\u043A\u043E\u0432\u0456 \u0433\u0440\u0443\u043F\u0438 (\u0434\u043B\u044F \u0430\u043D\u0441\u0430\u043C\u0431\u043B\u044E)",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.751522Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8607176Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1739,7 +2084,7 @@
                 "DisplayText": "\u0421\u043A\u043B\u0430\u0434 \u0436\u0443\u0440\u0456 \u043C\u043E\u0436\u0435 \u0437\u043C\u0456\u043D\u044E\u0432\u0430\u0442\u0438\u0441\u044F. *",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2026-06-24T11:27:09.7523458Z",
+                "ModifiedUtc": "2026-04-11T13:06:29.8620621Z",
                 "PublishedUtc": null,
                 "CreatedUtc": null,
                 "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1772,7 +2117,7 @@
                       "DisplayText": "\u041A\u0430\u0442\u0435\u0440\u0438\u043D\u0430 \u041A\u0443\u0440\u043C\u0430\u043D",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7546581Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8649139Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1795,10 +2140,10 @@
                       "ContentItemId": "454rwynr1n5ed35bk0p9y74n4d",
                       "ContentItemVersionId": null,
                       "ContentType": "SliderItem",
-                      "DisplayText": "\u041E\u043B\u0435\u043D\u0430 \u0411\u0430\u0440\u0430\u043D\u043E\u0432\u0441\u044C\u043A\u0430",
+                      "DisplayText": "\u041E\u043B\u0435\u043D\u0430 \u0413\u0435\u043D\u043D\u0430\u0434\u0456\u0457\u0432\u043D\u0430 \u0411\u0430\u0440\u0430\u043D\u043E\u0432\u0441\u044C\u043A\u0430",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7558682Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8666505Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1806,7 +2151,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "Jury/Olena Baranovska.png"
+                            "Jury/\u0411\u0430\u0440\u0430\u043D\u043E\u0432\u0441\u044C\u043A\u0430 \u041E\u043B\u0435\u043D\u0430 \u0413\u0435\u043D\u043D\u0430\u0434i\u0457\u0432\u043D\u0430.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -1814,7 +2159,7 @@
                         }
                       },
                       "TitlePart": {
-                        "Title": "\u041E\u043B\u0435\u043D\u0430 \u0411\u0430\u0440\u0430\u043D\u043E\u0432\u0441\u044C\u043A\u0430"
+                        "Title": "\u041E\u043B\u0435\u043D\u0430 \u0413\u0435\u043D\u043D\u0430\u0434\u0456\u0457\u0432\u043D\u0430 \u0411\u0430\u0440\u0430\u043D\u043E\u0432\u0441\u044C\u043A\u0430"
                       }
                     },
                     {
@@ -1824,7 +2169,7 @@
                       "DisplayText": "\u0412\u0430\u0434\u0438\u043C \u0421\u0430\u0431\u043E\u0434\u0430\u0448",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7570283Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8683976Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1832,7 +2177,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "Jury/Vadym Sabodash.png"
+                            "Jury/\u0412\u0430\u0434\u0438\u043C \u0421\u0430\u0431\u043E\u0434\u0430\u0448.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -1850,7 +2195,7 @@
                       "DisplayText": "\u041E\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440 \u041F\u0430\u0432\u043B\u0443\u0447\u0435\u043D\u043A\u043E",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7586505Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8701124Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1858,7 +2203,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "Jury/Oleksandr Pavluchenko.png"
+                            "Jury/\u041E\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440 \u041F\u0430\u0432\u043B\u0443\u0447\u0435\u043D\u043A\u043E.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -1873,10 +2218,10 @@
                       "ContentItemId": "43m5fx6jjnk9e5xsatccehv0d3",
                       "ContentItemVersionId": null,
                       "ContentType": "SliderItem",
-                      "DisplayText": "\u041C\u0438\u0445\u0430\u0439\u043B\u043E \u041F\u0435\u0442\u0443\u0445\u043E\u0432",
+                      "DisplayText": "\u041C\u0438\u0445\u0430\u0439\u043B\u043E \u0412\u0430\u0441\u0438\u043B\u044C\u043E\u0432\u0438\u0447 \u041F\u0435\u0442\u0443\u0445\u043E\u0432",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7601833Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8718981Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1884,7 +2229,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "Jury/Mykhailo Petukhov.png"
+                            "Jury/\u041F\u0435\u0442\u0443\u0445\u043E\u0432 \u041C\u0438\u0445\u0430\u0439\u043B\u043E \u0412\u0430\u0441\u0438\u043B\u044C\u043E\u0432\u0438\u0447.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -1892,17 +2237,17 @@
                         }
                       },
                       "TitlePart": {
-                        "Title": "\u041C\u0438\u0445\u0430\u0439\u043B\u043E \u041F\u0435\u0442\u0443\u0445\u043E\u0432"
+                        "Title": "\u041C\u0438\u0445\u0430\u0439\u043B\u043E \u0412\u0430\u0441\u0438\u043B\u044C\u043E\u0432\u0438\u0447 \u041F\u0435\u0442\u0443\u0445\u043E\u0432"
                       }
                     },
                     {
                       "ContentItemId": "4aekt93q8y1h776ykxxq387g4a",
                       "ContentItemVersionId": null,
                       "ContentType": "SliderItem",
-                      "DisplayText": "\u041B\u0456\u043B\u0456\u044F  \u0427\u0435\u0440\u043D\u0443\u0441",
+                      "DisplayText": "\u041B\u0456\u043B\u0456\u044F \u041C\u0438\u043A\u043E\u043B\u0430\u0457\u0432\u043D\u0430 \u0427\u0435\u0440\u043D\u0443\u0441",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7617282Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8736557Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1910,7 +2255,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "Jury/Lilia Chernous.png"
+                            "Jury/\u0427\u0435\u0440\u043D\u043E\u0443\u0441 \u041B\u0456\u043B\u0456\u044F \u041C\u0438\u043A\u043E\u043B\u0430\u0457\u0432\u043D\u0430.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -1918,7 +2263,7 @@
                         }
                       },
                       "TitlePart": {
-                        "Title": "\u041B\u0456\u043B\u0456\u044F  \u0427\u0435\u0440\u043D\u0443\u0441"
+                        "Title": "\u041B\u0456\u043B\u0456\u044F \u041C\u0438\u043A\u043E\u043B\u0430\u0457\u0432\u043D\u0430 \u0427\u0435\u0440\u043D\u0443\u0441"
                       }
                     }
                   ]
@@ -1932,7 +2277,7 @@
                       "DisplayText": "\u042E\u043B\u0456\u044F \u0424\u0435\u0434\u0443\u043D\u043A\u043E",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7635335Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8757601Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1940,7 +2285,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "organizers/Yuliia Fedunko.png"
+                            "Organizers/Yuliia Fedunko.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -1958,7 +2303,7 @@
                       "DisplayText": "\u0410\u043B\u0456\u043D\u0430 \u0411\u043B\u044F\u0445\u0430\u0440\u0441\u044C\u043A\u0430",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7651168Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.877569Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1966,7 +2311,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "organizers/Alina Blyakharskaya.png"
+                            "Organizers/\u0411\u043B\u044F\u0445\u0430\u0440\u0441\u043A\u0430\u044F \u0410\u043B\u0438\u043D\u0430 \u041E\u043B\u0435\u0433\u043E\u0432\u043D\u0430.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -1981,10 +2326,10 @@
                       "ContentItemId": "4b41n5ba53rpnr5nzq9pvrk6m5",
                       "ContentItemVersionId": null,
                       "ContentType": "SliderItem",
-                      "DisplayText": "\u0410\u043B\u0456\u043D\u0430 \u0411\u0443\u043B\u0430\u0442\u043E\u0432\u0430",
+                      "DisplayText": "\u0410\u043B\u0456\u043D\u0430 \u041F\u0443\u0433\u0430\u0447\u0435\u043D\u043A\u043E",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.767028Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.8794918Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -1992,7 +2337,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "organizers/Alina Pugachenko.png"
+                            "Organizers/\u041F\u0443\u0433\u0430\u0447\u0435\u043D\u043A\u043E \u0410\u043B\u0438\u043D\u0430.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -2000,17 +2345,17 @@
                         }
                       },
                       "TitlePart": {
-                        "Title": "\u0410\u043B\u0456\u043D\u0430 \u0411\u0443\u043B\u0430\u0442\u043E\u0432\u0430"
+                        "Title": "\u0410\u043B\u0456\u043D\u0430 \u041F\u0443\u0433\u0430\u0447\u0435\u043D\u043A\u043E"
                       }
                     },
                     {
                       "ContentItemId": "4vx9x8skwsznnws26wf1vh4j4a",
                       "ContentItemVersionId": null,
                       "ContentType": "SliderItem",
-                      "DisplayText": "\u041B\u044E\u0434\u043C\u0438\u043B\u0430 \u0423\u0441\u0442\u0456\u043D\u043E\u0432\u0430",
+                      "DisplayText": "\u041B\u044E\u0434\u043C\u0438\u043B\u0430 \u0412\u0430\u043B\u0435\u043D\u0442\u0438\u043D\u0456\u0432\u043D\u0430 \u0423\u0441\u0442\u0456\u043D\u043E\u0432\u0430",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7688295Z",
+                      "ModifiedUtc": "2026-04-11T13:06:29.881323Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2018,7 +2363,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "organizers/Lyudmila Ustinova.png"
+                            "Organizers/\u041B\u044E\u0434\u043C\u0438\u043B\u0430 \u0412\u0430\u043B\u0435\u043D\u0442\u0438\u043D\u043E\u0432\u043D\u0430.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -2026,33 +2371,7 @@
                         }
                       },
                       "TitlePart": {
-                        "Title": "\u041B\u044E\u0434\u043C\u0438\u043B\u0430 \u0423\u0441\u0442\u0456\u043D\u043E\u0432\u0430"
-                      }
-                    },
-                    {
-                      "ContentItemId": "43evewd15hmksye90j6r9zvans",
-                      "ContentItemVersionId": null,
-                      "ContentType": "SliderItem",
-                      "DisplayText": "\u041A\u0430\u0442\u0435\u0440\u0438\u043D\u0430 \u041D\u043E\u0441\u0430\u0447",
-                      "Latest": false,
-                      "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:09.7703638Z",
-                      "PublishedUtc": null,
-                      "CreatedUtc": null,
-                      "Owner": "4r78hg6gsk6ghr5dc0eyk1rk5x",
-                      "Author": "Admin",
-                      "SliderItem": {
-                        "Image": {
-                          "Paths": [
-                            "organizers/Katerina Stas.png"
-                          ],
-                          "MediaTexts": [
-                            ""
-                          ]
-                        }
-                      },
-                      "TitlePart": {
-                        "Title": "\u041A\u0430\u0442\u0435\u0440\u0438\u043D\u0430 \u041D\u043E\u0441\u0430\u0447"
+                        "Title": "\u041B\u044E\u0434\u043C\u0438\u043B\u0430 \u0412\u0430\u043B\u0435\u043D\u0442\u0438\u043D\u0456\u0432\u043D\u0430 \u0423\u0441\u0442\u0456\u043D\u043E\u0432\u0430"
                       }
                     }
                   ]
@@ -2451,7 +2770,7 @@
                 "DisplayText": "\u041D\u0430\u0448\u0456 \u0441\u043F\u043E\u043D\u0441\u043E\u0440\u0438",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2026-06-24T11:27:09.7720937Z",
+                "ModifiedUtc": "2026-04-11T13:06:29.8832625Z",
                 "PublishedUtc": null,
                 "CreatedUtc": null,
                 "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2465,15 +2784,15 @@
                   },
                   "Sliderimages": {
                     "Paths": [
-                      "Sponsors/\u0421\u043B\u043E\u0439 0.png",
-                      "Sponsors/\u0421\u043B\u043E\u0439 3.png",
-                      "Sponsors/\u0421\u043B\u043E\u0439 4.png",
+                      "Sponsors/sponsor4.png",
+                      "Sponsors/sponsor3.png",
+                      "Sponsors/sponsor2.png",
                       "Sponsors/spnsor1.png"
                     ],
                     "MediaTexts": [
-                      "",
-                      "",
-                      "",
+                      "Shok",
+                      "Black Sea Hotel group",
+                      "\u041C\u0430\u043C\u0431\u043E",
                       ""
                     ]
                   }
@@ -2494,13 +2813,13 @@
         },
         {
           "ContentItemId": "4x0fp7dcpx87mr87nqf8zg7fd5",
-          "ContentItemVersionId": "49k0bpjkggd3qywxw0wxkd395m",
+          "ContentItemVersionId": "45x5tv9wvysc1023ap347g1ywv",
           "ContentType": "MainPage",
           "DisplayText": "BlackSeaPatterns",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2026-06-24T11:27:18.3601286Z",
-          "PublishedUtc": "2026-06-24T11:27:18.3967531Z",
+          "ModifiedUtc": "2026-04-11T13:06:34.4591483Z",
+          "PublishedUtc": "2026-04-11T13:06:34.5290886Z",
           "CreatedUtc": "2026-03-16T12:59:21.594988Z",
           "Owner": "4mtb7n1a9q698w1th4023hy4cr",
           "Author": "Admin",
@@ -2528,7 +2847,7 @@
                 "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2026-06-24T11:27:18.3635792Z",
+                "ModifiedUtc": "2026-04-11T13:06:34.463145Z",
                 "PublishedUtc": null,
                 "CreatedUtc": null,
                 "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2550,7 +2869,7 @@
                       "DisplayText": "\u201CBlack Sea Patterns\u201D",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3643798Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.463972Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2563,7 +2882,7 @@
                           "Text": "ART-DANCE FEST"
                         },
                         "FestDate": {
-                          "Text": "Coming soon"
+                          "Text": "From 20 to 25 December 2026"
                         },
                         "CityField": {
                           "Text": "Odesa"
@@ -2577,88 +2896,589 @@
                 }
               },
               {
-                "ContentItemId": "4kjzp7qqj32820f01meqd5ky4f",
+                "ContentItemId": "460m4vdv1fm1cyfjerc8y8wxwy",
                 "ContentItemVersionId": null,
                 "ContentType": "GallerySection",
-                "DisplayText": "Our Memories",
+                "DisplayText": null,
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2026-06-24T11:27:18.3668897Z",
+                "ModifiedUtc": "2026-04-11T13:06:34.466819Z",
                 "PublishedUtc": null,
                 "CreatedUtc": null,
-                "Owner": "4r78hg6gsk6ghr5dc0eyk1rk5x",
+                "Owner": "4hf43nqkdvrkt038yfab72gj45",
                 "Author": "Admin",
-                "GallerySection": {},
+                "GallerySection": {
+                  "PrevBtn": {
+                    "Paths": [
+                      "prev_arrow.svg"
+                    ],
+                    "MediaTexts": [
+                      ""
+                    ]
+                  },
+                  "NextBtn": {
+                    "Paths": [
+                      "next_arrow.svg"
+                    ],
+                    "MediaTexts": [
+                      ""
+                    ]
+                  }
+                },
                 "BagPart": {
                   "ContentItems": [
                     {
-                      "ContentItemId": "4t0pf6vqc9x572mcfq1kp5e2cg",
+                      "ContentItemId": "47sxdb1kqza88zvnhdks1ez4n4",
                       "ContentItemVersionId": null,
-                      "ContentType": "GalleryYear",
-                      "DisplayText": "2025",
+                      "ContentType": "Image",
+                      "DisplayText": null,
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3670759Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.468048Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
-                      "Owner": "4r78hg6gsk6ghr5dc0eyk1rk5x",
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
                       "Author": "Admin",
-                      "GalleryYear": {
-                        "GalleryYearPart": {
+                      "Image": {
+                        "Media": {
                           "Paths": [
-                            "gallery/2025/Gusak Artem 01586_11zon.webp",
-                            "gallery/2025/Gusak Artem 01624_1_11zon.webp",
-                            "gallery/2025/Gusak Artem 07012_2_11zon.webp",
-                            "gallery/2025/Gusak Artem 07194_3_11zon.webp",
-                            "gallery/2025/Gusak Artem 07678_4_11zon.webp",
-                            "gallery/2025/Gusak Artem 12644_5_11zon.webp",
-                            "gallery/2025/Gusak Artem 14772_6_11zon.webp",
-                            "gallery/2025/Gusak Artem 15245_7_11zon.webp",
-                            "gallery/2025/Gusak Artem 17729_8_11zon.webp",
-                            "gallery/2025/Gusak Artem 18773_9_11zon.webp",
-                            "gallery/2025/Gusak Artem 26611_10_11zon.webp",
-                            "gallery/2025/Gusak Artem 32367_11_11zon.webp",
-                            "gallery/2025/Gusak-Artem-33234_12_11zon.webp",
-                            "gallery/2025/Gusak-Artem-34109_13_11zon.webp",
-                            "gallery/2025/Gusak-Artem-34976_14_11zon.webp",
-                            "gallery/2025/Gusak-Artem-35744_15_11zon.webp",
-                            "gallery/2025/Gusak-Artem-35921_16_11zon.webp",
-                            "gallery/2025/Gusak-Artem-36052_17_11zon.webp",
-                            "gallery/2025/Gusak-Artem-44553_18_11zon.webp",
-                            "gallery/2025/Gusak-Artem-48247_19_11zon.webp"
+                            "Gusak Artem 01586_11zon.webp"
                           ],
                           "MediaTexts": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
                             ""
                           ]
+                        },
+                        "Caption": {
+                          "Text": "Img1"
                         }
                       },
                       "TitlePart": {
-                        "Title": "2025"
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4qf36qz2gberr4xay673s39jdj",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4694617Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 01624_1_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": "Img2"
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "49pp3h9hemhe065cpfzt0qj4dt",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4708123Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 07012_2_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4zf0p513jkh611crre9905em43",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4721927Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 07194_3_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "40tt9wyr744pkrkfaxnf9hnjnz",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4735542Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 07678_4_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4wfhpbcmkk31c3aqzf06krb5n3",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4749155Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 12644_5_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "418arfr15xa6b5112nvt8q754p",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4762897Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 14772_6_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "42v3g8kb0nc42wx69dhdvbvg5z",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4781778Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 15245_7_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4z5408vcjf8ytrhnmqykavqexq",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4797669Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 17729_8_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4btjg2twwwcq0tw00vffpgvtcs",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4811825Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 18773_9_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "43ahb5p659ktf2mbqbf4vhpncy",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4826656Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 26611_10_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4w62s31sf1xrx43y7qj80pfpmd",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4841367Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak Artem 32367_11_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4phtk7zq0pc9xvyg2gxhszcfme",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4856911Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak-Artem-33234_12_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4k9sb2xt6pfzd3hcj9b3zv0r45",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4871369Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak-Artem-34976_14_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4z01nb0z7gxv0s17bjtdajx54y",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4885648Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak-Artem-35744_15_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4afej02x852ngzbk75fssnfnxs",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4899726Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak-Artem-35921_16_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4339nmq4jrsjdr2ej9kemajxxj",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.491388Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak-Artem-36052_17_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "477pb9yf3dyf56hmagyh66s2xp",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4929425Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak-Artem-44553_18_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
+                      }
+                    },
+                    {
+                      "ContentItemId": "4pvzq4mtgmgbx5q6wh0jyt0tmp",
+                      "ContentItemVersionId": null,
+                      "ContentType": "Image",
+                      "DisplayText": null,
+                      "Latest": false,
+                      "Published": false,
+                      "ModifiedUtc": "2026-04-11T13:06:34.4944149Z",
+                      "PublishedUtc": null,
+                      "CreatedUtc": null,
+                      "Owner": "4hf43nqkdvrkt038yfab72gj45",
+                      "Author": "Admin",
+                      "Image": {
+                        "Media": {
+                          "Paths": [
+                            "Gusak-Artem-48247_19_11zon.webp"
+                          ],
+                          "MediaTexts": [
+                            ""
+                          ]
+                        },
+                        "Caption": {
+                          "Text": null
+                        }
+                      },
+                      "TitlePart": {
+                        "Title": null
                       }
                     }
                   ]
-                },
-                "TitlePart": {
-                  "Title": "Our Memories"
                 }
               },
               {
@@ -2668,7 +3488,7 @@
                 "DisplayText": "Categories",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2026-06-24T11:27:18.3686227Z",
+                "ModifiedUtc": "2026-04-11T13:06:34.4961025Z",
                 "PublishedUtc": null,
                 "CreatedUtc": null,
                 "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2696,7 +3516,7 @@
                       "DisplayText": null,
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.370489Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.4981271Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2714,7 +3534,7 @@
                       "DisplayText": null,
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3710559Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.4988054Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2732,7 +3552,7 @@
                       "DisplayText": null,
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3716664Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.4994762Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2750,7 +3570,7 @@
                       "DisplayText": null,
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3722329Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.5001541Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2774,7 +3594,7 @@
                 "DisplayText": "Nomination",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2026-06-24T11:27:18.3733124Z",
+                "ModifiedUtc": "2026-04-11T13:06:34.5013903Z",
                 "PublishedUtc": null,
                 "CreatedUtc": null,
                 "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2802,7 +3622,7 @@
                       "DisplayText": "Group 1 - younger group (9\u201310 years old)",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3752309Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.5035549Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2819,7 +3639,7 @@
                       "DisplayText": "Group 2 - middle group (11\u2013 13 years old)",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3759332Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.5044108Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2836,7 +3656,7 @@
                       "DisplayText": "Group 3 - older group (14\u2013 16 years old)",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3765464Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.5052002Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2853,7 +3673,7 @@
                       "DisplayText": "Group 4 - young people (17 \u2013 23 years old)",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3771474Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.5059966Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2870,7 +3690,7 @@
                       "DisplayText": "Group 5 - Mixed age (For Ensemble)",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3777402Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.5067843Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2890,7 +3710,7 @@
                 "DisplayText": "The composition of the jury is subject to change. *",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2026-06-24T11:27:18.3784939Z",
+                "ModifiedUtc": "2026-04-11T13:06:34.5077197Z",
                 "PublishedUtc": null,
                 "CreatedUtc": null,
                 "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2923,7 +3743,7 @@
                       "DisplayText": "Katerina Kurman",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3806222Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.5101984Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2946,10 +3766,10 @@
                       "ContentItemId": "454rwynr1n5ed35bk0p9y74n4d",
                       "ContentItemVersionId": null,
                       "ContentType": "SliderItem",
-                      "DisplayText": "Olena Baranovska",
+                      "DisplayText": "Olena Gennadievna Baranovska",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3817592Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.5116121Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2957,7 +3777,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "Jury/Olena Baranovska.png"
+                            "Jury/\u0411\u0430\u0440\u0430\u043D\u043E\u0432\u0441\u044C\u043A\u0430 \u041E\u043B\u0435\u043D\u0430 \u0413\u0435\u043D\u043D\u0430\u0434i\u0457\u0432\u043D\u0430.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -2965,7 +3785,7 @@
                         }
                       },
                       "TitlePart": {
-                        "Title": "Olena Baranovska"
+                        "Title": "Olena Gennadievna Baranovska"
                       }
                     },
                     {
@@ -2975,7 +3795,7 @@
                       "DisplayText": "Vadym Sabodash",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3828744Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.5129347Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -2983,7 +3803,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "Jury/Vadym Sabodash.png"
+                            "Jury/\u0412\u0430\u0434\u0438\u043C \u0421\u0430\u0431\u043E\u0434\u0430\u0448.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -3001,7 +3821,7 @@
                       "DisplayText": "Oleksandr Pavluchenko",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3839793Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.5143324Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -3009,7 +3829,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "Jury/Oleksandr Pavluchenko.png"
+                            "Jury/\u041E\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440 \u041F\u0430\u0432\u043B\u0443\u0447\u0435\u043D\u043A\u043E.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -3024,10 +3844,10 @@
                       "ContentItemId": "43m5fx6jjnk9e5xsatccehv0d3",
                       "ContentItemVersionId": null,
                       "ContentType": "SliderItem",
-                      "DisplayText": "Mykhailo Petukhov",
+                      "DisplayText": "Mykhailo Vasylovych Petukhov",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3850951Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.515729Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -3035,7 +3855,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "Jury/Mykhailo Petukhov.png"
+                            "Jury/\u041F\u0435\u0442\u0443\u0445\u043E\u0432 \u041C\u0438\u0445\u0430\u0439\u043B\u043E \u0412\u0430\u0441\u0438\u043B\u044C\u043E\u0432\u0438\u0447.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -3043,17 +3863,17 @@
                         }
                       },
                       "TitlePart": {
-                        "Title": "Mykhailo Petukhov"
+                        "Title": "Mykhailo Vasylovych Petukhov"
                       }
                     },
                     {
                       "ContentItemId": "4aekt93q8y1h776ykxxq387g4a",
                       "ContentItemVersionId": null,
                       "ContentType": "SliderItem",
-                      "DisplayText": "Lilia Chernous",
+                      "DisplayText": "Lilia Mykolayivna Chernous",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.386198Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.5171217Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -3061,7 +3881,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "Jury/Lilia Chernous.png"
+                            "Jury/\u0427\u0435\u0440\u043D\u043E\u0443\u0441 \u041B\u0456\u043B\u0456\u044F \u041C\u0438\u043A\u043E\u043B\u0430\u0457\u0432\u043D\u0430.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -3069,7 +3889,7 @@
                         }
                       },
                       "TitlePart": {
-                        "Title": "Lilia Chernous"
+                        "Title": "Lilia Mykolayivna Chernous"
                       }
                     }
                   ]
@@ -3083,7 +3903,7 @@
                       "DisplayText": "Yuliia Fedunko",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3875043Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.518725Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -3106,10 +3926,10 @@
                       "ContentItemId": "4qy2njr40kve5skgj769pjy4nf",
                       "ContentItemVersionId": null,
                       "ContentType": "SliderItem",
-                      "DisplayText": "Alina Blyakharskaya",
+                      "DisplayText": "Alina Olegovna Blyakharskaya",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3886542Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.5201238Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -3117,7 +3937,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "organizers/Alina Blyakharskaya.png"
+                            "Organizers/\u0411\u043B\u044F\u0445\u0430\u0440\u0441\u043A\u0430\u044F \u0410\u043B\u0438\u043D\u0430 \u041E\u043B\u0435\u0433\u043E\u0432\u043D\u0430.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -3125,17 +3945,17 @@
                         }
                       },
                       "TitlePart": {
-                        "Title": "Alina Blyakharskaya"
+                        "Title": "Alina Olegovna Blyakharskaya"
                       }
                     },
                     {
                       "ContentItemId": "4b41n5ba53rpnr5nzq9pvrk6m5",
                       "ContentItemVersionId": null,
                       "ContentType": "SliderItem",
-                      "DisplayText": "Alina Bulatova",
+                      "DisplayText": "Alina Pugachenko",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3898334Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.5215701Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -3143,7 +3963,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "organizers/Alina Pugachenko.png"
+                            "Organizers/\u041F\u0443\u0433\u0430\u0447\u0435\u043D\u043A\u043E \u0410\u043B\u0438\u043D\u0430.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -3151,17 +3971,17 @@
                         }
                       },
                       "TitlePart": {
-                        "Title": "Alina Bulatova"
+                        "Title": "Alina Pugachenko"
                       }
                     },
                     {
                       "ContentItemId": "4vx9x8skwsznnws26wf1vh4j4a",
                       "ContentItemVersionId": null,
                       "ContentType": "SliderItem",
-                      "DisplayText": "Lyudmila Ustinova",
+                      "DisplayText": "Lyudmila Valentinovna Ustinova",
                       "Latest": false,
                       "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3909899Z",
+                      "ModifiedUtc": "2026-04-11T13:06:34.5230663Z",
                       "PublishedUtc": null,
                       "CreatedUtc": null,
                       "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -3169,7 +3989,7 @@
                       "SliderItem": {
                         "Image": {
                           "Paths": [
-                            "organizers/Lyudmila Ustinova.png"
+                            "Organizers/\u041B\u044E\u0434\u043C\u0438\u043B\u0430 \u0412\u0430\u043B\u0435\u043D\u0442\u0438\u043D\u043E\u0432\u043D\u0430.png"
                           ],
                           "MediaTexts": [
                             ""
@@ -3177,33 +3997,7 @@
                         }
                       },
                       "TitlePart": {
-                        "Title": "Lyudmila Ustinova"
-                      }
-                    },
-                    {
-                      "ContentItemId": "4q5mg8nvnb25gvwrq2kqkr3y5f",
-                      "ContentItemVersionId": null,
-                      "ContentType": "SliderItem",
-                      "DisplayText": "Katerina Nosach",
-                      "Latest": false,
-                      "Published": false,
-                      "ModifiedUtc": "2026-06-24T11:27:18.3921606Z",
-                      "PublishedUtc": null,
-                      "CreatedUtc": null,
-                      "Owner": "4r78hg6gsk6ghr5dc0eyk1rk5x",
-                      "Author": "Admin",
-                      "SliderItem": {
-                        "Image": {
-                          "Paths": [
-                            "organizers/Katerina Stas.png"
-                          ],
-                          "MediaTexts": [
-                            ""
-                          ]
-                        }
-                      },
-                      "TitlePart": {
-                        "Title": "Katerina Nosach"
+                        "Title": "Lyudmila Valentinovna Ustinova"
                       }
                     }
                   ]
@@ -3602,7 +4396,7 @@
                 "DisplayText": "Our Sponsors",
                 "Latest": false,
                 "Published": false,
-                "ModifiedUtc": "2026-06-24T11:27:18.3934228Z",
+                "ModifiedUtc": "2026-04-11T13:06:34.52468Z",
                 "PublishedUtc": null,
                 "CreatedUtc": null,
                 "Owner": "4hf43nqkdvrkt038yfab72gj45",
@@ -3616,15 +4410,15 @@
                   },
                   "Sliderimages": {
                     "Paths": [
-                      "Sponsors/\u0421\u043B\u043E\u0439 0.png",
-                      "Sponsors/\u0421\u043B\u043E\u0439 3.png",
-                      "Sponsors/\u0421\u043B\u043E\u0439 4.png",
+                      "Sponsors/sponsor4.png",
+                      "Sponsors/sponsor3.png",
+                      "Sponsors/sponsor2.png",
                       "Sponsors/spnsor1.png"
                     ],
                     "MediaTexts": [
-                      "",
-                      "",
-                      "",
+                      "Shok",
+                      "Black Sea Hotel group",
+                      "\u041C\u0430\u043C\u0431\u043E",
                       ""
                     ]
                   }
@@ -3644,38 +4438,146 @@
           }
         },
         {
-          "ContentItemId": "4jnx9mzj8m29nxj0a4n3x6t3x9",
-          "ContentItemVersionId": "45p5k7p4x39x9v7dxhp83dj25b",
-          "ContentType": "RawHtml",
-          "DisplayText": "Contacts",
+          "ContentItemId": "4habs5tjxyxfh3gjszhgpef7mr",
+          "ContentItemVersionId": "42bc4pkgbzthe0v1qh7b29hwmc",
+          "ContentType": "Menu",
+          "DisplayText": "Main Menu",
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2026-06-24T11:33:42.7764019Z",
-          "PublishedUtc": "2026-06-24T11:33:42.7779596Z",
-          "CreatedUtc": "2026-04-09T11:14:51.4351508Z",
-          "Owner": "4hf43nqkdvrkt038yfab72gj45",
+          "ModifiedUtc": "2026-04-11T13:16:26.1139045Z",
+          "PublishedUtc": "2026-04-11T13:16:26.1264291Z",
+          "CreatedUtc": "2026-03-14T09:16:48.165017Z",
+          "Owner": "4mtb7n1a9q698w1th4023hy4cr",
           "Author": "Admin",
-          "RawHtml": {
-            "Content": {
-              "Html": "[locale en] \u003Ch2 class=\u0022footer-title\u0022\u003EContacts\u003C/h2\u003E [/locale]\r\n[locale uk-UA] \u003Ch2 class=\u0022footer-title\u0022\u003E\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u0438\u003C/h2\u003E [/locale]\r\n\u003Cdiv class=\u0022footer-mail\u0022\u003E\r\n\t[image]icon/MailSVG.svg?v=tC7ZXrBRSbe_Qu-4SqQZLhRFssxnKIRUAYdOr10DB_k[/image]\r\n\t\u003Ca href=\u0022mailto:blacksea.patterns@gmail.com\u0022\u003Eblackseepatterns@gmail.com\u003C/a\u003E\r\n\u003C/div\u003E\r\n\u003Cdiv class=\u0022footer-phone\u0022\u003E\r\n\t[image]icon/Vector.svg?v=I9WnUfHEP39jC35mC-lAYxxfif5gEKxKrG33ITOCL64[/image]\r\n\t\u003Ca href=\u0022tel:\u002B380964034862\u0022\u003E\u002B380964034862\u003C/a\u003E\r\n\u003C/div\u003E\r\n\u003Cdiv class=\u0022footer-social\u0022\u003E\r\n\t\u003Ca href=\u0022https://www.instagram.com/chornomorski_vizerunky_fest/\u0022\u003E\r\n\t[image]icon/Instagram.svg?v=lARGriwOi2fMJv5rcUaVhY4Ov9sqhUSrpIRsBzHw3Is[/image]\r\n\t\u003C!-- \u003Ca href=\u0022#\u0022\u003E\u003Cimg src=\u0022img/Telegram App.svg\u0022 alt=\u0022Telegram\u0022 /\u003E\u003C/a\u003E --\u003E\r\n\t\u003Ca href=\u0022https://www.facebook.com/people/%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%BC%D0%BE%D1%80%D1%81%D1%8C%D0%BA%D1%96-%D0%92%D1%96%D0%B7%D0%B5%D1%80%D1%83%D0%BD%D0%BA%D0%B8/61569483072807/\u0022\u003E\r\n\t[image]icon/Facebook.svg?v=InbKCLENjrsk13NEwNb-ULlrnlDFiysvPgpkCnroiJs [/image]\u003C/a\u003E\r\n\u003C/div\u003E"
-            }
+          "MenuPart": {},
+          "TitlePart": {
+            "Title": "Main Menu"
           },
-          "LayerMetadata": {
-            "RenderTitle": false,
-            "Position": 1,
-            "Zone": "Contacts",
-            "Layer": "Always"
+          "MenuItemsListPart": {
+            "MenuItems": [
+              {
+                "ContentItemId": "434e16hhyrrtcvgcyy1dmkt95d",
+                "ContentItemVersionId": null,
+                "ContentType": "LinkMenuItem",
+                "DisplayText": "HOME",
+                "Latest": false,
+                "Published": false,
+                "ModifiedUtc": "2026-03-15T16:13:07.9504301Z",
+                "PublishedUtc": null,
+                "CreatedUtc": null,
+                "Owner": null,
+                "Author": "Admin",
+                "LinkMenuItemPart": {
+                  "Url": "~/blackseapatterns/#home",
+                  "Target": null
+                },
+                "LinkMenuItem": {}
+              },
+              {
+                "ContentItemId": "41xsp4k1360k5v1djhj4fc7fcs",
+                "ContentItemVersionId": null,
+                "ContentType": "LinkMenuItem",
+                "DisplayText": "GALLERY",
+                "Latest": false,
+                "Published": false,
+                "ModifiedUtc": "2026-03-15T16:13:17.6468194Z",
+                "PublishedUtc": null,
+                "CreatedUtc": null,
+                "Owner": null,
+                "Author": "Admin",
+                "LinkMenuItemPart": {
+                  "Url": "~/blackseapatterns/#gallery",
+                  "Target": null
+                },
+                "LinkMenuItem": {}
+              },
+              {
+                "ContentItemId": "41vcgzrgrptmhr8ym7c2qgdqcb",
+                "ContentItemVersionId": null,
+                "ContentType": "LinkMenuItem",
+                "DisplayText": "CATEGORY",
+                "Latest": false,
+                "Published": false,
+                "ModifiedUtc": "2026-03-15T16:13:24.9152152Z",
+                "PublishedUtc": null,
+                "CreatedUtc": null,
+                "Owner": null,
+                "Author": "Admin",
+                "LinkMenuItemPart": {
+                  "Url": "~/blackseapatterns/#category",
+                  "Target": null
+                },
+                "LinkMenuItem": {}
+              },
+              {
+                "ContentItemId": "444bzct03h4htsf0c7rab5zbn5",
+                "ContentItemVersionId": null,
+                "ContentType": "LinkMenuItem",
+                "DisplayText": "NOMINATION",
+                "Latest": false,
+                "Published": false,
+                "ModifiedUtc": "2026-03-15T16:13:30.8048711Z",
+                "PublishedUtc": null,
+                "CreatedUtc": null,
+                "Owner": null,
+                "Author": "Admin",
+                "LinkMenuItemPart": {
+                  "Url": "~/blackseapatterns/#nomination",
+                  "Target": null
+                },
+                "LinkMenuItem": {}
+              },
+              {
+                "ContentItemId": "4enpagnkfhf1k7b8mmhffmxfxg",
+                "ContentItemVersionId": null,
+                "ContentType": "LinkMenuItem",
+                "DisplayText": "ORGANIZERS",
+                "Latest": false,
+                "Published": false,
+                "ModifiedUtc": "2026-03-15T16:13:36.7743349Z",
+                "PublishedUtc": null,
+                "CreatedUtc": null,
+                "Owner": null,
+                "Author": "Admin",
+                "LinkMenuItemPart": {
+                  "Url": "~/blackseapatterns/#organizers",
+                  "Target": null
+                },
+                "LinkMenuItem": {}
+              },
+              {
+                "ContentItemId": "47ywrg5w17jzgvv76d874fq9n9",
+                "ContentItemVersionId": null,
+                "ContentType": "LinkMenuItem",
+                "DisplayText": "CONTACTS",
+                "Latest": false,
+                "Published": false,
+                "ModifiedUtc": "2026-03-15T16:13:44.7858729Z",
+                "PublishedUtc": null,
+                "CreatedUtc": null,
+                "Owner": null,
+                "Author": "Admin",
+                "LinkMenuItemPart": {
+                  "Url": "~/blackseapatterns/#contacts",
+                  "Target": null
+                },
+                "LinkMenuItem": {}
+              }
+            ]
+          },
+          "AliasPart": {
+            "Alias": "main-menu"
           }
         },
         {
           "ContentItemId": "4k2v08cwnvner1gs6zhjxz3ymz",
-          "ContentItemVersionId": "4fjkar4j4v8cmykhkgz3eexpxa",
+          "ContentItemVersionId": "4stpg7j05eqf33h0hhxwambh4f",
           "ContentType": "RawHtml",
           "DisplayText": null,
           "Latest": true,
           "Published": true,
-          "ModifiedUtc": "2026-06-24T11:36:03.6559519Z",
-          "PublishedUtc": "2026-06-24T11:36:03.6576623Z",
+          "ModifiedUtc": "2026-04-11T13:17:55.2692211Z",
+          "PublishedUtc": "2026-04-11T13:17:55.2712667Z",
           "CreatedUtc": "2026-04-10T20:02:53.3228188Z",
           "Owner": "4hf43nqkdvrkt038yfab72gj45",
           "Author": "Admin",
@@ -3688,6 +4590,54 @@
             "RenderTitle": false,
             "Position": 1,
             "Zone": "StyleLink",
+            "Layer": "Always"
+          }
+        },
+        {
+          "ContentItemId": "4jg8qy07r1e5a3w4whsdry31w5",
+          "ContentItemVersionId": "4gzd15bbnz3y413p37j4ecr0n2",
+          "ContentType": "RawHtml",
+          "DisplayText": "Header",
+          "Latest": true,
+          "Published": true,
+          "ModifiedUtc": "2026-04-13T07:47:03.659674Z",
+          "PublishedUtc": "2026-04-13T07:47:03.6815906Z",
+          "CreatedUtc": "2026-04-10T16:58:42.9820402Z",
+          "Owner": "4hf43nqkdvrkt038yfab72gj45",
+          "Author": "Admin",
+          "RawHtml": {
+            "Content": {
+              "Html": "\u003Cheader\u003E\r\n\u003Cdiv class=\u0022lang\u0022\u003E\r\n{% if Culture.Name == \u0022en\u0022 %}\r\n    \u003Ca href=\u0022{{ \u0022uk-UA\u0022 | switch_culture_url }}\u0022 class=\u0022lang-btn\u0022 aria-label=\u0022Switch to Ukrainian\u0022\u003E\r\n        \u003Cspan class=\u0022lang-icon-wrapper\u0022\u003E\r\n            \u003Csvg class=\u0022lang-icon\u0022\u003E\r\n                \u003Cuse href=\u0022#flag-ua\u0022\u003E\u003C/use\u003E\r\n            \u003C/svg\u003E\r\n        \u003C/span\u003E\r\n    \u003C/a\u003E\r\n{% else %}\r\n    \u003Ca href=\u0022{{ \u0022en\u0022 | switch_culture_url }}\u0022 class=\u0022lang-btn\u0022 aria-label=\u0022Switch to English\u0022\u003E\r\n        \u003Cspan class=\u0022lang-icon-wrapper\u0022\u003E\r\n            \u003Csvg class=\u0022lang-icon\u0022\u003E\r\n                \u003Cuse href=\u0022#flag-en\u0022\u003E\u003C/use\u003E\r\n            \u003C/svg\u003E\r\n        \u003C/span\u003E\r\n    \u003C/a\u003E\r\n{% endif %}\r\n\u003C/div\u003E\r\n\t\u003Cdiv class=\u0022top-bar\u0022\u003E\r\n               [locale en]\u003Ca href=\u0022importantinformation\u0022 class=\u0022info-button\u0022\u003EInformation for participants\u003C/a\u003E [/locale]\r\n               [locale uk-UA]\u003Ca href=\u0022importantinformation-1\u0022 class=\u0022info-button\u0022\u003E\u0406\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0456\u044F \u0434\u043B\u044F \u0443\u0447\u0430\u0441\u043D\u0438\u043A\u0456\u0432\u003C/a\u003E [/locale]\r\n\t\u003C/div\u003E\r\n\t\u003Cdiv class=\u0022burger-menu\u0022\u003E\r\n\t\t\u003Cdiv class=\u0022burger-line burger-line-one\u0022\u003E\u003C/div\u003E\r\n\t\t\u003Cdiv class=\u0022burger-line burger-line-two\u0022\u003E\u003C/div\u003E\r\n\t\t\u003Cdiv class=\u0022burger-line burger-line-three\u0022\u003E\u003C/div\u003E\r\n\t\u003C/div\u003E\r\n\u003C/header\u003E"
+            }
+          },
+          "LayerMetadata": {
+            "RenderTitle": false,
+            "Position": 1,
+            "Zone": "Header",
+            "Layer": "Always"
+          }
+        },
+        {
+          "ContentItemId": "44qnwnnx7r7pn1ma8gfbefe15y",
+          "ContentItemVersionId": "4xqe27fmx08bjwpg6e9evktb53",
+          "ContentType": "RawHtml",
+          "DisplayText": "Screpts",
+          "Latest": true,
+          "Published": true,
+          "ModifiedUtc": "2026-04-13T07:56:26.4050953Z",
+          "PublishedUtc": "2026-04-13T07:56:26.4068123Z",
+          "CreatedUtc": "2026-04-10T19:48:40.5023704Z",
+          "Owner": "4hf43nqkdvrkt038yfab72gj45",
+          "Author": "Admin",
+          "RawHtml": {
+            "Content": {
+              "Html": "{% script src:\u0022~/BlackSeaPatternsTheme/Assets/js/loader.js\u0022, at:\u0022Foot\u0022 %}\r\n{% if Request.Path != \u0022/importantinformation-1\u0022 and Request.Path != \u0022/importantinformation\u0022  %}\r\n    {% script src:\u0022~/BlackSeaPatternsTheme/Assets/js/script.js\u0022, at:\u0022Foot\u0022 %}\r\n{% endif %}\r\n{% script src:\u0022~/BlackSeaPatternsTheme/Assets/js/slider.js\u0022, at:\u0022Foot\u0022, type:\u0022module\u0022 %}"
+            }
+          },
+          "LayerMetadata": {
+            "RenderTitle": false,
+            "Position": 1,
+            "Zone": "Screpts",
             "Layer": "Always"
           }
         }
@@ -3835,12 +4785,6 @@
             "ManageOwnUserInformation",
             "ManageOwnMediaContent",
             "LocalizeOwnContent"
-          ]
-        },
-        {
-          "Name": "Anonymous",
-          "Permissions": [
-            "ViewContent"
           ]
         }
       ]
@@ -4446,16 +5390,11 @@
                 },
                 "BagPartSettings": {
                   "ContainedContentTypes": [
-                    "GalleryYear"
+                    "Image"
                   ],
                   "ContainedStereotypes": []
                 }
               }
-            },
-            {
-              "PartName": "TitlePart",
-              "Name": "TitlePart",
-              "Settings": {}
             }
           ]
         },
@@ -4850,44 +5789,6 @@
               }
             }
           ]
-        },
-        {
-          "Name": "GalleryYear",
-          "DisplayName": "GalleryYear",
-          "Settings": {
-            "ContentTypeSettings": {
-              "Creatable": false,
-              "Listable": true,
-              "Draftable": false,
-              "Versionable": false,
-              "Securable": false
-            },
-            "FullTextAspectSettings": {
-              "IncludeFullTextTemplate": false,
-              "IncludeBodyAspect": true,
-              "IncludeDisplayText": true
-            }
-          },
-          "ContentTypePartDefinitionRecords": [
-            {
-              "PartName": "GalleryYear",
-              "Name": "GalleryYear",
-              "Settings": {
-                "ContentTypePartSettings": {
-                  "Position": "1"
-                }
-              }
-            },
-            {
-              "PartName": "TitlePart",
-              "Name": "TitlePart",
-              "Settings": {
-                "ContentTypePartSettings": {
-                  "Position": "0"
-                }
-              }
-            }
-          ]
         }
       ],
       "ContentParts": [
@@ -4954,28 +5855,6 @@
               "Attachable": true,
               "Reusable": false,
               "Description": "Provides a custom url for your content item."
-            }
-          },
-          "ContentPartFieldDefinitionRecords": []
-        },
-        {
-          "Name": "LocalizationPart",
-          "Settings": {
-            "ContentPartSettings": {
-              "Attachable": true,
-              "Reusable": false,
-              "Description": "Provides a way to create localized version of content."
-            }
-          },
-          "ContentPartFieldDefinitionRecords": []
-        },
-        {
-          "Name": "SitemapPart",
-          "Settings": {
-            "ContentPartSettings": {
-              "Attachable": true,
-              "Reusable": false,
-              "Description": "Provides an optional part that allows content items to be excluded, or configured, on a content item."
             }
           },
           "ContentPartFieldDefinitionRecords": []
@@ -5297,7 +6176,44 @@
         {
           "Name": "GallerySection",
           "Settings": {},
-          "ContentPartFieldDefinitionRecords": []
+          "ContentPartFieldDefinitionRecords": [
+            {
+              "FieldName": "MediaField",
+              "Name": "PrevBtn",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "PrevBtn",
+                  "Position": "0"
+                },
+                "MediaFieldSettings": {
+                  "Hint": "Prev Arrow btn",
+                  "Required": false,
+                  "Multiple": true,
+                  "AllowMediaText": true,
+                  "AllowAnchors": false,
+                  "AllowedExtensions": []
+                }
+              }
+            },
+            {
+              "FieldName": "MediaField",
+              "Name": "NextBtn",
+              "Settings": {
+                "ContentPartFieldSettings": {
+                  "DisplayName": "NextBtn",
+                  "Position": "1"
+                },
+                "MediaFieldSettings": {
+                  "Hint": "Nex Arrow btn ",
+                  "Required": false,
+                  "Multiple": true,
+                  "AllowMediaText": true,
+                  "AllowAnchors": false,
+                  "AllowedExtensions": []
+                }
+              }
+            }
+          ]
         },
         {
           "Name": "SubtitleWithDescription",
@@ -5558,33 +6474,31 @@
           ]
         },
         {
-          "Name": "MainPage",
-          "Settings": {},
+          "Name": "LocalizationPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Reusable": false,
+              "Description": "Provides a way to create localized version of content."
+            }
+          },
           "ContentPartFieldDefinitionRecords": []
         },
         {
-          "Name": "GalleryYear",
-          "Settings": {},
-          "ContentPartFieldDefinitionRecords": [
-            {
-              "FieldName": "MediaField",
-              "Name": "GalleryYearPart",
-              "Settings": {
-                "ContentPartFieldSettings": {
-                  "DisplayName": "GalleryYearPart",
-                  "Position": "0"
-                },
-                "MediaFieldSettings": {
-                  "Hint": "Add Slider Photo in here rezolution 1920X1080 .wepp",
-                  "Required": false,
-                  "Multiple": true,
-                  "AllowMediaText": true,
-                  "AllowAnchors": false,
-                  "AllowedExtensions": []
-                }
-              }
+          "Name": "SitemapPart",
+          "Settings": {
+            "ContentPartSettings": {
+              "Attachable": true,
+              "Reusable": false,
+              "Description": "Provides an optional part that allows content items to be excluded, or configured, on a content item."
             }
-          ]
+          },
+          "ContentPartFieldDefinitionRecords": []
+        },
+        {
+          "Name": "MainPage",
+          "Settings": {},
+          "ContentPartFieldDefinitionRecords": []
         }
       ]
     },
@@ -5709,7 +6623,7 @@
                 "DisplayName": "BlackSeaPatterns Display Name",
                 "Description": "Site for Black Sea Patterns Fest",
                 "Author": "AlexABA",
-                "Version": "1.0.2",
+                "Version": "1.0.1",
                 "IsSetupRecipe": true,
                 "Id": "2c4f7d13926e486c86f6506929937796",
                 "Name": "RecipeFileDeploymentStep"
@@ -5722,32 +6636,6 @@
                 "Id": "c82dee95276e4489882d7603fa895783",
                 "Name": "Themes"
               }
-            },
-            {
-              "Type": "SiteSettingsDeploymentStep",
-              "Step": {
-                "$type": "OrchardCore.Settings.Deployment.SiteSettingsDeploymentStep, OrchardCore.Settings",
-                "Settings": [
-                  "BaseUrl",
-                  "Calendar",
-                  "MaxPagedCount",
-                  "MaxPageSize",
-                  "PageSize",
-                  "TimeZoneId",
-                  "ResourceDebugMode",
-                  "SiteName",
-                  "SiteSalt",
-                  "PageTitleFormat",
-                  "SuperUser",
-                  "UseCdn",
-                  "CdnBaseUrl",
-                  "HomeRoute",
-                  "AppendVersion",
-                  "CacheMode"
-                ],
-                "Id": "9738efe682484bb3bb30487f028ef275",
-                "Name": "SiteSettings"
-              }
             }
           ]
         }
@@ -5756,194 +6644,6 @@
     {
       "name": "media",
       "Files": [
-        {
-          "SourcePath": "Background/background.mp4",
-          "TargetPath": "Background/background.mp4"
-        },
-        {
-          "SourcePath": "Background/background.webp",
-          "TargetPath": "Background/background.webp"
-        },
-        {
-          "SourcePath": "Background/dot.png",
-          "TargetPath": "Background/dot.png"
-        },
-        {
-          "SourcePath": "Background/FestStartVideo.mp4",
-          "TargetPath": "Background/FestStartVideo.mp4"
-        },
-        {
-          "SourcePath": "Background/imgBackEn.webp",
-          "TargetPath": "Background/imgBackEn.webp"
-        },
-        {
-          "SourcePath": "Background/imgBackUkr.webp",
-          "TargetPath": "Background/imgBackUkr.webp"
-        },
-        {
-          "SourcePath": "icon/dot.png",
-          "TargetPath": "icon/dot.png"
-        },
-        {
-          "SourcePath": "icon/Facebook.svg",
-          "TargetPath": "icon/Facebook.svg"
-        },
-        {
-          "SourcePath": "icon/Instagram.svg",
-          "TargetPath": "icon/Instagram.svg"
-        },
-        {
-          "SourcePath": "icon/MailSVG.svg",
-          "TargetPath": "icon/MailSVG.svg"
-        },
-        {
-          "SourcePath": "icon/Telegram App.svg",
-          "TargetPath": "icon/Telegram App.svg"
-        },
-        {
-          "SourcePath": "icon/Vector.svg",
-          "TargetPath": "icon/Vector.svg"
-        },
-        {
-          "SourcePath": "Jury/Katerina Kurman.png",
-          "TargetPath": "Jury/Katerina Kurman.png"
-        },
-        {
-          "SourcePath": "Jury/Lilia Chernous.png",
-          "TargetPath": "Jury/Lilia Chernous.png"
-        },
-        {
-          "SourcePath": "Jury/Mykhailo Petukhov.png",
-          "TargetPath": "Jury/Mykhailo Petukhov.png"
-        },
-        {
-          "SourcePath": "Jury/Oleksandr Pavluchenko.png",
-          "TargetPath": "Jury/Oleksandr Pavluchenko.png"
-        },
-        {
-          "SourcePath": "Jury/Olena Baranovska.png",
-          "TargetPath": "Jury/Olena Baranovska.png"
-        },
-        {
-          "SourcePath": "Jury/Vadym Sabodash.png",
-          "TargetPath": "Jury/Vadym Sabodash.png"
-        },
-        {
-          "SourcePath": "organizers/Alina Blyakharskaya.png",
-          "TargetPath": "organizers/Alina Blyakharskaya.png"
-        },
-        {
-          "SourcePath": "organizers/Alina Pugachenko.png",
-          "TargetPath": "organizers/Alina Pugachenko.png"
-        },
-        {
-          "SourcePath": "organizers/Katerina Stas.png",
-          "TargetPath": "organizers/Katerina Stas.png"
-        },
-        {
-          "SourcePath": "organizers/Lyudmila Ustinova.png",
-          "TargetPath": "organizers/Lyudmila Ustinova.png"
-        },
-        {
-          "SourcePath": "organizers/Yuliia Fedunko.png",
-          "TargetPath": "organizers/Yuliia Fedunko.png"
-        },
-        {
-          "SourcePath": "Sponsors/spnsor1.png",
-          "TargetPath": "Sponsors/spnsor1.png"
-        },
-        {
-          "SourcePath": "Sponsors/\u0421\u043B\u043E\u0439 0.png",
-          "TargetPath": "Sponsors/\u0421\u043B\u043E\u0439 0.png"
-        },
-        {
-          "SourcePath": "Sponsors/\u0421\u043B\u043E\u0439 3.png",
-          "TargetPath": "Sponsors/\u0421\u043B\u043E\u0439 3.png"
-        },
-        {
-          "SourcePath": "Sponsors/\u0421\u043B\u043E\u0439 4.png",
-          "TargetPath": "Sponsors/\u0421\u043B\u043E\u0439 4.png"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak Artem 01586_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak Artem 01586_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak Artem 01624_1_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak Artem 01624_1_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak Artem 07012_2_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak Artem 07012_2_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak Artem 07194_3_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak Artem 07194_3_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak Artem 07678_4_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak Artem 07678_4_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak Artem 12644_5_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak Artem 12644_5_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak Artem 14772_6_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak Artem 14772_6_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak Artem 15245_7_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak Artem 15245_7_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak Artem 17729_8_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak Artem 17729_8_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak Artem 18773_9_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak Artem 18773_9_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak Artem 26611_10_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak Artem 26611_10_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak Artem 32367_11_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak Artem 32367_11_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak-Artem-33234_12_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak-Artem-33234_12_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak-Artem-34109_13_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak-Artem-34109_13_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak-Artem-34976_14_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak-Artem-34976_14_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak-Artem-35744_15_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak-Artem-35744_15_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak-Artem-35921_16_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak-Artem-35921_16_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak-Artem-36052_17_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak-Artem-36052_17_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak-Artem-44553_18_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak-Artem-44553_18_11zon.webp"
-        },
-        {
-          "SourcePath": "gallery/2025/Gusak-Artem-48247_19_11zon.webp",
-          "TargetPath": "gallery/2025/Gusak-Artem-48247_19_11zon.webp"
-        }
       ]
     },
     {
@@ -5954,30 +6654,6 @@
       "name": "Themes",
       "Site": "BlackSeaPatternsTheme",
       "Admin": "TheAdmin"
-    },
-    {
-      "name": "Settings",
-      "BaseUrl": null,
-      "Calendar": null,
-      "MaxPagedCount": 0,
-      "MaxPageSize": 100,
-      "PageSize": 10,
-      "TimeZoneId": "Europe/Kyiv",
-      "ResourceDebugMode": "FromConfiguration",
-      "SiteName": "BlackSeaPatternsFest",
-      "SiteSalt": "ab573383b1544d56943071983456f8c7",
-      "PageTitleFormat": "{% page_title Site.SiteName, position: \u0022after\u0022, separator: \u0022 - \u0022 %}",
-      "SuperUser": "4r78hg6gsk6ghr5dc0eyk1rk5x",
-      "UseCdn": false,
-      "CdnBaseUrl": null,
-      "HomeRoute": {
-        "Area": "OrchardCore.Contents",
-        "Controller": "Item",
-        "Action": "Display",
-        "contentItemId": "4eh2yrg4t1jcvwsrh1kaha66n8"
-      },
-      "AppendVersion": true,
-      "CacheMode": "FromConfiguration"
     }
   ]
 }
