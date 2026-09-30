@@ -1195,6 +1195,7 @@ html.no-scroll .orientation-warning {
 		}
 
 		.start-screen-background-video {
+			pointer-events: none;
 			position: absolute;
 			top: 50%;
 			left: 50%;

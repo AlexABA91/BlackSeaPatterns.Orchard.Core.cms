@@ -23,6 +23,7 @@
 }
 
 .site-loader__video {
+	pointer-events: none;
 	width: clamp(90px, 14vw, 180px);
 	height: clamp(90px, 14vw, 180px);
 	object-fit: cover;

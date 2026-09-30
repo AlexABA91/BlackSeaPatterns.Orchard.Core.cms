@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			loader.setAttribute('aria-live', 'polite')
 			loader.setAttribute('aria-label', 'Loading page')
 			loader.innerHTML = `
-				<video class="site-loader__video" autoplay muted loop playsinline aria-hidden="true">
+				<video class="site-loader__video" autoplay muted loop playsinline webkit-playsinline disablepictureinpicture disableremoteplayback aria-hidden="true">
 					<source src="wwwroot/02177274386663000000000000000000000ffffc0a8ac5dd6ec27.webm" type="video/webm" />
 				</video>
 				<p class="site-loader__text">Loading...</p>
